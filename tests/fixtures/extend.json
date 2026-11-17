@@ -1,0 +1,39 @@
+{
+  "meta": [
+    {
+      "id": "prefLabels",
+      "name": "Voorkeurslabel"
+    },
+    {
+      "id": "broaderTerms",
+      "type": {
+        "id": "http://www.w3.org/2004/02/skos/core#Concept",
+        "name": "Concept"
+      },
+      "name": "Bredere term"
+    }
+  ],
+  "rows": {
+    "https://data.rkd.nl/artists/66219": {
+      "prefLabels": [
+        {
+          "str": "Rembrandt"
+        }
+      ],
+      "broaderTerms": []
+    },
+    "https://data.cultureelerfgoed.nl/term/id/cht/2139ed66-83ef-4533-9a2c-ad51891ea10a": {
+      "prefLabels": [
+        {
+          "str": "aanfietsen"
+        }
+      ],
+      "broaderTerms": [
+        {
+          "id": "https://data.cultureelerfgoed.nl/term/id/cht/4242ae9e-ffa8-43be-9a08-e6fe9ca87da2",
+          "name": "lichamelijke activiteiten"
+        }
+      ]
+    }
+  }
+}

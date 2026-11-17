@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "uri": "https://data.cultureelerfgoed.nl/term/id/cht/2139ed66-83ef-4533-9a2c-ad51891ea10a",
+      "responseTimeMs": 80,
+      "source": {
+        "__typename": "Source",
+        "uri": "https://data.cultureelerfgoed.nl/term/id/cht",
+        "name": "Cultuurhistorische Thesaurus"
+      },
+      "result": {
+        "__typename": "Term",
+        "uri": "https://data.cultureelerfgoed.nl/term/id/cht/2139ed66-83ef-4533-9a2c-ad51891ea10a",
+        "prefLabel": [
+          "aanfietsen"
+        ],
+        "altLabel": [],
+        "hiddenLabel": [],
+        "definition": [],
+        "scopeNote": [],
+        "seeAlso": [],
+        "broader": [
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/4242ae9e-ffa8-43be-9a08-e6fe9ca87da2",
+            "prefLabel": [
+              "lichamelijke activiteiten"
+            ]
+          }
+        ],
+        "narrower": [],
+        "related": [],
+        "exactMatch": [],
+        "place": null,
+        "person": null,
+        "organization": null
+      }
+    },
+    {
+      "uri": "https://example.org/nope",
+      "responseTimeMs": 0,
+      "source": {
+        "__typename": "SourceNotFoundError",
+        "message": "No source found that can provide term with URI https://example.org/nope"
+      },
+      "result": {
+        "__typename": "NotFoundError",
+        "message": "No term found with URI https://example.org/nope"
+      }
+    }
+  ],
+  "errors": []
+}

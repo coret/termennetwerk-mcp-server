@@ -1,0 +1,310 @@
+{
+  "q0": {
+    "result": [
+      {
+        "id": "https://data.rkd.nl/artists/66219",
+        "name": "Rembrandt",
+        "type": [
+          {
+            "id": "https://schema.org/Person",
+            "name": "Person"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 100,
+        "description": "1606-07-15/1607 – 1669-10-04 • Rhijn, Rembrandt Harmensz. van • Rembrant • Rijn, Rembrandt van • Rembrandt van Rijn • Rembrandt Harmensz. van Rijn"
+      },
+      {
+        "id": "https://data.rkd.nl/artists/244258",
+        "name": "Hijgen, Lodewijk Albertus",
+        "type": [
+          {
+            "id": "https://schema.org/Person",
+            "name": "Person"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 88.89,
+        "description": "Rembrandt II"
+      },
+      {
+        "id": "https://data.rkd.nl/artists/419620",
+        "name": "Hulk en Vlaanderen",
+        "type": [
+          {
+            "id": "https://schema.org/Organization",
+            "name": "Organization"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 88.89,
+        "description": "De Rembrandt • Rembrandt, De"
+      },
+      {
+        "id": "https://data.rkd.nl/artists/62243",
+        "name": "Peale, Rembrandt",
+        "type": [
+          {
+            "id": "https://schema.org/Person",
+            "name": "Person"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 76.19,
+        "description": "1778 – 1860-10-04"
+      },
+      {
+        "id": "https://data.rkd.nl/artists/228974",
+        "name": "Bugatti, Rembrandt",
+        "type": [
+          {
+            "id": "https://schema.org/Person",
+            "name": "Person"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 69.57,
+        "description": "1885-10-16 – 1916-01-08 • Bugatti, Rembrandt-Angelo"
+      },
+      {
+        "id": "https://data.rkd.nl/artists/328852",
+        "name": "Potterij Rembrandt",
+        "type": [
+          {
+            "id": "https://schema.org/Organization",
+            "name": "Organization"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 66.67,
+        "description": "Rembrandt, Potterij • Rembrandt, Aardewerkfabriek"
+      },
+      {
+        "id": "https://data.rkd.nl/artists/26768",
+        "name": "Ettinger, Carel van",
+        "type": [
+          {
+            "id": "https://schema.org/Person",
+            "name": "Person"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 64,
+        "description": "1916-07-11 – 1991-07-22 • Ettinger, Borgert Carolus van • Ettinger, Bol van • Rembrandt op de fiets • Ettinger, Karel van"
+      },
+      {
+        "id": "https://data.rkd.nl/artists/479649",
+        "name": "Foto Rembrandt (Rotterdam)",
+        "type": [
+          {
+            "id": "https://schema.org/Person",
+            "name": "Person"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 51.61,
+        "description": ""
+      },
+      {
+        "id": "https://data.rkd.nl/artists/456736",
+        "name": "Snel-Fotografie 'Rembrandt'",
+        "type": [
+          {
+            "id": "https://schema.org/Organization",
+            "name": "Organization"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 51.61,
+        "description": "Rembrandt, Snel-Fotografie"
+      },
+      {
+        "id": "https://data.rkd.nl/artists/424335",
+        "name": "Atelier Rembrandt (Amsterdam)",
+        "type": [
+          {
+            "id": "https://schema.org/Organization",
+            "name": "Organization"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 47.06,
+        "description": ""
+      },
+      {
+        "id": "https://data.rkd.nl/artists/479620",
+        "name": "Atelier Rembrandt (Groningen)",
+        "type": [
+          {
+            "id": "https://schema.org/Organization",
+            "name": "Organization"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 47.06,
+        "description": ""
+      },
+      {
+        "id": "https://data.rkd.nl/artists/353180",
+        "name": "Kunsthandel Houthakker",
+        "type": [
+          {
+            "id": "https://schema.org/Organization",
+            "name": "Organization"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 47.06,
+        "description": "Rembrandt van Rijn, Kunsthandel • Houthakker Kunsthandel, Bernard"
+      },
+      {
+        "id": "https://data.rkd.nl/artists/479661",
+        "name": "Fotografie Rembrandt (Den Haag)",
+        "type": [
+          {
+            "id": "https://schema.org/Person",
+            "name": "Person"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 45.71,
+        "description": ""
+      },
+      {
+        "id": "https://data.rkd.nl/artists/374645",
+        "name": "Vlaanderen, Pieter",
+        "type": [
+          {
+            "id": "https://schema.org/Person",
+            "name": "Person"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 44.44,
+        "description": "1840-09-08 – 1878-08-06 • Atelier De Rembrandt (te Alkmaar)"
+      },
+      {
+        "id": "https://data.rkd.nl/artists/489719",
+        "name": "Rembrandt, Kunsthandel (Nijmegen)",
+        "type": [
+          {
+            "id": "https://schema.org/Organization",
+            "name": "Organization"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 43.24,
+        "description": ""
+      },
+      {
+        "id": "https://data.rkd.nl/artists/477457",
+        "name": "Rembrandt, Kunsthandel (Rotterdam)",
+        "type": [
+          {
+            "id": "https://schema.org/Organization",
+            "name": "Organization"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 42.11,
+        "description": "Jong, Joh. de"
+      },
+      {
+        "id": "https://data.rkd.nl/artists/479717",
+        "name": "Rembrandt, Photographie Artistique (Amsterdam)",
+        "type": [
+          {
+            "id": "https://schema.org/Person",
+            "name": "Person"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 32.65,
+        "description": "Photographie Artistique Rembrandt (Amsterdam)"
+      },
+      {
+        "id": "https://data.rkd.nl/artists/112372",
+        "name": "Monogrammist I.F. (Noordelijke Nederlanden 17de eeuw; School van Rembrandt)",
+        "type": [
+          {
+            "id": "https://schema.org/Person",
+            "name": "Person"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 23.19,
+        "description": ""
+      },
+      {
+        "id": "https://data.rkd.nl/artists/112458",
+        "name": "Monogrammist J.R. (Noordelijke Nederlanden 17de eeuw; School van Rembrandt)",
+        "type": [
+          {
+            "id": "https://schema.org/Person",
+            "name": "Person"
+          },
+          {
+            "id": "http://www.w3.org/2004/02/skos/core#Concept",
+            "name": "Concept"
+          }
+        ],
+        "score": 23.19,
+        "description": ""
+      }
+    ]
+  }
+}

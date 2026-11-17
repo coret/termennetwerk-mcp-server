@@ -1,0 +1,135 @@
+fragment LS on LanguageString {
+  language
+  value
+}
+
+fragment PlaceFields on Place {
+  name { ...LS }
+  latitude
+  longitude
+  addressCountry
+}
+
+fragment PersonFields on Person {
+  givenName { ...LS }
+  familyName { ...LS }
+  birthDate
+  deathDate
+  birthPlace { uri name { ...LS } }
+  deathPlace { uri name { ...LS } }
+  hasOccupation { occupation { uri name { ...LS } } roleName { ...LS } startDate endDate }
+  nationality { uri name { ...LS } }
+  gender { uri name { ...LS } }
+  parent { uri name { ...LS } }
+  children { uri name { ...LS } }
+  spouse { uri name { ...LS } }
+  sibling { uri name { ...LS } }
+}
+
+fragment OrganizationFields on Organization {
+  additionalType { uri name { ...LS } }
+  foundingDate
+  dissolutionDate
+  location { uri name { ...LS } addressCountry }
+  parentOrganization { uri name { ...LS } }
+}
+
+fragment TermFields on Term {
+  uri
+  prefLabel
+  altLabel
+  hiddenLabel
+  definition
+  scopeNote
+  seeAlso
+  broader { uri prefLabel }
+  narrower { uri prefLabel }
+  related { uri prefLabel }
+  exactMatch { uri prefLabel }
+  place { ...PlaceFields }
+  person { ...PersonFields }
+  organization { ...OrganizationFields }
+}
+
+# Aliased: Term and TranslatedTerm share field names with different types, which
+# GraphQL rejects inside one union selection (Lookup) without aliases.
+fragment TranslatedTermFields on TranslatedTerm {
+  uri
+  prefLabelT: prefLabel { ...LS }
+  altLabelT: altLabel { ...LS }
+  hiddenLabelT: hiddenLabel { ...LS }
+  definitionT: definition { ...LS }
+  scopeNoteT: scopeNote { ...LS }
+  seeAlso
+  broaderT: broader { uri prefLabel { ...LS } }
+  narrowerT: narrower { uri prefLabel { ...LS } }
+  relatedT: related { uri prefLabel { ...LS } }
+  exactMatchT: exactMatch { uri prefLabel { ...LS } }
+  place { ...PlaceFields }
+  person { ...PersonFields }
+  organization { ...OrganizationFields }
+}
+
+fragment SourceFields on Source {
+  uri
+  name
+  alternateName
+  description
+  inLanguage
+  mainEntityOfPage
+  creators { uri name alternateName }
+  genres { uri name }
+  features { type url }
+  status { isAvailable lastChecked }
+}
+
+query Sources($genres: [ID]) {
+  sources(genres: $genres) {
+    ...SourceFields
+  }
+}
+
+query Terms(
+  $sources: [ID]!
+  $query: String!
+  $genres: [ID]
+  $languages: [Language]
+  $queryMode: QueryMode
+  $timeoutMs: Int
+) {
+  terms(
+    sources: $sources
+    query: $query
+    genres: $genres
+    languages: $languages
+    queryMode: $queryMode
+    timeoutMs: $timeoutMs
+  ) {
+    source { uri name }
+    responseTimeMs
+    result {
+      __typename
+      ... on Terms { terms { ...TermFields } }
+      ... on TranslatedTerms { translatedTerms: terms { ...TranslatedTermFields } }
+      ... on Error { message }
+    }
+  }
+}
+
+query Lookup($uris: [ID]!, $languages: [Language], $timeoutMs: Int) {
+  lookup(uris: $uris, languages: $languages, timeoutMs: $timeoutMs) {
+    uri
+    responseTimeMs
+    source {
+      __typename
+      ... on Source { uri name }
+      ... on Error { message }
+    }
+    result {
+      __typename
+      ... on Term { ...TermFields }
+      ... on TranslatedTerm { ...TranslatedTermFields }
+      ... on Error { message }
+    }
+  }
+}

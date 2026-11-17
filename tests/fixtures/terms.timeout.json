@@ -1,0 +1,2900 @@
+{
+  "data": [
+    {
+      "source": {
+        "uri": "https://data.cultureelerfgoed.nl/term/id/cht",
+        "name": "Cultuurhistorische Thesaurus"
+      },
+      "responseTimeMs": 37,
+      "result": {
+        "__typename": "Terms",
+        "terms": [
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/2139ed66-83ef-4533-9a2c-ad51891ea10a",
+            "prefLabel": [
+              "aanfietsen"
+            ],
+            "altLabel": [],
+            "hiddenLabel": [],
+            "definition": [],
+            "scopeNote": [],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/4242ae9e-ffa8-43be-9a08-e6fe9ca87da2",
+                "prefLabel": [
+                  "lichamelijke activiteiten"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/97ce02ad-f664-45e3-8a08-3c286e6a11fe",
+            "prefLabel": [
+              "atc motorfietsen"
+            ],
+            "altLabel": [
+              "atc motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een ATC of All Terrain Carrier is een lichte trike voor in het terrein. Ook wel (ten onrechte) ATV genoemd."
+            ],
+            "scopeNote": [
+              "Een ATC of All Terrain Carrier is een lichte trike voor in het terrein. Ook wel (ten onrechte) ATV genoemd."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/db3edfc3-7d4b-4090-8ff7-2a9597a0206f",
+                "prefLabel": [
+                  "trikes"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/4afd7eb1-87ca-42d3-a75d-4380a9d001d6",
+            "prefLabel": [
+              "allroad motorfietsen"
+            ],
+            "altLabel": [
+              "allroad motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Zoals de naam al zegt zijn deze motorfietsen eigenlijk geschikt voor 'alle wegen'. Ze zijn ontstaan doordat motorrijders hun offroadmotoren op de openbare weg gingen gebruiken."
+            ],
+            "scopeNote": [
+              "Zoals de naam al zegt zijn deze motorfietsen eigenlijk geschikt voor 'alle wegen'. Ze zijn ontstaan doordat motorrijders hun offroadmotoren op de openbare weg gingen gebruiken."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a3c687c8-a1b9-4664-b3ed-4d0240ee32e9",
+            "prefLabel": [
+              "bakfietsen"
+            ],
+            "altLabel": [
+              "bakfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een bakfiets is een transportfiets met twee of drie wielen en een grote bak voorop, waarmee bagage vervoerd kan worden. (Wikipedia)"
+            ],
+            "scopeNote": [
+              "Een bakfiets is een transportfiets met twee of drie wielen en een grote bak voorop, waarmee bagage vervoerd kan worden. (Wikipedia)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/2dd74525-1515-40f0-8606-8eab0354fc79",
+                "prefLabel": [
+                  "transportfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [
+              {
+                "uri": "http://dbpedia.org/resource/Cargo_bike",
+                "prefLabel": []
+              }
+            ],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/ae909e7a-167a-4843-ab55-700118b84e7b",
+            "prefLabel": [
+              "bromfietsen"
+            ],
+            "altLabel": [
+              "bromfiets",
+              "brommer",
+              "plof"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een bromfiets, informeel ook brommer, plaatselijk plof, kan worden beschouwd als een tussenvorm tussen fiets en motorfiets. In Nederland was tot 1966 de officiële benaming rijwiel met hulpmotor. (Wikipedia)"
+            ],
+            "scopeNote": [
+              "Een bromfiets, informeel ook brommer, plaatselijk plof, kan worden beschouwd als een tussenvorm tussen fiets en motorfiets. In Nederland was tot 1966 de officiële benaming rijwiel met hulpmotor. (Wikipedia)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c7d5e53b-6c7f-43f9-85c5-c63013b59a20",
+                "prefLabel": [
+                  "motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/41cccb6d-71f5-4904-aa87-2dd064eedbc8",
+                "prefLabel": [
+                  "snorfietsen"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/6abb9002-29a4-4506-a627-1cc7ac5c0361",
+            "prefLabel": [
+              "classic motorfietsen"
+            ],
+            "altLabel": [
+              "classic motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Classic' is de aanduiding van de Engelse Vintage Motor Cycle Club voor motorfietsen van na 1940 die echter minstens 25 jaar oud zijn."
+            ],
+            "scopeNote": [
+              "Classic' is de aanduiding van de Engelse Vintage Motor Cycle Club voor motorfietsen van na 1940 die echter minstens 25 jaar oud zijn."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/43e1698f-4ba4-41bf-b252-62d736acb94d",
+            "prefLabel": [
+              "cruiser motorfietsen"
+            ],
+            "altLabel": [
+              "cruiser motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Dit was oorspronkelijk een mengeling van soft chopper en een custom, met de nadruk op het laatste. In normaal Nederlands: Custom met pittig motorblok. Tegenwoordig wordt met de term cruiser meer een zeer zware custom met uitgebreide toerkenmerken bedoeld."
+            ],
+            "scopeNote": [
+              "Dit was oorspronkelijk een mengeling van soft chopper en een custom, met de nadruk op het laatste. In normaal Nederlands: Custom met pittig motorblok. Tegenwoordig wordt met de term cruiser meer een zeer zware custom met uitgebreide toerkenmerken bedoeld."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/579c8d39-e539-4740-a67a-8e54831f138e",
+                "prefLabel": [
+                  "custom motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/579c8d39-e539-4740-a67a-8e54831f138e",
+            "prefLabel": [
+              "custom motorfietsen"
+            ],
+            "altLabel": [
+              "custom motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een custom was oorspronkelijk een motor die aan de persoonlijke smaak van de eigenaar is aangepast. Een custom zou dus ook een café-racer kunnen zijn. Tegenwoordig lijken customs in het algemeen op choppers, waardoor de namen door elkaar gebruikt worden."
+            ],
+            "scopeNote": [
+              "Een custom was oorspronkelijk een motor die aan de persoonlijke smaak van de eigenaar is aangepast. Een custom zou dus ook een café-racer kunnen zijn. Tegenwoordig lijken customs in het algemeen op choppers, waardoor de namen door elkaar gebruikt worden."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c7d5e53b-6c7f-43f9-85c5-c63013b59a20",
+                "prefLabel": [
+                  "motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/43e1698f-4ba4-41bf-b252-62d736acb94d",
+                "prefLabel": [
+                  "cruiser motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a8bbca09-578c-4b4a-9706-6154f5caee1d",
+                "prefLabel": [
+                  "factory custom motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1ec56492-89b8-4d70-a35f-bc24654a1951",
+                "prefLabel": [
+                  "light custom motofiets"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/2eb08a77-edc7-4238-aab6-f9fc7873b78e",
+                "prefLabel": [
+                  "power cruiser motofietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/649e587d-cf9a-4472-9603-b9413c181521",
+                "prefLabel": [
+                  "serious custom motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a12c5d6a-4266-46ba-89ff-ff1c50747082",
+                "prefLabel": [
+                  "soft custom motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/77b878df-3aed-4961-8ad9-b129661d6556",
+                "prefLabel": [
+                  "street rod motorfietsen"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/0276bbd7-8ca8-4737-b3ff-a292784cc21c",
+            "prefLabel": [
+              "damesmotorfietsen"
+            ],
+            "altLabel": [
+              "damesmotorfiets",
+              "doorstapmodel motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een damesmotorfiets is een motorfiets waarvan de bouw was aangepast aan het gebruik door dames. Zoals bij een damesfiets was het frame zo laag gebouwd dat het op- en afstappen met een rok eenvoudig was. Ook wel doorstapmodel genoemd."
+            ],
+            "scopeNote": [
+              "Een damesmotorfiets is een motorfiets waarvan de bouw was aangepast aan het gebruik door dames. Zoals bij een damesfiets was het frame zo laag gebouwd dat het op- en afstappen met een rok eenvoudig was. Ook wel doorstapmodel genoemd."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/4e93552c-b52e-4715-9f63-e2947221047f",
+            "prefLabel": [
+              "easyrider motorfietsen"
+            ],
+            "altLabel": [
+              "easyrider motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een wildere, meer verfraaide en uitbundiger stijl van chopperbouw werd geïntroduceerd in het begin van de zestiger jaren, het begin van het hippietijdperk. Deze zogenaamde 'easy riders' werden beroemd en gewild door de gelijknamige speelfilm. De cultfilm 'Easy Rider', met Peter Fonda, Dennis Hopper en Jack Nicholson alsmede deze stijl van chopperbouw zijn een ware cultus geworden."
+            ],
+            "scopeNote": [
+              "Een wildere, meer verfraaide en uitbundiger stijl van chopperbouw werd geïntroduceerd in het begin van de zestiger jaren, het begin van het hippietijdperk. Deze zogenaamde 'easy riders' werden beroemd en gewild door de gelijknamige speelfilm. De cultfilm 'Easy Rider', met Peter Fonda, Dennis Hopper en Jack Nicholson alsmede deze stijl van chopperbouw zijn een ware cultus geworden."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9ca79d0b-5dc1-447a-83c1-5facc6293e1e",
+                "prefLabel": [
+                  "choppers (voertuig)"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/ac109f88-3fa8-4e98-abfe-fc30ef1e31a4",
+            "prefLabel": [
+              "ebs systemen (motorfietsen)"
+            ],
+            "altLabel": [],
+            "hiddenLabel": [],
+            "definition": [
+              "EBS is een injectiesysteem van de MV Agusta F4 1000-modellen, dat bij het afremmen op de motor benzine in slechts twee van de vier cilinders spuit, waardoor het negatieve koppel wordt beperkt. Dit voorkomt dat bij het terugschakelen het achterwiel blokkeert."
+            ],
+            "scopeNote": [
+              "EBS is een injectiesysteem van de MV Agusta F4 1000-modellen, dat bij het afremmen op de motor benzine in slechts twee van de vier cilinders spuit, waardoor het negatieve koppel wordt beperkt. Dit voorkomt dat bij het terugschakelen het achterwiel blokkeert."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/6e0d9edf-70d6-4bc4-a744-94c656f0b596",
+                "prefLabel": [
+                  "motoronderdelen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/712c8583-da18-417d-95bb-37c8377077f6",
+            "prefLabel": [
+              "enduromotorfietsen"
+            ],
+            "altLabel": [
+              "enduromotorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Voor het rijden van endurowedstrijden bestemde motorfiets, die op grond van de reglementen aan minimale wettelijke eisen voor de openbare weg moet voldoen. Een enduromotor lijkt op de offroad, maar is minder geschikt voor beginnende rijders. Een echte enduromotor heeft ook - als sportmachine - vaker onderhoud nodig."
+            ],
+            "scopeNote": [
+              "Voor het rijden van endurowedstrijden bestemde motorfiets, die op grond van de reglementen aan minimale wettelijke eisen voor de openbare weg moet voldoen. Een enduromotor lijkt op de offroad, maar is minder geschikt voor beginnende rijders. Een echte enduromotor heeft ook - als sportmachine - vaker onderhoud nodig."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/2a83c68a-3423-42e3-a22e-7af2effaacfb",
+                "prefLabel": [
+                  "wedstrijdmotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/5868cf71-1714-402f-8e39-9ed54445a08b",
+            "prefLabel": [
+              "env motorfietsen"
+            ],
+            "altLabel": [
+              "env motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "ENV staat voor: Enclosed Narrow Vehicle (Letterlijk: overdekt smal voertuig). Er zijn al veel pogingen gedaan om de voordelen van een motorfiets (smal en wendbaar) te combineren met het comfort van een auto (overdekt, verwarmd). Dat leidde soms tot overdekte motorfietsen (bijvoorbeeld de Quasar en de Ecomobile), en soms tot driewielers die bijzonder smal waren (bijvoorbeeld de Honda Gyro-Up en de Tricone). Om te voorkomen dat een smalle driewieler omvalt wordt gezorgd dat een gedeelte als een motorfiets “kantelt”, terwijl een ander gedeelte horizontaal blijft."
+            ],
+            "scopeNote": [
+              "ENV staat voor: Enclosed Narrow Vehicle (Letterlijk: overdekt smal voertuig). Er zijn al veel pogingen gedaan om de voordelen van een motorfiets (smal en wendbaar) te combineren met het comfort van een auto (overdekt, verwarmd). Dat leidde soms tot overdekte motorfietsen (bijvoorbeeld de Quasar en de Ecomobile), en soms tot driewielers die bijzonder smal waren (bijvoorbeeld de Honda Gyro-Up en de Tricone). Om te voorkomen dat een smalle driewieler omvalt wordt gezorgd dat een gedeelte als een motorfiets “kantelt”, terwijl een ander gedeelte horizontaal blijft."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c7d5e53b-6c7f-43f9-85c5-c63013b59a20",
+                "prefLabel": [
+                  "motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a8bbca09-578c-4b4a-9706-6154f5caee1d",
+            "prefLabel": [
+              "factory custom motorfietsen"
+            ],
+            "altLabel": [
+              "factory custom motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Factory custom is een motorfietsclassificatie. Dit is een motorfiets die al door de fabriek als custom is opgebouwd."
+            ],
+            "scopeNote": [
+              "Factory custom is een motorfietsclassificatie. Dit is een motorfiets die al door de fabriek als custom is opgebouwd."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/579c8d39-e539-4740-a67a-8e54831f138e",
+                "prefLabel": [
+                  "custom motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/6471b9ac-9520-4ca1-a208-77d54270fb70",
+            "prefLabel": [
+              "fiets/bromfietspaden"
+            ],
+            "altLabel": [
+              "fiets/bromfietspad"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Weg uitsluitend bestemd voor fietsers en/of bromfietsers en daartoe aangeduid met een blauw bord met daarop een wit rijwiel, of een blauw of zwart bord met daarop de tekst “FIETSPAD” of “RIJWIELPAD”. Indien, in uitzonderlijke gevallen, met grote mate van zekerheid bepaald kan worden dat een weg/pad een rijwielpad is, mag afgeweken worden van de regel dat er een aanduiding moet zijn."
+            ],
+            "scopeNote": [
+              "Weg uitsluitend bestemd voor fietsers en/of bromfietsers en daartoe aangeduid met een blauw bord met daarop een wit rijwiel, of een blauw of zwart bord met daarop de tekst “FIETSPAD” of “RIJWIELPAD”. Indien, in uitzonderlijke gevallen, met grote mate van zekerheid bepaald kan worden dat een weg/pad een rijwielpad is, mag afgeweken worden van de regel dat er een aanduiding moet zijn."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/fe171968-b236-4a64-8728-c008d7d88700",
+                "prefLabel": [
+                  "paden"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [
+              {
+                "uri": "http://brt.kadaster.nl/id/begrip/Fiets/Bromfietspad",
+                "prefLabel": []
+              }
+            ],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/57b18bd5-3e7b-48d8-a8ca-292c3e2b261a",
+            "prefLabel": [
+              "fietsbellen"
+            ],
+            "altLabel": [
+              "fietsbel"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een fietsbel is een kleine bel die over het algemeen op het stuur van een fiets is gemonteerd, en die meestal met de duim wordt bediend. De functie van de fietsbel is andere verkeersdeelnemers te waarschuwen bij gevaar, omdat een fiets in tegenstelling tot de meeste andere vervoermiddelen geen geluid maakt en dus gemakkelijk over het hoofd kan worden gezien. De bel moet hoorbaar zijn tot op 25 m afstand. In Nederland is het hebben van een fietsbel op een fiets vanaf 1906 wettelijk verplicht. Fietsbellen zijn meestal links op het stuur gemonteerd. Dit stamt nog uit de tijd dat er een toeter in plaats van een bel op de fiets was gemonteerd. Omdat er voor het toeteren een hand van het stuur genomen moest worden, bleef dan in ieder geval de dominante hand (bij de meeste mensen rechts) vrij om te sturen. (Wikipedia)"
+            ],
+            "scopeNote": [
+              "Een fietsbel is een kleine bel die over het algemeen op het stuur van een fiets is gemonteerd, en die meestal met de duim wordt bediend. De functie van de fietsbel is andere verkeersdeelnemers te waarschuwen bij gevaar, omdat een fiets in tegenstelling tot de meeste andere vervoermiddelen geen geluid maakt en dus gemakkelijk over het hoofd kan worden gezien. De bel moet hoorbaar zijn tot op 25 m afstand. In Nederland is het hebben van een fietsbel op een fiets vanaf 1906 wettelijk verplicht. Fietsbellen zijn meestal links op het stuur gemonteerd. Dit stamt nog uit de tijd dat er een toeter in plaats van een bel op de fiets was gemonteerd. Omdat er voor het toeteren een hand van het stuur genomen moest worden, bleef dan in ieder geval de dominante hand (bij de meeste mensen rechts) vrij om te sturen. (Wikipedia)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a52b1200-13ae-4819-ac7b-bef4e00ba110",
+                "prefLabel": [
+                  "alarmbellen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/e2ea44d1-a278-4aaa-9aaa-8bce115348c4",
+            "prefLabel": [
+              "fietsbruggen"
+            ],
+            "altLabel": [
+              "fietsbrug"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Fietsbruggen zijn bruggen alleen voor fietsverkeer.\n",
+              "Fietsbruggen zijn bruggen alleen voor fietsverkeer."
+            ],
+            "scopeNote": [
+              "Fietsbruggen zijn bruggen alleen voor fietsverkeer.\n",
+              "Fietsbruggen zijn bruggen alleen voor fietsverkeer."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/4daa4043-165d-48ba-ac94-e9af616e5e7c",
+                "prefLabel": [
+                  "brugtypen (gebruik)"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/89ce4158-8aaf-4ace-b023-6105d23dbfa6",
+            "prefLabel": [
+              "fietsen"
+            ],
+            "altLabel": [
+              "fiets",
+              "rijwiel",
+              "rijwielen"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een fiets is een voertuig dat door spierkracht wordt aangedreven. De snelheid kan variëren aangezien de gebruiker zelf kan bepalen hoeveel energie hij/zij in het aandrijven steekt. De hedendaagse fiets bestaat uit ten minste twee wielen, een frame, een zadel, een stuur en een trapas met pedalen. Sommige fietsen hebben een (hulp)motor. Fietsen met een elektrische motor als aandrijving worden ook wel 'e-bikes' genoemd. Tot 1966 was de wettelijke term in Nederland rijwiel. In Vlaanderen wordt ook het Franse vélo gebruikt."
+            ],
+            "scopeNote": [
+              "Een fiets is een voertuig dat door spierkracht wordt aangedreven. De snelheid kan variëren aangezien de gebruiker zelf kan bepalen hoeveel energie hij/zij in het aandrijven steekt. De hedendaagse fiets bestaat uit ten minste twee wielen, een frame, een zadel, een stuur en een trapas met pedalen. Sommige fietsen hebben een (hulp)motor. Fietsen met een elektrische motor als aandrijving worden ook wel 'e-bikes' genoemd. Tot 1966 was de wettelijke term in Nederland rijwiel. In Vlaanderen wordt ook het Franse vélo gebruikt."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/27f18a43-a2aa-4b07-a601-e083756f1874",
+                "prefLabel": [
+                  "wegvoertuigen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/fba41b4c-517c-4db6-bde8-b49c9af64875",
+                "prefLabel": [
+                  "kinderfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/527e3e6f-c060-4350-8163-4be37baa9e4e",
+                "prefLabel": [
+                  "racefietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/d7658ff8-c517-40fa-801e-94722b00a393",
+                "prefLabel": [
+                  "sportfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c397c23d-5da6-4214-bff3-428716c5783b",
+                "prefLabel": [
+                  "tandems"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/2dd74525-1515-40f0-8606-8eab0354fc79",
+                "prefLabel": [
+                  "transportfietsen"
+                ]
+              }
+            ],
+            "related": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/78bb1e7b-1fbd-470a-87d6-65edb2eaa0a2",
+                "prefLabel": [
+                  "fietsenwinkels"
+                ]
+              }
+            ],
+            "exactMatch": [
+              {
+                "uri": "https://hdl.handle.net/20.500.11840/termmaster10068428",
+                "prefLabel": []
+              }
+            ],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/78bb1e7b-1fbd-470a-87d6-65edb2eaa0a2",
+            "prefLabel": [
+              "fietsenwinkels"
+            ],
+            "altLabel": [
+              "fietsenwinkel"
+            ],
+            "hiddenLabel": [],
+            "definition": [],
+            "scopeNote": [],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/10f47eb6-f1a9-465f-b8ab-8381925f039b",
+                "prefLabel": [
+                  "winkels"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/89ce4158-8aaf-4ace-b023-6105d23dbfa6",
+                "prefLabel": [
+                  "fietsen"
+                ]
+              }
+            ],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/96c0d260-1cc1-42cb-8e66-d3bfb1af3b69",
+            "prefLabel": [
+              "fietsmoffen"
+            ],
+            "altLabel": [
+              "fietsmof"
+            ],
+            "hiddenLabel": [],
+            "definition": [],
+            "scopeNote": [],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/4886cf79-46dc-49a3-95b2-a49fbbcf7d99",
+                "prefLabel": [
+                  "moffen (kleding)"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/5e09a730-11e3-45d1-a1bc-989a99b75d01",
+            "prefLabel": [
+              "fietspaden"
+            ],
+            "altLabel": [
+              "fietspadfietspad"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een pad speciaal aangelegd voor fietsers."
+            ],
+            "scopeNote": [
+              "Een pad speciaal aangelegd voor fietsers."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/fe171968-b236-4a64-8728-c008d7d88700",
+                "prefLabel": [
+                  "paden"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/ef54c75b-dcf2-446e-8d80-7b0bac8fdd1e",
+            "prefLabel": [
+              "fietspompen"
+            ],
+            "altLabel": [
+              "fietspomp"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Luchtpompen die dienen om daarmee de binnenband van fietsen op de pompen. (MARDOC)"
+            ],
+            "scopeNote": [
+              "Luchtpompen die dienen om daarmee de binnenband van fietsen op de pompen. (MARDOC)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/578c713f-ab52-4afd-8457-db217bac57a5",
+                "prefLabel": [
+                  "pompen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/f0bd5beb-50c2-4506-b4d3-f718d443ce23",
+            "prefLabel": [
+              "fietsvlaggen"
+            ],
+            "altLabel": [
+              "fietsvlag"
+            ],
+            "hiddenLabel": [],
+            "definition": [],
+            "scopeNote": [],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/053ec816-8dc9-46ea-b3e4-ee9ab8e89b6d",
+                "prefLabel": [
+                  "vlaggen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/5804832d-7d8b-4562-8874-1b58596cee04",
+            "prefLabel": [
+              "fullsize touring motorfietsen"
+            ],
+            "altLabel": [
+              "fullsize touring motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Dit is een zeer zware toermotorfiets, voorzien van alle luxe accessoires, zoals een audio-installatie, luchtvering en GPS. De motorfietsen overschrijden niet zelden de 400 kg. De moderne Honda GoldWings hebben daarom zelfs een installatie om achteruit te kunnen rijden. Stamvader van deze categorie is de Honda GL 1100 GoldWing Interstate uit 1980."
+            ],
+            "scopeNote": [
+              "Dit is een zeer zware toermotorfiets, voorzien van alle luxe accessoires, zoals een audio-installatie, luchtvering en GPS. De motorfietsen overschrijden niet zelden de 400 kg. De moderne Honda GoldWings hebben daarom zelfs een installatie om achteruit te kunnen rijden. Stamvader van deze categorie is de Honda GL 1100 GoldWing Interstate uit 1980."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/fba41b4c-517c-4db6-bde8-b49c9af64875",
+            "prefLabel": [
+              "kinderfietsen"
+            ],
+            "altLabel": [
+              "kinderfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [],
+            "scopeNote": [],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/89ce4158-8aaf-4ace-b023-6105d23dbfa6",
+                "prefLabel": [
+                  "fietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1ec56492-89b8-4d70-a35f-bc24654a1951",
+            "prefLabel": [
+              "light custom motofiets"
+            ],
+            "altLabel": [
+              "light custom motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Wat vormgeving en techniek betreft zijn dit volwaardige customs, maar qua gewicht en cilinderinhoud niet te zwaar en op deze manier goed handelbaar. Net als de “Serious Customs” hebben ze wel al vrijwel allemaal V-twin-motoren, om zo veel mogelijk gelijkenis te vertonen met op Harley-Davidsons gebaseerde choppers. Hier werden geen bestaande motorblokken meer gebruikt, maar omgekeerd werden in enkele gevallen de Custom-blokken later weer voor toermodellen gebruikt,"
+            ],
+            "scopeNote": [
+              "Wat vormgeving en techniek betreft zijn dit volwaardige customs, maar qua gewicht en cilinderinhoud niet te zwaar en op deze manier goed handelbaar. Net als de “Serious Customs” hebben ze wel al vrijwel allemaal V-twin-motoren, om zo veel mogelijk gelijkenis te vertonen met op Harley-Davidsons gebaseerde choppers. Hier werden geen bestaande motorblokken meer gebruikt, maar omgekeerd werden in enkele gevallen de Custom-blokken later weer voor toermodellen gebruikt,"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/579c8d39-e539-4740-a67a-8e54831f138e",
+                "prefLabel": [
+                  "custom motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/fdb8d7e6-0515-4d32-aaff-dc2bf1d05afc",
+            "prefLabel": [
+              "light touringmotorfietsen"
+            ],
+            "altLabel": [
+              "light touring motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Dit is een eenvoudige, niet te zware toermotorfiets, comfortabel en gemaakt voor langere ritten."
+            ],
+            "scopeNote": [
+              "Dit is een eenvoudige, niet te zware toermotorfiets, comfortabel en gemaakt voor langere ritten."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/acf398b0-4a49-416c-87ba-f0649d76bc9f",
+            "prefLabel": [
+              "middleclass supersports motorfietsen"
+            ],
+            "altLabel": [
+              "middleclass supersports motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Middleclass supersports is een sportieve motorfiets met een cilinderinhoud tussen 500 en 750 cc. Ze zijn snel en handelbaar door laag gewicht en hoog vermogen."
+            ],
+            "scopeNote": [
+              "Middleclass supersports is een sportieve motorfiets met een cilinderinhoud tussen 500 en 750 cc. Ze zijn snel en handelbaar door laag gewicht en hoog vermogen."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/dc095881-932f-4d4b-ac80-e5a482ed02f4",
+                "prefLabel": [
+                  "sportmotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c7d5e53b-6c7f-43f9-85c5-c63013b59a20",
+            "prefLabel": [
+              "motorfietsen"
+            ],
+            "altLabel": [
+              "motor (voertuig)",
+              "motoren (voertuig)",
+              "motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een motorfiets is een voertuig op twee, drie of zelfs vier (quadricycle) wielen, in het algemeen voorzien van een verbrandingsmotor. Hoewel motorfietsen met een kleinere cilinderinhoud volgens de Nederlandse wetgeving in de categorie 'bromfiets' vallen, worden ze technisch onder de motorfietsen gerekend, net als scooters, forecars, motorcarriers, tricars, tricycles, trikes, triporteurs, zijspancombinaties en soms zelfs quadricycles."
+            ],
+            "scopeNote": [
+              "Een motorfiets is een voertuig op twee, drie of zelfs vier (quadricycle) wielen, in het algemeen voorzien van een verbrandingsmotor. Hoewel motorfietsen met een kleinere cilinderinhoud volgens de Nederlandse wetgeving in de categorie 'bromfiets' vallen, worden ze technisch onder de motorfietsen gerekend, net als scooters, forecars, motorcarriers, tricars, tricycles, trikes, triporteurs, zijspancombinaties en soms zelfs quadricycles."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/27f18a43-a2aa-4b07-a601-e083756f1874",
+                "prefLabel": [
+                  "wegvoertuigen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/ae909e7a-167a-4843-ab55-700118b84e7b",
+                "prefLabel": [
+                  "bromfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9ca79d0b-5dc1-447a-83c1-5facc6293e1e",
+                "prefLabel": [
+                  "choppers (voertuig)"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/579c8d39-e539-4740-a67a-8e54831f138e",
+                "prefLabel": [
+                  "custom motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/5868cf71-1714-402f-8e39-9ed54445a08b",
+                "prefLabel": [
+                  "env motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/884145b6-ce14-47da-b577-57c147ebbf2e",
+                "prefLabel": [
+                  "motorfietsonderdelen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/93aeca19-3d3b-42ee-997d-4ad60e5dba17",
+                "prefLabel": [
+                  "zijspanmotorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/041fd2f5-8e5b-4029-9284-0ae9ddb25a14",
+                "prefLabel": [
+                  "quads"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/22a61965-4548-4c96-85ac-dbb80d8e5ddd",
+                "prefLabel": [
+                  "scooters"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/dc095881-932f-4d4b-ac80-e5a482ed02f4",
+                "prefLabel": [
+                  "sportmotorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/503e1539-3390-4e1d-8ae5-9216e83d2d97",
+                "prefLabel": [
+                  "stoommotorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/522f659d-6dc5-4b64-a244-1ea88701b7ea",
+                "prefLabel": [
+                  "terreinmotorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/db3edfc3-7d4b-4090-8ff7-2a9597a0206f",
+                "prefLabel": [
+                  "trikes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/2a83c68a-3423-42e3-a22e-7af2effaacfb",
+                "prefLabel": [
+                  "wedstrijdmotorfietsen"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [
+              {
+                "uri": "https://hdl.handle.net/20.500.11840/termmaster10068431",
+                "prefLabel": []
+              }
+            ],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/17a278a7-16f4-4065-bef6-8ce5f22026e8",
+            "prefLabel": [
+              "motorfietsframes"
+            ],
+            "altLabel": [
+              "motorfietsframe"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Het frame van een motorfiets of bromfiets bestaat vaak uit een hoofdframe en een of meer subframes. Aan het frame worden diverse onderdelen bevestigd, zoals het motorblok, de achterbrug, de tank, het zadel, de voetsteunen etc."
+            ],
+            "scopeNote": [
+              "Het frame van een motorfiets of bromfiets bestaat vaak uit een hoofdframe en een of meer subframes. Aan het frame worden diverse onderdelen bevestigd, zoals het motorblok, de achterbrug, de tank, het zadel, de voetsteunen etc."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/0e8a6dfe-1280-4414-9a64-ca190bac648f",
+                "prefLabel": [
+                  "vervoermiddelonderdelen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/f356457a-3232-49a5-9f9c-afbde2df2834",
+                "prefLabel": [
+                  "achterframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/dfb67c42-9b46-47e5-9faa-e1810d6fc805",
+                "prefLabel": [
+                  "afgeveerde frames"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/33459fb1-ff59-49d7-ba54-913fb44dda85",
+                "prefLabel": [
+                  "brugframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/94ea972e-4181-4c44-81d1-8b960adea2d8",
+                "prefLabel": [
+                  "buisframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/79696808-d7c7-49e0-a472-5b26562edac4",
+                "prefLabel": [
+                  "composietframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/e9fe2a11-2869-4b9e-b66b-75e78943b3e3",
+                "prefLabel": [
+                  "deltaboxframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/b0186956-14d8-40c5-ab82-a08f7e197cc1",
+                "prefLabel": [
+                  "diamondframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/ef04926a-a323-4508-8722-0ee6d1ab92ee",
+                "prefLabel": [
+                  "fastframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9fed084d-6fef-4130-96b8-f68d55459b87",
+                "prefLabel": [
+                  "framenummers"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/86658cf0-aa06-45a0-8d1d-391ca0e1de41",
+                "prefLabel": [
+                  "garden gate frames"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/f0b9a865-9953-4877-bc9d-2120ca1ace03",
+                "prefLabel": [
+                  "lateral frame concepts"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/766ba10f-5873-4062-9974-bc5c223b683b",
+                "prefLabel": [
+                  "loop frames"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/0b482bcc-9479-4487-a269-5f973f9b9595",
+                "prefLabel": [
+                  "omega frames"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/584209a3-08a2-4203-b8ea-49fc4bd7facd",
+                "prefLabel": [
+                  "open frames"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/ffe1f770-86b9-4d91-af60-fa684fdc06a6",
+                "prefLabel": [
+                  "perimeter frames"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/d2e45bfa-6989-4171-889b-5e6f658196c5",
+                "prefLabel": [
+                  "pivot frames"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a1d6836c-7dc1-4d4f-a854-d8a83faf6ddc",
+                "prefLabel": [
+                  "plaatframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/b3fa75cc-4979-4e01-8765-aa9335cab366",
+                "prefLabel": [
+                  "raked frames"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c4010de5-ecac-4c17-8a2f-ecaf1fb4749d",
+                "prefLabel": [
+                  "ruggengraatframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/0562d2b4-68f6-4462-b86d-b7572c6064e0",
+                "prefLabel": [
+                  "semi pivotless frames"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/221d2620-3482-477a-a42e-2cc715b0090f",
+                "prefLabel": [
+                  "starframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/d8525c46-32e2-41c8-8bc2-9d131a3f7963",
+                "prefLabel": [
+                  "stijve frames"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/f2553404-0451-478f-b9ab-6668de218632",
+                "prefLabel": [
+                  "subframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1e80606f-376f-46e5-ae31-59fbf66ac62f",
+                "prefLabel": [
+                  "tankframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/750f4269-ed81-409b-b494-a38ad3418ade",
+                "prefLabel": [
+                  "twin tube frames"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/4522514e-a0dc-4356-bbca-5154bc640543",
+                "prefLabel": [
+                  "twinspar frames"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1680c8be-ba5d-41da-a2d6-f0fe55e64874",
+                "prefLabel": [
+                  "vakwerkframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/5d08fb6e-df44-48c2-8a17-24c4539f756c",
+                "prefLabel": [
+                  "wiegframes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1ef383bf-cee5-40a5-b890-232b6fbc656c",
+                "prefLabel": [
+                  "zeta frames"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1c33c842-4330-4a45-a823-b5dcfb5384c6",
+            "prefLabel": [
+              "motorfietsmotoren"
+            ],
+            "altLabel": [],
+            "hiddenLabel": [],
+            "definition": [
+              "De motorfietsmotor is de krachtbron voor en motorfiets. Deze kan bestaan uit een diverse soorten motoren. Van 1 tot 4 cilinders. Van luchtgekoeld tot koelstofgekoeld."
+            ],
+            "scopeNote": [
+              "De motorfietsmotor is de krachtbron voor en motorfiets. Deze kan bestaan uit een diverse soorten motoren. Van 1 tot 4 cilinders. Van luchtgekoeld tot koelstofgekoeld."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/44ac60de-195d-45b2-8cf8-a46deb19ef7f",
+                "prefLabel": [
+                  "motoren"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a70500a1-1984-4dbb-bbff-c310982c3f76",
+                "prefLabel": [
+                  "bayernmotoren"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/67db6293-7fed-4afb-b758-26da3ed6c85f",
+                "prefLabel": [
+                  "big bang motoren"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/8b466b76-502c-4b1a-95d8-75d4f5005f78",
+                "prefLabel": [
+                  "bracket motoren"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/3256b9b1-3826-44ea-be52-9adc561ed7cf",
+                "prefLabel": [
+                  "breitwand motoren"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/04bb2713-0101-47c4-9872-3198e81d6591",
+                "prefLabel": [
+                  "clip-on motoren"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/da6bef57-5181-40a1-965b-0ae4b09a8b99",
+                "prefLabel": [
+                  "hulp motoren"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/beb60880-0780-4247-9d2b-7519fd95953c",
+                "prefLabel": [
+                  "inbouw motoren"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1b0cd41d-63b6-4980-954d-54e1863442b9",
+                "prefLabel": [
+                  "long bang motoren"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/884145b6-ce14-47da-b577-57c147ebbf2e",
+            "prefLabel": [
+              "motorfietsonderdelen"
+            ],
+            "altLabel": [
+              "motorfietsonderdeel"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Onderdelen van een motorfiets. (Rijksdienst voor het Cultureel Erfgoed)"
+            ],
+            "scopeNote": [
+              "Onderdelen van een motorfiets. (Rijksdienst voor het Cultureel Erfgoed)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c7d5e53b-6c7f-43f9-85c5-c63013b59a20",
+                "prefLabel": [
+                  "motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/68b34b42-3fc0-4821-a64f-0e5dbb31c91e",
+                "prefLabel": [
+                  "cardanaandrijvingen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/94b04ff7-94ad-462e-805b-b9368008014a",
+                "prefLabel": [
+                  "kettingaandrijvingen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/77bd4b5a-d0b0-4fa1-a4b9-5f2e913985cc",
+                "prefLabel": [
+                  "stroomlijnkuipen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1a8c5d94-b38c-4f1d-825e-31ea6329b445",
+                "prefLabel": [
+                  "tandriemaandrijvingen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/717a5cf6-2320-425f-bfe8-56db56f7de5c",
+                "prefLabel": [
+                  "twds systemen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/89e1acba-502c-4967-b264-603b8ea09de8",
+                "prefLabel": [
+                  "vrije motornaaf systemen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/edff162d-ce64-457d-96f3-b1f3769d10bf",
+                "prefLabel": [
+                  "zijspannen"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/042d87ef-ff37-4c95-bee2-ceb1a43f1ef1",
+            "prefLabel": [
+              "motorfietswielen"
+            ],
+            "altLabel": [
+              "motorfietswiel"
+            ],
+            "hiddenLabel": [],
+            "definition": [],
+            "scopeNote": [],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/25dc552f-d3de-448c-9442-8fe20bc5a6b6",
+                "prefLabel": [
+                  "wielen (vervoer)"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/7e1f44a9-6013-4eca-a4b9-5a900fa80e67",
+                "prefLabel": [
+                  "comstar velgen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/8b1b1fcc-86ea-4c6a-8aec-e8eb000c4d0b",
+                "prefLabel": [
+                  "gietwielen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/3f7e9fc6-7879-445c-afb2-ad68c0151a29",
+                "prefLabel": [
+                  "kruisspaken wielen"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/673de0cd-f773-4031-8c10-acf367e35e81",
+            "prefLabel": [
+              "motorfietswielophangingen"
+            ],
+            "altLabel": [],
+            "hiddenLabel": [],
+            "definition": [],
+            "scopeNote": [],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/25dc552f-d3de-448c-9442-8fe20bc5a6b6",
+                "prefLabel": [
+                  "wielen (vervoer)"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/3392aa5c-3522-4c73-87fd-b4423bc81691",
+                "prefLabel": [
+                  "achterbruggen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/17eb6896-8dde-4b07-82f2-273b8ddf4291",
+                "prefLabel": [
+                  "balhoofden"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/f7469db0-b7fd-47c3-9805-867cc157beeb",
+                "prefLabel": [
+                  "banaan achtervorken"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a3fe4870-7bde-45ac-89ba-0c9e1785d1fa",
+                "prefLabel": [
+                  "cantileveersystemen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/aab56ece-7d98-4f06-8020-005ad12c089b",
+                "prefLabel": [
+                  "compressoren (veersystemen)"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/edfd924a-cf18-4210-9004-ffabb140db1d",
+                "prefLabel": [
+                  "cush drive systemen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1d7d4903-c6a9-467d-a91c-bcbf8f2046ec",
+                "prefLabel": [
+                  "kroonplaten"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/2695f9cf-e414-4bf8-a4cb-4862e8577d2b",
+                "prefLabel": [
+                  "voorvorken"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/93aeca19-3d3b-42ee-997d-4ad60e5dba17",
+            "prefLabel": [
+              "zijspanmotorfietsen"
+            ],
+            "altLabel": [
+              "zijspanmotorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een zijspanmotorfiets is een aan een motorfiets waaraan een wagentje is gemonteerd, meestal voorzien van een zitplaats, maar dat soms ook dienst doet als bagageruimte. Ook in bepaalde motorsporten wordt gebruikgemaakt van een zijspan, zoals in de wegracerij, grasbaanraces en de zijspancross. (Wikipedia)"
+            ],
+            "scopeNote": [
+              "Een zijspanmotorfiets is een aan een motorfiets waaraan een wagentje is gemonteerd, meestal voorzien van een zitplaats, maar dat soms ook dienst doet als bagageruimte. Ook in bepaalde motorsporten wordt gebruikgemaakt van een zijspan, zoals in de wegracerij, grasbaanraces en de zijspancross. (Wikipedia)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c7d5e53b-6c7f-43f9-85c5-c63013b59a20",
+                "prefLabel": [
+                  "motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1f521100-bc47-4581-95d3-34b3df2d8377",
+                "prefLabel": [
+                  "commercials"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/99c12152-68a8-4ac2-8741-6664b5f3cbef",
+                "prefLabel": [
+                  "zijspancombinaties"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/de49cd31-6e5d-45d8-8043-bf413f2d6b6d",
+            "prefLabel": [
+              "offroad motorfietsen"
+            ],
+            "altLabel": [
+              "offroad motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een offroadmotor is een motorfiets die is ontwikkeld voor het terrein en onverharde wegen. Hij is weliswaar wettelijk en technisch bruikbaar op de verharde weg, maar daar niet ideaal. Eigenlijk is de offroad een gebruiksvriendelijke uitvoering van de Enduromotor en daar ook vaak van afgeleid."
+            ],
+            "scopeNote": [
+              "Een offroadmotor is een motorfiets die is ontwikkeld voor het terrein en onverharde wegen. Hij is weliswaar wettelijk en technisch bruikbaar op de verharde weg, maar daar niet ideaal. Eigenlijk is de offroad een gebruiksvriendelijke uitvoering van de Enduromotor en daar ook vaak van afgeleid."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/522f659d-6dc5-4b64-a244-1ea88701b7ea",
+                "prefLabel": [
+                  "terreinmotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/89e19a58-0d66-48b9-8138-c58af5e75699",
+            "prefLabel": [
+              "onder-de-zestig motorfietsen"
+            ],
+            "altLabel": [
+              "onder-de-zestig motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Onder-de-zestiger is een motorfietsclassificatie voor motorfietsen onder de 60 kilogram. Personele belasting was sinds 1826 van toepassing op 'huurwaarde, deuren en vensters, meubilair, dienstboden en paarden'. Vanaf 16 april 1896 ook op gemotoriseerde voertuigen. Vanaf 1935 werden motorfietsen onder de zestig kilo vrijgesteld van personele belasting. Er werd nog slechts ƒ 10,- wegenbelasting betaald. Dat maakte de lichte motorfiets zo populair."
+            ],
+            "scopeNote": [
+              "Onder-de-zestiger is een motorfietsclassificatie voor motorfietsen onder de 60 kilogram. Personele belasting was sinds 1826 van toepassing op 'huurwaarde, deuren en vensters, meubilair, dienstboden en paarden'. Vanaf 16 april 1896 ook op gemotoriseerde voertuigen. Vanaf 1935 werden motorfietsen onder de zestig kilo vrijgesteld van personele belasting. Er werd nog slechts ƒ 10,- wegenbelasting betaald. Dat maakte de lichte motorfiets zo populair."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/3c45c4c7-d800-4abb-9420-cfbab6dbbf1f",
+            "prefLabel": [
+              "original motorfietsen"
+            ],
+            "altLabel": [
+              "original motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Originals is een motorfietsclassificatie. Dit zijn motorfietsen die qua techniek en vorm verwijzen naar het verleden."
+            ],
+            "scopeNote": [
+              "Originals is een motorfietsclassificatie. Dit zijn motorfietsen die qua techniek en vorm verwijzen naar het verleden."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/f388bfb0-ea54-45be-8151-7cf3681da1a9",
+            "prefLabel": [
+              "pioneer motorfietsen"
+            ],
+            "altLabel": [
+              "pioneer motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Pioneer' is de aanduiding van de Engelse Vintage Motor Cycle Club voor motorfietsen tot en met 1904. Andere aanduidingen voor bepaalde klassen zijn:"
+            ],
+            "scopeNote": [
+              "Pioneer' is de aanduiding van de Engelse Vintage Motor Cycle Club voor motorfietsen tot en met 1904. Andere aanduidingen voor bepaalde klassen zijn:"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/2eb08a77-edc7-4238-aab6-f9fc7873b78e",
+            "prefLabel": [
+              "power cruiser motofietsen"
+            ],
+            "altLabel": [
+              "power cruiser motofiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Dit is een opgevoerde of sterk gebouwde custom-achtige motorfiets. Vooral het gebrekkige vermogen van de grote V-twins bracht sommige mensen ertoe deze op te voeren of ineens te bouwen."
+            ],
+            "scopeNote": [
+              "Dit is een opgevoerde of sterk gebouwde custom-achtige motorfiets. Vooral het gebrekkige vermogen van de grote V-twins bracht sommige mensen ertoe deze op te voeren of ineens te bouwen."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/579c8d39-e539-4740-a67a-8e54831f138e",
+                "prefLabel": [
+                  "custom motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/71d2ea3f-97c0-4067-bde6-d543e8b1c32e",
+            "prefLabel": [
+              "pre-war motorfietsen"
+            ],
+            "altLabel": [
+              "pre-war motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Pre war is een klasse-indeling bij veteranenritten met motorfietsen. De benaming wordt onder andere gebruikt door de Engelse Vintage Motor Cycle Club, maar in navolging daarvan ook door de meeste andere verenigingen voor klassieke motorfietsen. Pre war duidt de motorfietsen van 1931 tot 1940 aan. Soms wordt ook wel de naam Post vintage genoemd."
+            ],
+            "scopeNote": [
+              "Pre war is een klasse-indeling bij veteranenritten met motorfietsen. De benaming wordt onder andere gebruikt door de Engelse Vintage Motor Cycle Club, maar in navolging daarvan ook door de meeste andere verenigingen voor klassieke motorfietsen. Pre war duidt de motorfietsen van 1931 tot 1940 aan. Soms wordt ook wel de naam Post vintage genoemd."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/527e3e6f-c060-4350-8163-4be37baa9e4e",
+            "prefLabel": [
+              "racefietsen"
+            ],
+            "altLabel": [
+              "racefiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een racefiets/wielrenfiets (ook vaak koersfiets in het Zuid-Nederlands) is een fiets die is geoptimaliseerd voor gebruik in wielerwedstrijden. Twee zaken zijn hierbij van belang: de luchtweerstand en het gewicht. Beide worden zo laag mogelijk gemaakt, voor zover dat binnen de reglementen mogelijk is. (Wikipedia)"
+            ],
+            "scopeNote": [
+              "Een racefiets/wielrenfiets (ook vaak koersfiets in het Zuid-Nederlands) is een fiets die is geoptimaliseerd voor gebruik in wielerwedstrijden. Twee zaken zijn hierbij van belang: de luchtweerstand en het gewicht. Beide worden zo laag mogelijk gemaakt, voor zover dat binnen de reglementen mogelijk is. (Wikipedia)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/89ce4158-8aaf-4ace-b023-6105d23dbfa6",
+                "prefLabel": [
+                  "fietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/3f2ac78c-8cbd-4c56-b255-31e3ddaee041",
+            "prefLabel": [
+              "rat bike motorfietsen"
+            ],
+            "altLabel": [
+              "rat bike motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een Rat Bike is een motorfiets, die minimaal wordt onderhouden, waardoor modder, pekel en roest vrij spel hebben. De machine moet wel lopen en wordt voornamelijk gerepareerd met tape en ijzerdraad. Hoewel een rat bike er bijzonder onderkomen uit ziet met matzwarte lak en veelal 'motorvreemde' objecten er op gebonden, is de techniek meestal perfect."
+            ],
+            "scopeNote": [
+              "Een Rat Bike is een motorfiets, die minimaal wordt onderhouden, waardoor modder, pekel en roest vrij spel hebben. De machine moet wel lopen en wordt voornamelijk gerepareerd met tape en ijzerdraad. Hoewel een rat bike er bijzonder onderkomen uit ziet met matzwarte lak en veelal 'motorvreemde' objecten er op gebonden, is de techniek meestal perfect."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/12eeda99-ff27-4632-ab36-be6a887ff033",
+            "prefLabel": [
+              "retrobike motorfietsen"
+            ],
+            "altLabel": [
+              "retrobike motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een retro bike is een moderne motorfiets met ouderwets uiterlijk. Dit is dus niet hetzelfde als een oldtimer, die authentiek uit oudere tijden stamt. Retro bikes worden om verschillende redenen gemaakt:"
+            ],
+            "scopeNote": [
+              "Een retro bike is een moderne motorfiets met ouderwets uiterlijk. Dit is dus niet hetzelfde als een oldtimer, die authentiek uit oudere tijden stamt. Retro bikes worden om verschillende redenen gemaakt:"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/3879bdb0-ddb2-4f35-925f-4166c4953f4f",
+            "prefLabel": [
+              "rijwielstallingen"
+            ],
+            "altLabel": [
+              "fietsenstalling",
+              "fietsenstallingen",
+              "rijwielstalling"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een tijdelijke (soms overdekte) bewaarplaats voor één of meer fietsen. (Wikiwoordenboek)"
+            ],
+            "scopeNote": [
+              "Een tijdelijke (soms overdekte) bewaarplaats voor één of meer fietsen. (Wikiwoordenboek)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/7710d7ac-1f51-4b63-816b-5b911f808a63",
+                "prefLabel": [
+                  "opslaggebouwen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/649e587d-cf9a-4472-9603-b9413c181521",
+            "prefLabel": [
+              "serious custom motorfietsen"
+            ],
+            "altLabel": [
+              "serious custom motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Serious customs zijn fabriekscustoms met een grotere cilinderinhoud (750cc)"
+            ],
+            "scopeNote": [
+              "Serious customs zijn fabriekscustoms met een grotere cilinderinhoud (750cc)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/579c8d39-e539-4740-a67a-8e54831f138e",
+                "prefLabel": [
+                  "custom motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/f8bc9843-d1cd-4153-bfd2-0ca24d6682f7",
+            "prefLabel": [
+              "serious touring motorfietsen"
+            ],
+            "altLabel": [
+              "serious touring motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Dit is een toermotorfiets, gemaakt voor langere reizen. Deze heeft meestal een grote cilinderinhoud en grote mate van comfort, ook voor de duopassagier. De machine is vaak uitgerust met een ergonomiepakket, handvatverwarming en cardanaandrijving."
+            ],
+            "scopeNote": [
+              "Dit is een toermotorfiets, gemaakt voor langere reizen. Deze heeft meestal een grote cilinderinhoud en grote mate van comfort, ook voor de duopassagier. De machine is vaak uitgerust met een ergonomiepakket, handvatverwarming en cardanaandrijving."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/41cccb6d-71f5-4904-aa87-2dd064eedbc8",
+            "prefLabel": [
+              "snorfietsen"
+            ],
+            "altLabel": [
+              "snorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "De snorfiets is een bromfiets met een maximale constructiesnelheid van 25 km/uur die in 1974 is geïntroduceerd. (Wikipedia)"
+            ],
+            "scopeNote": [
+              "De snorfiets is een bromfiets met een maximale constructiesnelheid van 25 km/uur die in 1974 is geïntroduceerd. (Wikipedia)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/ae909e7a-167a-4843-ab55-700118b84e7b",
+                "prefLabel": [
+                  "bromfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a12c5d6a-4266-46ba-89ff-ff1c50747082",
+            "prefLabel": [
+              "soft custom motorfietsen"
+            ],
+            "altLabel": [
+              "soft custom motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "De eerste “factory customs”, die eind jaren zeventig en in de jaren tachtig op de markt kwamen waren van “normale” toermotorfietsen (elementary bikes) afgeleide, licht “gechopte” modellen. Doordat ze vaak een ongewijzigd frame en balhoofdhoek hadden, waren de rijeigenschappen grotendeel bewaard gebleven, waardoor ze betere stuureigenschappen hadden dan latere, meer extreme customs."
+            ],
+            "scopeNote": [
+              "De eerste “factory customs”, die eind jaren zeventig en in de jaren tachtig op de markt kwamen waren van “normale” toermotorfietsen (elementary bikes) afgeleide, licht “gechopte” modellen. Doordat ze vaak een ongewijzigd frame en balhoofdhoek hadden, waren de rijeigenschappen grotendeel bewaard gebleven, waardoor ze betere stuureigenschappen hadden dan latere, meer extreme customs."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/579c8d39-e539-4740-a67a-8e54831f138e",
+                "prefLabel": [
+                  "custom motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/7f789d02-9066-41c9-957c-08d43b167555",
+            "prefLabel": [
+              "soft enduro motorfietsen"
+            ],
+            "altLabel": [
+              "soft enduro motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een Soft Enduro is een teruggetunede Enduromotor, geschikt gemaakt voor gebruik op de openbare weg."
+            ],
+            "scopeNote": [
+              "Een Soft Enduro is een teruggetunede Enduromotor, geschikt gemaakt voor gebruik op de openbare weg."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/522f659d-6dc5-4b64-a244-1ea88701b7ea",
+                "prefLabel": [
+                  "terreinmotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/d7658ff8-c517-40fa-801e-94722b00a393",
+            "prefLabel": [
+              "sportfietsen"
+            ],
+            "altLabel": [
+              "sportfiets",
+              "sportrijwiel",
+              "sportrijwielen"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Sportieve fietsen tussen een gewone fiets en racefiets in. (MARDOC)"
+            ],
+            "scopeNote": [
+              "Sportieve fietsen tussen een gewone fiets en racefiets in. (MARDOC)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/89ce4158-8aaf-4ace-b023-6105d23dbfa6",
+                "prefLabel": [
+                  "fietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/dc095881-932f-4d4b-ac80-e5a482ed02f4",
+            "prefLabel": [
+              "sportmotorfietsen"
+            ],
+            "altLabel": [
+              "sportmotorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Sportmotor is een motorfietsclassificatie. Een sportmotorfiets is vrijwel altijd een sportieve versie van een bestaand toermodel, maar soms ook speciaal ontwikkeld voor sportief gebruik."
+            ],
+            "scopeNote": [
+              "Sportmotor is een motorfietsclassificatie. Een sportmotorfiets is vrijwel altijd een sportieve versie van een bestaand toermodel, maar soms ook speciaal ontwikkeld voor sportief gebruik."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c7d5e53b-6c7f-43f9-85c5-c63013b59a20",
+                "prefLabel": [
+                  "motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/25a35299-299e-46bb-8bfe-e70290dd5f16",
+                "prefLabel": [
+                  "caféracers"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/acf398b0-4a49-416c-87ba-f0649d76bc9f",
+                "prefLabel": [
+                  "middleclass supersports motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c71568d1-ae6a-45e4-b76c-88cd4ce5bc96",
+                "prefLabel": [
+                  "streetfighter motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/4059a51a-1e76-48e8-8a4b-6244b4938ff3",
+                "prefLabel": [
+                  "supermotards"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/5978a79b-a23c-4872-a917-5e0c37779cae",
+                "prefLabel": [
+                  "topclass supersports motorfietsen"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/540f9121-4ea3-4c3e-bb29-947c63145139",
+            "prefLabel": [
+              "sporttoerer motorfietsen"
+            ],
+            "altLabel": [
+              "allroundsports motorfiets",
+              "allroundsports motorfietsen",
+              "sporttoerer motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een 'sporttoerer' of 'Allround Sports' is een tussenvorm van een toermotor en een sportmotor. Enerzijds doen het uiterlijk en de stuureigenschappen denken aan een sportmotor, anderzijds is de motor voorzien van het comfort van een toermotor. Rijders die graag een sportieve motor willen maar daarnaast vrij veel kilometers rijden kiezen vaak voor een sporttoerer"
+            ],
+            "scopeNote": [
+              "Een 'sporttoerer' of 'Allround Sports' is een tussenvorm van een toermotor en een sportmotor. Enerzijds doen het uiterlijk en de stuureigenschappen denken aan een sportmotor, anderzijds is de motor voorzien van het comfort van een toermotor. Rijders die graag een sportieve motor willen maar daarnaast vrij veel kilometers rijden kiezen vaak voor een sporttoerer"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/503e1539-3390-4e1d-8ae5-9216e83d2d97",
+            "prefLabel": [
+              "stoommotorfietsen"
+            ],
+            "altLabel": [
+              "stoomfiets",
+              "stoommotorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een stoommotorfiets is een tweewielig voertuig dat wordt voortbewogen door een stoommachine. (Wikipedia)"
+            ],
+            "scopeNote": [
+              "Een stoommotorfiets is een tweewielig voertuig dat wordt voortbewogen door een stoommachine. (Wikipedia)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c7d5e53b-6c7f-43f9-85c5-c63013b59a20",
+                "prefLabel": [
+                  "motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/77b878df-3aed-4961-8ad9-b129661d6556",
+            "prefLabel": [
+              "street rod motorfietsen"
+            ],
+            "altLabel": [
+              "street rod motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Street rod is een motorfietsclassificatie. Een street rod is een stoplichtsprinter, een motorfiets met een flink vermogen, bij voorkeur zonder stroomlijnkuip."
+            ],
+            "scopeNote": [
+              "Street rod is een motorfietsclassificatie. Een street rod is een stoplichtsprinter, een motorfiets met een flink vermogen, bij voorkeur zonder stroomlijnkuip."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/579c8d39-e539-4740-a67a-8e54831f138e",
+                "prefLabel": [
+                  "custom motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c71568d1-ae6a-45e4-b76c-88cd4ce5bc96",
+            "prefLabel": [
+              "streetfighter motorfietsen"
+            ],
+            "altLabel": [
+              "streetfighter motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een streetfighter is een kale sportieve motorfiets zonder stroomlijnkuip. Dit type ontstond toen motorrijders zelf de kuipen van hun sportmotoren sloopten om ze op die manier lichter en wendbaarder te maken. Dit ging ten koste van de stroomlijn, maar dat is op bijvoorbeeld bergweggetjes niet zo belangrijk."
+            ],
+            "scopeNote": [
+              "Een streetfighter is een kale sportieve motorfiets zonder stroomlijnkuip. Dit type ontstond toen motorrijders zelf de kuipen van hun sportmotoren sloopten om ze op die manier lichter en wendbaarder te maken. Dit ging ten koste van de stroomlijn, maar dat is op bijvoorbeeld bergweggetjes niet zo belangrijk."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/dc095881-932f-4d4b-ac80-e5a482ed02f4",
+                "prefLabel": [
+                  "sportmotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/522f659d-6dc5-4b64-a244-1ea88701b7ea",
+            "prefLabel": [
+              "terreinmotorfietsen"
+            ],
+            "altLabel": [
+              "terreinmotorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een terreinmotor is een motorfiets die bedoeld is voor in het terrein. Terreinmotoren zijn hoger gebouwd dan gewone motorfietsen, hebben in het algemeen slechts één cilinder en een dry sump smeersysteem om de bodemvrijheid te waarborgen. De veerwegen zijn bijzonder lang. Voor de verschillende takken van terrein-motorsporten worden ook verschillende motorfietsen gemaakt: crossmotoren, enduromotoren, trialmotoren."
+            ],
+            "scopeNote": [
+              "Een terreinmotor is een motorfiets die bedoeld is voor in het terrein. Terreinmotoren zijn hoger gebouwd dan gewone motorfietsen, hebben in het algemeen slechts één cilinder en een dry sump smeersysteem om de bodemvrijheid te waarborgen. De veerwegen zijn bijzonder lang. Voor de verschillende takken van terrein-motorsporten worden ook verschillende motorfietsen gemaakt: crossmotoren, enduromotoren, trialmotoren."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c7d5e53b-6c7f-43f9-85c5-c63013b59a20",
+                "prefLabel": [
+                  "motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/33cd3b4b-b002-4b4c-924b-7863da7c0f4a",
+                "prefLabel": [
+                  "adventure bikes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1a907460-600f-4dcf-bc44-4c01e252bd21",
+                "prefLabel": [
+                  "crossmotoren"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/de49cd31-6e5d-45d8-8043-bf413f2d6b6d",
+                "prefLabel": [
+                  "offroad motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/7f789d02-9066-41c9-957c-08d43b167555",
+                "prefLabel": [
+                  "soft enduro motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/d073757d-09e7-425e-9c13-c8111f7baa87",
+                "prefLabel": [
+                  "trailmotorfietsen"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+            "prefLabel": [
+              "toermotorfietsen"
+            ],
+            "altLabel": [
+              "toermotorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een toermotorfiets is een motorfiets die bestemd is voor toeristisch gebruik."
+            ],
+            "scopeNote": [
+              "Een toermotorfiets is een motorfiets die bestemd is voor toeristisch gebruik."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c7d5e53b-6c7f-43f9-85c5-c63013b59a20",
+                "prefLabel": [
+                  "motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/4afd7eb1-87ca-42d3-a75d-4380a9d001d6",
+                "prefLabel": [
+                  "allroad motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/5d5cc601-42c9-449c-9d03-ee9f1383adc4",
+                "prefLabel": [
+                  "autocycles"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/e2c0344f-abf2-4be4-b09e-4d98bad82de3",
+                "prefLabel": [
+                  "autowheels"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/6abb9002-29a4-4506-a627-1cc7ac5c0361",
+                "prefLabel": [
+                  "classic motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a4c0e6fb-832b-44d9-ba18-4804544001c4",
+                "prefLabel": [
+                  "commuter bikes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/0276bbd7-8ca8-4737-b3ff-a292784cc21c",
+                "prefLabel": [
+                  "damesmotorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a401f1d6-75b5-4b6f-bb23-a7741f49ec17",
+                "prefLabel": [
+                  "elementary bikes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/5804832d-7d8b-4562-8874-1b58596cee04",
+                "prefLabel": [
+                  "fullsize touring motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/7307215d-046c-4a54-bb9d-2a43c590f9bb",
+                "prefLabel": [
+                  "hybrid sports"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/fdb8d7e6-0515-4d32-aaff-dc2bf1d05afc",
+                "prefLabel": [
+                  "light touringmotorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/ce2f93e5-7f71-4110-bbab-9f0de9a758d9",
+                "prefLabel": [
+                  "naked bikes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/89e19a58-0d66-48b9-8138-c58af5e75699",
+                "prefLabel": [
+                  "onder-de-zestig motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/3c45c4c7-d800-4abb-9420-cfbab6dbbf1f",
+                "prefLabel": [
+                  "original motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/f388bfb0-ea54-45be-8151-7cf3681da1a9",
+                "prefLabel": [
+                  "pioneer motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/71d2ea3f-97c0-4067-bde6-d543e8b1c32e",
+                "prefLabel": [
+                  "pre-war motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/3f2ac78c-8cbd-4c56-b255-31e3ddaee041",
+                "prefLabel": [
+                  "rat bike motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/12eeda99-ff27-4632-ab36-be6a887ff033",
+                "prefLabel": [
+                  "retrobike motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/f8bc9843-d1cd-4153-bfd2-0ca24d6682f7",
+                "prefLabel": [
+                  "serious touring motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/540f9121-4ea3-4c3e-bb29-947c63145139",
+                "prefLabel": [
+                  "sporttoerer motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/bb3dda82-36ba-4660-82a5-5fcc3d07da27",
+                "prefLabel": [
+                  "street scramblers"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/b7435275-d0fb-4b0e-b49c-d875e22e2d53",
+                "prefLabel": [
+                  "veteraan motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1b4023a6-c1a1-4e7a-9652-649fc1ef0915",
+                "prefLabel": [
+                  "vintage motorfietsen"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/5978a79b-a23c-4872-a917-5e0c37779cae",
+            "prefLabel": [
+              "topclass supersports motorfietsen"
+            ],
+            "altLabel": [
+              "topclass supersports motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Topclass supersports zijn zeer snelle motorfietsen van meer dan 750 cc. Topclass supersports zijn feitelijk machines die zijn ontwikkeld voor het WK Superbike, maar vanwege de homologatie zijn ze ook streetlegal leverbaar."
+            ],
+            "scopeNote": [
+              "Topclass supersports zijn zeer snelle motorfietsen van meer dan 750 cc. Topclass supersports zijn feitelijk machines die zijn ontwikkeld voor het WK Superbike, maar vanwege de homologatie zijn ze ook streetlegal leverbaar."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/dc095881-932f-4d4b-ac80-e5a482ed02f4",
+                "prefLabel": [
+                  "sportmotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/d073757d-09e7-425e-9c13-c8111f7baa87",
+            "prefLabel": [
+              "trailmotorfietsen"
+            ],
+            "altLabel": [
+              "trailmotorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Het begrip trailmotor wordt vaak verward met de trialmotor, de naam is echter afgeleid van 'trail' (gebaand pad). De trailmotor echter is een offroad of allroad motorfiets. Deze laatste typen kwamen pas in de jaren zeventig in zwang. Tot die tijd werd vaak een wegmotor omgebouwd. De veerwegen werden dan iets verlengd, er kwamen semi-terreinbanden op en er werden verhoogde uitlaatpijpen (Swept back pipes) gemonteerd. De trailmotor werd ook wel Scrambler genoemd."
+            ],
+            "scopeNote": [
+              "Het begrip trailmotor wordt vaak verward met de trialmotor, de naam is echter afgeleid van 'trail' (gebaand pad). De trailmotor echter is een offroad of allroad motorfiets. Deze laatste typen kwamen pas in de jaren zeventig in zwang. Tot die tijd werd vaak een wegmotor omgebouwd. De veerwegen werden dan iets verlengd, er kwamen semi-terreinbanden op en er werden verhoogde uitlaatpijpen (Swept back pipes) gemonteerd. De trailmotor werd ook wel Scrambler genoemd."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/522f659d-6dc5-4b64-a244-1ea88701b7ea",
+                "prefLabel": [
+                  "terreinmotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/2dd74525-1515-40f0-8606-8eab0354fc79",
+            "prefLabel": [
+              "transportfietsen"
+            ],
+            "altLabel": [
+              "transportfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een transportfiets is een fiets die speciaal bedoeld is voor het vervoer van goederen. (Wikipedia)"
+            ],
+            "scopeNote": [
+              "Een transportfiets is een fiets die speciaal bedoeld is voor het vervoer van goederen. (Wikipedia)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/89ce4158-8aaf-4ace-b023-6105d23dbfa6",
+                "prefLabel": [
+                  "fietsen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a3c687c8-a1b9-4664-b3ed-4d0240ee32e9",
+                "prefLabel": [
+                  "bakfietsen"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/db3edfc3-7d4b-4090-8ff7-2a9597a0206f",
+            "prefLabel": [
+              "trikes"
+            ],
+            "altLabel": [
+              "driewieler",
+              "motorbakfiets",
+              "tricar",
+              "triketricycle"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een trike is een driewielig voertuig. Zoals bike een verkorting is van bicycle, is trike een verkorting van tricycle. In de praktijk verstaat men onder trike doorgaans een gemotoriseerd driewielig voertuig; een driewielige fiets wordt meestal driewieler genoemd. (Wikipedia)"
+            ],
+            "scopeNote": [
+              "Een trike is een driewielig voertuig. Zoals bike een verkorting is van bicycle, is trike een verkorting van tricycle. In de praktijk verstaat men onder trike doorgaans een gemotoriseerd driewielig voertuig; een driewielige fiets wordt meestal driewieler genoemd. (Wikipedia)"
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c7d5e53b-6c7f-43f9-85c5-c63013b59a20",
+                "prefLabel": [
+                  "motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/97ce02ad-f664-45e3-8a08-3c286e6a11fe",
+                "prefLabel": [
+                  "atc motorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/66096605-2b66-4b21-a2c8-fcb1ff4a0f36",
+                "prefLabel": [
+                  "forecars"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/4eb9ae4b-aa77-4eea-a23e-d5f57c525aff",
+                "prefLabel": [
+                  "tri-porteurs"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/b7435275-d0fb-4b0e-b49c-d875e22e2d53",
+            "prefLabel": [
+              "veteraan motorfietsen"
+            ],
+            "altLabel": [
+              "veteraan motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Een veteraanmotor is een klassieke motorfiets. Veteran is een aanduiding van de Engelse Vintage Motor Cycle Club voor motorfietsen van 1905 t/m 1914."
+            ],
+            "scopeNote": [
+              "Een veteraanmotor is een klassieke motorfiets. Veteran is een aanduiding van de Engelse Vintage Motor Cycle Club voor motorfietsen van 1905 t/m 1914."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/1b4023a6-c1a1-4e7a-9652-649fc1ef0915",
+            "prefLabel": [
+              "vintage motorfietsen"
+            ],
+            "altLabel": [
+              "vintage motorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Vintage is een aanduiding van de Engelse Vintage Motor Cycle Club voor motorfietsen van 1915 t/m 1930. Vintage is ook een klasse-indeling bij veteranenritten, de motoren van 1915-1931."
+            ],
+            "scopeNote": [
+              "Vintage is een aanduiding van de Engelse Vintage Motor Cycle Club voor motorfietsen van 1915 t/m 1930. Vintage is ook een klasse-indeling bij veteranenritten, de motoren van 1915-1931."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9c0314a7-6954-4d9c-b981-a1864eacc3fb",
+                "prefLabel": [
+                  "toermotorfietsen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/03b10982-382b-4057-812a-03c006b70132",
+            "prefLabel": [
+              "waterfietsen"
+            ],
+            "altLabel": [
+              "waterfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [],
+            "scopeNote": [],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/44003694-5228-42b4-8aff-b20947e930db",
+                "prefLabel": [
+                  "pleziervaartuigen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/2a83c68a-3423-42e3-a22e-7af2effaacfb",
+            "prefLabel": [
+              "wedstrijdmotorfietsen"
+            ],
+            "altLabel": [
+              "wedstrijdmotorfiets"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Wedstrijdmotorfietsen worden gebruikt voor wedstrijden of competities op openbare wegen eof afgesloten circuits."
+            ],
+            "scopeNote": [
+              "Wedstrijdmotorfietsen worden gebruikt voor wedstrijden of competities op openbare wegen eof afgesloten circuits."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/c7d5e53b-6c7f-43f9-85c5-c63013b59a20",
+                "prefLabel": [
+                  "motorfietsen"
+                ]
+              }
+            ],
+            "narrower": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/baa48c6c-7421-46db-8fdb-629fc788ec47",
+                "prefLabel": [
+                  "dragracemotoren"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/712c8583-da18-417d-95bb-37c8377077f6",
+                "prefLabel": [
+                  "enduromotorfietsen"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9e84aa0e-d730-48c7-a84b-ca7705caefd8",
+                "prefLabel": [
+                  "gangmaakmotoren"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/9141f5d8-a268-4f3c-99fc-dbc4eb44b8c6",
+                "prefLabel": [
+                  "minibikes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/42ed33ad-4b47-439b-aa75-5781377db43b",
+                "prefLabel": [
+                  "pitbikes"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/0c02bce9-fd7b-46fa-b923-9c5ebc1aeff8",
+                "prefLabel": [
+                  "trialmotoren"
+                ]
+              },
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/a56095e9-a28f-45dc-81b2-c0822181bd55",
+                "prefLabel": [
+                  "wegracers"
+                ]
+              }
+            ],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          },
+          {
+            "uri": "https://data.cultureelerfgoed.nl/term/id/cht/e00aff9a-c75f-4251-a6fb-10ae63c96bf1",
+            "prefLabel": [
+              "wielvluchten (motorfietsen)"
+            ],
+            "altLabel": [
+              "wielvlucht (motorfietsen)"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "Bij motorfietsen kent men twee soorten vlucht:\nVlucht bij solo-motorfietsen is de sprong, de stand van de vooras ten opzichte van het balhoofd of de Vlucht bij zijspancombinaties: De motorfiets wordt iets hellend naar de buitenkant aan het zijspan gemonteerd. Daardoor wil de motor een bocht maken (als het zijspan aan de rechterkant zit: naar links). Dit corrigeert het naar rechts trekken van de combinatie door het niet aangedreven zijspan.\n",
+              "Bij motorfietsen kent men twee soorten vlucht:\nVlucht bij solo-motorfietsen is de sprong, de stand van de vooras ten opzichte van het balhoofd of de Vlucht bij zijspancombinaties: De motorfiets wordt iets hellend naar de buitenkant aan het zijspan gemonteerd. Daardoor wil de motor een bocht maken (als het zijspan aan de rechterkant zit: naar links). Dit corrigeert het naar rechts trekken van de combinatie door het niet aangedreven zijspan.",
+              "Camber of wielvlucht is de afwijkende stand van de wielen van een voertuig ten opzichte van de verticale lijn door het wiel."
+            ],
+            "scopeNote": [
+              "Bij motorfietsen kent men twee soorten vlucht:\nVlucht bij solo-motorfietsen is de sprong, de stand van de vooras ten opzichte van het balhoofd of de Vlucht bij zijspancombinaties: De motorfiets wordt iets hellend naar de buitenkant aan het zijspan gemonteerd. Daardoor wil de motor een bocht maken (als het zijspan aan de rechterkant zit: naar links). Dit corrigeert het naar rechts trekken van de combinatie door het niet aangedreven zijspan.\n",
+              "Bij motorfietsen kent men twee soorten vlucht:\nVlucht bij solo-motorfietsen is de sprong, de stand van de vooras ten opzichte van het balhoofd of de Vlucht bij zijspancombinaties: De motorfiets wordt iets hellend naar de buitenkant aan het zijspan gemonteerd. Daardoor wil de motor een bocht maken (als het zijspan aan de rechterkant zit: naar links). Dit corrigeert het naar rechts trekken van de combinatie door het niet aangedreven zijspan.",
+              "Camber of wielvlucht is de afwijkende stand van de wielen van een voertuig ten opzichte van de verticale lijn door het wiel."
+            ],
+            "seeAlso": [],
+            "broader": [
+              {
+                "uri": "https://data.cultureelerfgoed.nl/term/id/cht/6e0d9edf-70d6-4bc4-a744-94c656f0b596",
+                "prefLabel": [
+                  "motoronderdelen"
+                ]
+              }
+            ],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": null
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "uri": "https://www.wikidata.org#entities-all",
+        "name": "Wikidata: alle entiteiten"
+      },
+      "responseTimeMs": 3,
+      "result": {
+        "__typename": "TimeoutError",
+        "message": "Source timed out after 1ms"
+      }
+    }
+  ],
+  "errors": []
+}

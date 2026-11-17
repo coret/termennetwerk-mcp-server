@@ -1,0 +1,2310 @@
+[
+  {
+    "uri": "https://adamlink.nl/geo/addresses/start/",
+    "name": "Adamlink: historische adressen in Amsterdam",
+    "alternateName": null,
+    "description": "Historische adressen in Amsterdam",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://adamlink.nl"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.amsterdamtimemachine.nl",
+        "name": "Amsterdam Time Machine",
+        "alternateName": "ATM"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://adamlink.nl/geo/addresses/start/"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.016Z"
+    }
+  },
+  {
+    "uri": "https://adamlink.nl/geo/streets/list",
+    "name": "Adamlink: straten in Amsterdam",
+    "alternateName": null,
+    "description": "Straten in Amsterdam",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://adamlink.nl"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.amsterdamtimemachine.nl",
+        "name": "Amsterdam Time Machine",
+        "alternateName": "ATM"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://adamlink.nl/geo/streets/list"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.016Z"
+    }
+  },
+  {
+    "uri": "https://data.cultureelerfgoed.nl/term/id/abr",
+    "name": "Archeologisch Basisregister",
+    "alternateName": "ABR",
+    "description": "Onderwerpen voor het beschrijven van onderzoeken, vondsten en sporen",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://thesaurus.cultureelerfgoed.nl/"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.cultureelerfgoed.nl",
+        "name": "Rijksdienst voor het Cultureel Erfgoed",
+        "alternateName": "RCE"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Materialen",
+        "name": "Materialen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Periodes",
+        "name": "Periodes"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Technieken",
+        "name": "Technieken"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Objecten",
+        "name": "Objecten"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.cultureelerfgoed.nl/term/id/abr"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.016Z"
+    }
+  },
+  {
+    "uri": "http://vocab.getty.edu/aat",
+    "name": "Art & Architecture Thesaurus",
+    "alternateName": "AAT",
+    "description": "Onderwerpen voor het beschrijven van architectuur-, kunst- en cultuurhistorische collecties",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.getty.edu/research/tools/vocabularies/aat/about.html"
+    ],
+    "creators": [
+      {
+        "uri": "http://www.getty.edu/research/",
+        "name": "Getty Research Institute",
+        "alternateName": "Getty"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Activiteiten",
+        "name": "Activiteiten"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Fysieke-kenmerken",
+        "name": "Fysieke kenmerken"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Materialen",
+        "name": "Materialen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Objecten",
+        "name": "Objecten"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Periodes",
+        "name": "Periodes"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Stijlen",
+        "name": "Stijlen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Actoren-en-organismen",
+        "name": "Actoren en organismen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://vocab.getty.edu/aat"
+      },
+      {
+        "type": "GENRE_FILTER",
+        "url": null
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.015Z"
+    }
+  },
+  {
+    "uri": "http://vocab.getty.edu/aat#materials",
+    "name": "Art & Architecture Thesaurus - materialen",
+    "alternateName": "AAT - materialen",
+    "description": "Selectie van AAT termen voor het beschrijven van materialen in architectuur-, kunst- en cultuurhistorische collecties",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.getty.edu/research/tools/vocabularies/aat/about.html"
+    ],
+    "creators": [
+      {
+        "uri": "http://www.getty.edu/research/",
+        "name": "Getty Research Institute",
+        "alternateName": "Getty"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Materialen",
+        "name": "Materialen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://vocab.getty.edu/aat%23materials"
+      },
+      {
+        "type": "GENRE_FILTER",
+        "url": null
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.013Z"
+    }
+  },
+  {
+    "uri": "http://vocab.getty.edu/aat#processes-and-techniques",
+    "name": "Art & Architecture Thesaurus - processen en technieken",
+    "alternateName": "AAT - processen en technieken",
+    "description": "Selectie van AAT termen voor het beschrijven van processen en technieken in architectuur-, kunst- en cultuurhistorische collecties",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.getty.edu/research/tools/vocabularies/aat/about.html"
+    ],
+    "creators": [
+      {
+        "uri": "http://www.getty.edu/research/",
+        "name": "Getty Research Institute",
+        "alternateName": "Getty"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Technieken",
+        "name": "Technieken"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://vocab.getty.edu/aat%23processes-and-techniques"
+      },
+      {
+        "type": "GENRE_FILTER",
+        "url": null
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.014Z"
+    }
+  },
+  {
+    "uri": "http://vocab.getty.edu/aat#styles-and-periods",
+    "name": "Art & Architecture Thesaurus - stijlen en periodes",
+    "alternateName": "AAT - stijlen en periodes",
+    "description": "Selectie van AAT termen voor het beschrijven van stijlen en periodes in architectuur-, kunst- en cultuurhistorische collecties",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.getty.edu/research/tools/vocabularies/aat/about.html"
+    ],
+    "creators": [
+      {
+        "uri": "http://www.getty.edu/research/",
+        "name": "Getty Research Institute",
+        "alternateName": "Getty"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Periodes",
+        "name": "Periodes"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Stijlen",
+        "name": "Stijlen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://vocab.getty.edu/aat%23styles-and-periods"
+      },
+      {
+        "type": "GENRE_FILTER",
+        "url": null
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.015Z"
+    }
+  },
+  {
+    "uri": "https://data.brabantcloud.nl/gebouwen",
+    "name": "Brabantse gebouwen",
+    "alternateName": null,
+    "description": "Gebouwen die een relatie hebben tot of van belang zijn geweest voor de provincie Noord-Brabant",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.brabantcloud.nl/page/787/brabantse-kloosters-als-termenlijst"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.erfgoedbrabant.nl",
+        "name": "Erfgoed Brabant",
+        "alternateName": "Erfgoed Brabant"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Gebouwen",
+        "name": "Gebouwen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.brabantcloud.nl/gebouwen"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.017Z"
+    }
+  },
+  {
+    "uri": "https://data.brabantcloud.nl/personen-organisaties",
+    "name": "Brabantse personen & organisaties",
+    "alternateName": null,
+    "description": "Personen en organisaties die een relatie hebben tot of van belang zijn geweest voor de provincie Noord-Brabant",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.brabantcloud.nl/"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.erfgoedbrabant.nl",
+        "name": "Erfgoed Brabant",
+        "alternateName": "Erfgoed Brabant"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/organisaties",
+        "name": "Organisaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.brabantcloud.nl/personen-organisaties"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.017Z"
+    }
+  },
+  {
+    "uri": "https://thesaurus.korpora.info/data/rdf",
+    "name": "Brandweer Erfgoed",
+    "alternateName": "Brandweerthesaurus",
+    "description": "Termen voor het beschrijven van Brandweer Erfgoed. De Brandweerthesaurus is ontwikkeld voor het eenduidig beschrijven en ontsluiten van brandweererfgoed. De thesaurus bevat meer dan 500 zorgvuldig geselecteerde brandweertermen, waarvan veel zijn gekoppeld aan specifieke perioden of ontwikkelingen uit de brandweergeschiedenis. De thesaurus is bedoeld voor iedereen die een brandweercollectie beheert, zoals musea, historische verenigingen, bedrijfscollecties, op brandweerkazernes en particuliere verzamelaars. Door gebruik te maken van dezelfde terminologie worden collecties beter vindbaar, onderling vergelijkbaar en eenvoudiger gezamenlijk toegankelijk te maken.",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://digitaalerfgoed.poolparty.biz/data/rfd.html"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.korpora.nl",
+        "name": "Korpora, Erfgoed Publieke Veiligheid",
+        "alternateName": "Korpora"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Objecten",
+        "name": "Objecten"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://thesaurus.korpora.info/data/rdf"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.022Z"
+    }
+  },
+  {
+    "uri": "http://data.bibliotheken.nl/id/dataset/brinkman",
+    "name": "Brinkman trefwoordenthesaurus",
+    "alternateName": "Brinkman",
+    "description": "Onderwerpen die de Koninklijke Bibliotheek aan publicaties toekent",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.bibliotheken.nl/KB/-/stories/Brinkman-trefwoordenthesaurus"
+    ],
+    "creators": [
+      {
+        "uri": "http://data.bibliotheken.nl/id/thes/p075301482",
+        "name": "Koninklijke Bibliotheek",
+        "alternateName": "KB"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Genres",
+        "name": "Genres"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://data.bibliotheken.nl/id/dataset/brinkman"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.017Z"
+    }
+  },
+  {
+    "uri": "https://www.canonvannederland.nl#nieuwe-canon-van-limburg",
+    "name": "Canon van Limburg",
+    "alternateName": null,
+    "description": "Vensters uit de Nieuwe Canon van Limburg. Deze bron bevat tevens de tijdvakken uit de Canon van Nederland.",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.canonvannederland.nl/nl/limburg/limburg-nieuw/colofon"
+    ],
+    "creators": [
+      {
+        "uri": "https://lgog.nl",
+        "name": "Limburgs Geschied- en Oudheidkundig Genootschap",
+        "alternateName": "LGOG"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Gebeurtenissen",
+        "name": "Gebeurtenissen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Periodes",
+        "name": "Periodes"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Activiteiten",
+        "name": "Activiteiten"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://www.canonvannederland.nl%23nieuwe-canon-van-limburg"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.017Z"
+    }
+  },
+  {
+    "uri": "https://data.cultureelerfgoed.nl/term/id/cht",
+    "name": "Cultuurhistorische Thesaurus",
+    "alternateName": "CHT",
+    "description": "Onderwerpen voor het beschrijven van cultureel erfgoed",
+    "inLanguage": [
+      "nl",
+      "en"
+    ],
+    "mainEntityOfPage": [
+      "https://kennis.cultureelerfgoed.nl/index.php/Thesauri_bij_de_RCE_-_Cultuurhistorische_Thesaurus"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.cultureelerfgoed.nl",
+        "name": "Rijksdienst voor het Cultureel Erfgoed",
+        "alternateName": "RCE"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Activiteiten",
+        "name": "Activiteiten"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Fysieke-kenmerken",
+        "name": "Fysieke kenmerken"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Materialen",
+        "name": "Materialen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Actoren-en-organismen",
+        "name": "Actoren en organismen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Objecten",
+        "name": "Objecten"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Periodes",
+        "name": "Periodes"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Stijlen",
+        "name": "Stijlen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Technieken",
+        "name": "Technieken"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.cultureelerfgoed.nl/term/id/cht"
+      },
+      {
+        "type": "GENRE_FILTER",
+        "url": null
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.018Z"
+    }
+  },
+  {
+    "uri": "https://data.cultureelerfgoed.nl/term/id/cht#materials",
+    "name": "Cultuurhistorische Thesaurus - Materialen",
+    "alternateName": "CHT - materialen",
+    "description": "Onderwerpen voor het beschrijven van materiaalkenmerken van cultureel erfgoed",
+    "inLanguage": [
+      "nl",
+      "en"
+    ],
+    "mainEntityOfPage": [
+      "https://kennis.cultureelerfgoed.nl/index.php/Thesauri_bij_de_RCE_-_Cultuurhistorische_Thesaurus"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.cultureelerfgoed.nl",
+        "name": "Rijksdienst voor het Cultureel Erfgoed",
+        "alternateName": "RCE"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Materialen",
+        "name": "Materialen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.cultureelerfgoed.nl/term/id/cht%23materials"
+      },
+      {
+        "type": "GENRE_FILTER",
+        "url": null
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.017Z"
+    }
+  },
+  {
+    "uri": "https://data.cultureelerfgoed.nl/term/id/cht#styles-and-periodes",
+    "name": "Cultuurhistorische Thesaurus - Stijlen en periodes",
+    "alternateName": "CHT - stijlen en periodes",
+    "description": "Onderwerpen voor het beschrijven van stijl- en periodekenmerken van cultureel erfgoed objecten.",
+    "inLanguage": [
+      "nl",
+      "en"
+    ],
+    "mainEntityOfPage": [
+      "https://kennis.cultureelerfgoed.nl/index.php/Thesauri_bij_de_RCE_-_Cultuurhistorische_Thesaurus"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.cultureelerfgoed.nl",
+        "name": "Rijksdienst voor het Cultureel Erfgoed",
+        "alternateName": "RCE"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Stijlen",
+        "name": "Stijlen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Periodes",
+        "name": "Periodes"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.cultureelerfgoed.nl/term/id/cht%23styles-and-periodes"
+      },
+      {
+        "type": "GENRE_FILTER",
+        "url": null
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.017Z"
+    }
+  },
+  {
+    "uri": "https://data.europa.eu/data/datasets/eurovoc",
+    "name": "EuroVoc - thesaurus van de Europese Unie",
+    "alternateName": null,
+    "description": "Onderwerpen over alle gebieden waarop de Europese Unie actief is. De nadruk ligt op de parlementaire activiteiten van de EU",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.europa.eu/data/datasets/eurovoc"
+    ],
+    "creators": [
+      {
+        "uri": "https://op.europa.eu/",
+        "name": "Bureau voor publicaties van de Europese Unie",
+        "alternateName": "Europese Unie"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Actoren-en-organismen",
+        "name": "Actoren en organismen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.europa.eu/data/datasets/eurovoc"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.018Z"
+    }
+  },
+  {
+    "uri": "https://www.geonames.org#nl-be-de",
+    "name": "GeoNames: geografische namen in Nederland, België en Duitsland",
+    "alternateName": null,
+    "description": "Selectie van geografische namen zoals plaatsen, administratieve eenheden (gemeentes, provincies) en waterlichamen (rivieren, beken, meren etc.)",
+    "inLanguage": [
+      "nl",
+      "en"
+    ],
+    "mainEntityOfPage": [
+      "https://www.geonames.org/about.html"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.geonames.org/team.html",
+        "name": "Geonames",
+        "alternateName": "GeoNames"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://www.geonames.org%23nl-be-de"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.018Z"
+    }
+  },
+  {
+    "uri": "https://www.geonames.org",
+    "name": "GeoNames: geografische namen wereldwijd",
+    "alternateName": null,
+    "description": "Selectie van geografische namen zoals plaatsen, administratieve eenheden (gemeentes, provincies) en waterlichamen (rivieren, beken, meren etc.)",
+    "inLanguage": [
+      "nl",
+      "en"
+    ],
+    "mainEntityOfPage": [
+      "https://www.geonames.org/about.html"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.geonames.org/team.html",
+        "name": "Geonames",
+        "alternateName": "GeoNames"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://www.geonames.org"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.018Z"
+    }
+  },
+  {
+    "uri": "https://www.goudatijdmachine.nl/id/straten",
+    "name": "Goudse straten",
+    "alternateName": null,
+    "description": "Straten in Gouda",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.goudatijdmachine.nl/straatnamen/"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.goudatijdmachine.nl",
+        "name": "Gouda Tijdmachine",
+        "alternateName": "GTM"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://www.goudatijdmachine.nl/id/straten"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.020Z"
+    }
+  },
+  {
+    "uri": "http://data.beeldengeluid.nl/gtaa/Classificatie",
+    "name": "GTAA: classificatie",
+    "alternateName": null,
+    "description": "Classificaties voor het beschrijven van audiovisueel materiaal",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.beeldengeluid.nl/kennis/kennisthemas/metadata/gemeenschappelijke-thesaurus-audiovisuele-archieven"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.beeldengeluid.nl/",
+        "name": "Nederlands Instituut voor Beeld en Geluid",
+        "alternateName": "Beeld & Geluid"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://data.beeldengeluid.nl/gtaa/Classificatie"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.020Z"
+    }
+  },
+  {
+    "uri": "http://data.beeldengeluid.nl/gtaa/Genre",
+    "name": "GTAA: genres",
+    "alternateName": null,
+    "description": "Genres voor het beschrijven van audiovisueel materiaal",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.beeldengeluid.nl/kennis/kennisthemas/metadata/gemeenschappelijke-thesaurus-audiovisuele-archieven"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.beeldengeluid.nl/",
+        "name": "Nederlands Instituut voor Beeld en Geluid",
+        "alternateName": "Beeld & Geluid"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Genres",
+        "name": "Genres"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://data.beeldengeluid.nl/gtaa/Genre"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.020Z"
+    }
+  },
+  {
+    "uri": "http://data.beeldengeluid.nl/gtaa/GeografischeNamen",
+    "name": "GTAA: geografische namen",
+    "alternateName": null,
+    "description": "Geografische namen voor het beschrijven van audiovisueel materiaal",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.beeldengeluid.nl/kennis/kennisthemas/metadata/gemeenschappelijke-thesaurus-audiovisuele-archieven"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.beeldengeluid.nl/",
+        "name": "Nederlands Instituut voor Beeld en Geluid",
+        "alternateName": "Beeld & Geluid"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://data.beeldengeluid.nl/gtaa/GeografischeNamen"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.020Z"
+    }
+  },
+  {
+    "uri": "http://data.beeldengeluid.nl/gtaa/Namen",
+    "name": "GTAA: namen",
+    "alternateName": null,
+    "description": "Diverse soorten eigennamen voor het beschrijven van audiovisueel materiaal",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.beeldengeluid.nl/kennis/kennisthemas/metadata/gemeenschappelijke-thesaurus-audiovisuele-archieven"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.beeldengeluid.nl/",
+        "name": "Nederlands Instituut voor Beeld en Geluid",
+        "alternateName": "Beeld & Geluid"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Actoren-en-organismen",
+        "name": "Actoren en organismen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://data.beeldengeluid.nl/gtaa/Namen"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.021Z"
+    }
+  },
+  {
+    "uri": "http://data.beeldengeluid.nl/gtaa/Onderwerpen",
+    "name": "GTAA: onderwerpen",
+    "alternateName": null,
+    "description": "Onderwerpen voor het beschrijven van audiovisueel materiaal",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.beeldengeluid.nl/kennis/kennisthemas/metadata/gemeenschappelijke-thesaurus-audiovisuele-archieven"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.beeldengeluid.nl/",
+        "name": "Nederlands Instituut voor Beeld en Geluid",
+        "alternateName": "Beeld & Geluid"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Genres",
+        "name": "Genres"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://data.beeldengeluid.nl/gtaa/Onderwerpen"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.021Z"
+    }
+  },
+  {
+    "uri": "http://data.beeldengeluid.nl/gtaa/OnderwerpenBenG",
+    "name": "GTAA: onderwerpen beeld-geluid",
+    "alternateName": null,
+    "description": "Onderwerpen die slechts voor shots/clips/geluiden worden toegepast voor het beschrijven van audiovisueel materiaal",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.beeldengeluid.nl/kennis/kennisthemas/metadata/gemeenschappelijke-thesaurus-audiovisuele-archieven"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.beeldengeluid.nl/",
+        "name": "Nederlands Instituut voor Beeld en Geluid",
+        "alternateName": "Beeld & Geluid"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Genres",
+        "name": "Genres"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://data.beeldengeluid.nl/gtaa/OnderwerpenBenG"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.021Z"
+    }
+  },
+  {
+    "uri": "http://data.beeldengeluid.nl/gtaa/Persoonsnamen",
+    "name": "GTAA: persoonsnamen",
+    "alternateName": null,
+    "description": "Personen voor het beschrijven van audiovisueel materiaal",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.beeldengeluid.nl/kennis/kennisthemas/metadata/gemeenschappelijke-thesaurus-audiovisuele-archieven"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.beeldengeluid.nl/",
+        "name": "Nederlands Instituut voor Beeld en Geluid",
+        "alternateName": "Beeld & Geluid"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://data.beeldengeluid.nl/gtaa/Persoonsnamen"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.021Z"
+    }
+  },
+  {
+    "uri": "https://data.ihlia.nl/homosaurus",
+    "name": "Homosaurus",
+    "alternateName": null,
+    "description": "Termen voor het beschrijven van LHBTIQ (Lesbisch/Homo/Biseksueel/Transgender/Intersekse/Queer)-publicaties en -erfgoed",
+    "inLanguage": [
+      "nl",
+      "en"
+    ],
+    "mainEntityOfPage": [
+      "https://homosaurus.org"
+    ],
+    "creators": [
+      {
+        "uri": "https://ihlia.nl",
+        "name": "IHLIA LGBTI Heritage",
+        "alternateName": "IHLIA"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.ihlia.nl/homosaurus"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.021Z"
+    }
+  },
+  {
+    "uri": "https://iconclass.org",
+    "name": "Iconclass",
+    "alternateName": null,
+    "description": "Termen voor het beschrijven van de inhoud van afbeeldingen",
+    "inLanguage": [
+      "en"
+    ],
+    "mainEntityOfPage": [
+      "https://iconclass.org"
+    ],
+    "creators": [
+      {
+        "uri": "https://henrivandewaalfoundation.org",
+        "name": "Stichting Hendri van de Waal",
+        "alternateName": "Henri van de Waal"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Genres",
+        "name": "Genres"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Periodes",
+        "name": "Periodes"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://iconclass.org"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.021Z"
+    }
+  },
+  {
+    "uri": "https://data.indischherinneringscentrum.nl/ied",
+    "name": "Indisch Erfgoed Thesaurus",
+    "alternateName": "IED",
+    "description": "Termen voor het beschrijven van collecties uit de periode 1930–1970 rondom voormalig Nederlands-Indië, onafhankelijk Indonesië en de postkoloniale migratie van personen naar Nederland",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.indischherinneringscentrum.nl/ied.html"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.indischherinneringscentrum.nl/",
+        "name": "Indisch Herinneringscentrum",
+        "alternateName": "IHC"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Actoren-en-organismen",
+        "name": "Actoren en organismen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Objecten",
+        "name": "Objecten"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.indischherinneringscentrum.nl/ied"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.022Z"
+    }
+  },
+  {
+    "uri": "http://data.bibliotheken.nl/id/dataset/corps",
+    "name": "KB Corporatiethesaurus",
+    "alternateName": null,
+    "description": "Organisaties uit de KB Corporatiethesaurus",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.bibliotheken.nl/KB/-/stories/Corporatiethesaurus-van-de-KB"
+    ],
+    "creators": [
+      {
+        "uri": "http://data.bibliotheken.nl/id/thes/p075301482",
+        "name": "Koninklijke Bibliotheek",
+        "alternateName": "KB"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/organisaties",
+        "name": "Organisaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://data.bibliotheken.nl/id/dataset/corps"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.022Z"
+    }
+  },
+  {
+    "uri": "https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb#mw-genresstijlen",
+    "name": "Muziek: genres en stijlen",
+    "alternateName": null,
+    "description": "Genres en stijlen in de collectie van Muziekweb",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.muziekweb.nl",
+        "name": "Muziekweb",
+        "alternateName": "Muziekweb"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Genres",
+        "name": "Genres"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Stijlen",
+        "name": "Stijlen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb%23mw-genresstijlen"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.023Z"
+    }
+  },
+  {
+    "uri": "https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb#mw-personengroepen",
+    "name": "Muziek: personen en groepen",
+    "alternateName": null,
+    "description": "Artiesten, zowel personen als groepen, in de collectie van Muziekweb",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.muziekweb.nl",
+        "name": "Muziekweb",
+        "alternateName": "Muziekweb"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.muziekweb.nl/MuziekwebOrganization/Muziekweb%23mw-personengroepen"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.023Z"
+    }
+  },
+  {
+    "uri": "https://data.muziekschatten.nl/som/Klassiekewerken",
+    "name": "Muziekschatten: klassieke muziekwerken",
+    "alternateName": null,
+    "description": "Termen voor het beschrijven van (Nederlandse) klassieke muziekwerken",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.muziekschatten.nl/"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.podiumkunst.net",
+        "name": "Podiumkunst.net",
+        "alternateName": "Podiumkunst.net"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Objecten",
+        "name": "Objecten"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.muziekschatten.nl/som/Klassiekewerken"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.022Z"
+    }
+  },
+  {
+    "uri": "https://data.muziekschatten.nl/#onderwerpen",
+    "name": "Muziekschatten: onderwerpen",
+    "alternateName": null,
+    "description": "Onderwerpen in de catalogus van de bladmuziekcollectie van Stichting Omroep Muziek",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.muziekschatten.nl/"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.omroepmuziek.nl",
+        "name": "Stichting Omroep Muziek",
+        "alternateName": "SOM"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Genres",
+        "name": "Genres"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.muziekschatten.nl/%23onderwerpen"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.022Z"
+    }
+  },
+  {
+    "uri": "https://data.muziekschatten.nl/#personen",
+    "name": "Muziekschatten: personen",
+    "alternateName": null,
+    "description": "Personen in de catalogus van de bladmuziekcollectie van Stichting Omroep Muziek",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.muziekschatten.nl/som/"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.omroepmuziek.nl",
+        "name": "Stichting Omroep Muziek",
+        "alternateName": "SOM"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.muziekschatten.nl/%23personen"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.023Z"
+    }
+  },
+  {
+    "uri": "http://data.bibliotheken.nl/id/dataset/persons",
+    "name": "Nederlandse Thesaurus van Auteursnamen",
+    "alternateName": "NTA",
+    "description": "Naams- en andere persoonsgegevens van auteurs",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.bibliotheken.nl/KB/-/stories/NTA"
+    ],
+    "creators": [
+      {
+        "uri": "http://data.bibliotheken.nl/id/thes/p075301482",
+        "name": "Koninklijke Bibliotheek",
+        "alternateName": "KB"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://data.bibliotheken.nl/id/dataset/persons"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.023Z"
+    }
+  },
+  {
+    "uri": "https://data.cultureelerfgoed.nl/rights",
+    "name": "Rechtenstatus en gebruiksrechten",
+    "alternateName": "Rechten",
+    "description": "Deze thesaurus bevat een gestandaardiseerde set termen voor rechtenstatus en gebruiksrechten van erfgoedobjecten. De thesaurus omvat rechtenstatements van RightsStatements.org en licenties en verklaringen van Creative Commons, waaronder Creative Commons-licenties en de CC0-verklaring. De termen zijn gemodelleerd als SKOS-concepten met stabiele URI’s, meertalige labels en korte toelichtingen. De thesaurus gebruikt de canonical URI’s van RightsStatements.org en Creative Commons direct als concept-URI’s om interoperabiliteit en hergebruik te maximaliseren. De thesaurus ondersteunt consistente registratie, interoperabiliteit en hergebruik binnen de erfgoedsector.",
+    "inLanguage": [
+      "nl",
+      "en"
+    ],
+    "mainEntityOfPage": [
+      "https://data.cultureelerfgoed.nl/rights.html"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.cultureelerfgoed.nl",
+        "name": "Rijksdienst voor het Cultureel Erfgoed",
+        "alternateName": "RCE"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.cultureelerfgoed.nl/rights"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.024Z"
+    }
+  },
+  {
+    "uri": "https://fryslan.regiotermen.nl/personen",
+    "name": "Regiotermen Fryslân: Personen",
+    "alternateName": null,
+    "description": "Friese historische personen, een verzameling van historische figuren uit de Nederlandse regio Fryslân.",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://fryslan.regiotermen.nl/personen"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.tresoar.nl",
+        "name": "Tresoar: museum, archief en bibliotheek Fryslân",
+        "alternateName": "Tresoar"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://fryslan.regiotermen.nl/personen"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.024Z"
+    }
+  },
+  {
+    "uri": "https://iisg.amsterdam/resource/TaxonomyOfReligions/",
+    "name": "Religietaxonomie",
+    "alternateName": null,
+    "description": "Gecontroleerd vocabulaire voor het beschrijven van religies en religieuze stromingen",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://iisg.amsterdam/resource/TaxonomyOfReligions/"
+    ],
+    "creators": [
+      {
+        "uri": "https://iisg.amsterdam",
+        "name": "Internationaal Instituut voor Sociale Geschiedenis",
+        "alternateName": "IISG"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://iisg.amsterdam/resource/TaxonomyOfReligions/"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.022Z"
+    }
+  },
+  {
+    "uri": "https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/",
+    "name": "Rijksmonumentenregister",
+    "alternateName": null,
+    "description": "Rijksmonumenten",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://monumentenregister.cultureelerfgoed.nl/"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.cultureelerfgoed.nl",
+        "name": "Rijksdienst voor het Cultureel Erfgoed",
+        "alternateName": "RCE"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Gebouwen",
+        "name": "Gebouwen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.024Z"
+    }
+  },
+  {
+    "uri": "https://data.rkd.nl/rkdartists",
+    "name": "RKDartists",
+    "alternateName": null,
+    "description": "Biografische gegevens van Nederlandse en buitenlandse kunstenaars van de middeleeuwen tot heden",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://rkd.nl/nl/explore/artists"
+    ],
+    "creators": [
+      {
+        "uri": "https://rkd.nl",
+        "name": "RKD – Nederlands Instituut voor Kunstgeschiedenis",
+        "alternateName": "RKD"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/organisaties",
+        "name": "Organisaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.rkd.nl/rkdartists"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.024Z"
+    }
+  },
+  {
+    "uri": "https://iisg.amsterdam/resource/ListOfDenominations/",
+    "name": "Standaardiseringslijst van Religieuze Denominaties",
+    "alternateName": null,
+    "description": "Gecontroleerd vocabulaire van religieuze denominaties met bekende spellingvarianten uit historische bronnen",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://iisg.amsterdam/resource/ListOfDenominations/"
+    ],
+    "creators": [
+      {
+        "uri": "https://iisg.amsterdam",
+        "name": "Internationaal Instituut voor Sociale Geschiedenis",
+        "alternateName": "IISG"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://iisg.amsterdam/resource/ListOfDenominations/"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.022Z"
+    }
+  },
+  {
+    "uri": "http://data.bibliotheken.nl/id/dataset/stcn/printers",
+    "name": "STCN: drukkers",
+    "alternateName": null,
+    "description": "Uitgevers, een subset van Short-Title Catalogue Netherlands (STCN)",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.bibliotheken.nl/KB/-/stories/STCN-persons"
+    ],
+    "creators": [
+      {
+        "uri": "http://data.bibliotheken.nl/id/thes/p075301482",
+        "name": "Koninklijke Bibliotheek",
+        "alternateName": "KB"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/http://data.bibliotheken.nl/id/dataset/stcn/printers"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.027Z"
+    }
+  },
+  {
+    "uri": "https://terms.thehouseoflegacies.nl/dataset/persons",
+    "name": "The House of Legacies: Personen",
+    "alternateName": null,
+    "description": "Makers, uitvoerders en andere bijdragers aan de Nederlandse podiumkunsten, afkomstig uit het archief van The House of Legacies, een inclusief archief van de nalatenschappen van podiumkunstenaars van kleur. Elk persoon is verbonden aan de voorstellingen, gezelschappen en archiefstukken die het werk documenteren, van kunstenaars geboren in de late negentiende eeuw tot makers die vandaag actief zijn.",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://terms.thehouseoflegacies.nl/dataset/persons"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.thehouseoflegacies.nl/",
+        "name": "The House of Legacies",
+        "alternateName": "House of Legacies"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://terms.thehouseoflegacies.nl/dataset/persons"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.021Z"
+    }
+  },
+  {
+    "uri": "https://terms.personsincontext.org/ThesaurusHistorischePersoonsgegevens/523",
+    "name": "Thesaurus Historische Persoonsgegevens - brontypes",
+    "alternateName": "PiCoT - brontypes",
+    "description": "Gestandaardiseerde termen voor het type bron waarop een persoon is vermeld. Onderdeel van de Persons in Context-standaard",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://terms.personsincontext.org/ThesaurusHistorischePersoonsgegevens"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.cbg.nl",
+        "name": "Centrum voor familiegeschiedenis",
+        "alternateName": "CBG"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Actoren-en-organismen",
+        "name": "Actoren en organismen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://terms.personsincontext.org/ThesaurusHistorischePersoonsgegevens/523"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.023Z"
+    }
+  },
+  {
+    "uri": "https://terms.personsincontext.org/ThesaurusHistorischePersoonsgegevens/73",
+    "name": "Thesaurus Historische Persoonsgegevens - gebeurtenistypen",
+    "alternateName": "PiCoT - gebeurtenistypen",
+    "description": "Gestandaardiseerde termen voor de rol die die persoon kan hebben op de bron. Onderdeel van de Persons in Context-standaard",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://terms.personsincontext.org/ThesaurusHistorischePersoonsgegevens"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.cbg.nl",
+        "name": "Centrum voor familiegeschiedenis",
+        "alternateName": "CBG"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Actoren-en-organismen",
+        "name": "Actoren en organismen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://terms.personsincontext.org/ThesaurusHistorischePersoonsgegevens/73"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.023Z"
+    }
+  },
+  {
+    "uri": "https://terms.personsincontext.org/ThesaurusHistorischePersoonsgegevens/44",
+    "name": "Thesaurus Historische Persoonsgegevens - rollen",
+    "alternateName": "PiCoT - rollen",
+    "description": "Gestandaardiseerde termen voor de rol die die persoon kan hebben op de bron. Onderdeel van de Persons in Context-standaard",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://terms.personsincontext.org/ThesaurusHistorischePersoonsgegevens"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.cbg.nl",
+        "name": "Centrum voor familiegeschiedenis",
+        "alternateName": "CBG"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Actoren-en-organismen",
+        "name": "Actoren en organismen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://terms.personsincontext.org/ThesaurusHistorischePersoonsgegevens/44"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.024Z"
+    }
+  },
+  {
+    "uri": "https://data.kampwesterbork.nl/thesaurus",
+    "name": "Thesaurus Kamp Westerbork",
+    "alternateName": "Westerbork",
+    "description": "Termen voor het beschrijven en contextualiseren van collecties die betrekking hebben op de geschiedenis van kamp Westerbork (1939-1971) en omgang met de historische plek (1971-heden)",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://digitaalerfgoed.poolparty.biz/westerbork.html"
+    ],
+    "creators": [
+      {
+        "uri": "https://kampwesterbork.nl",
+        "name": "Herinneringscentrum Kamp Westerbork",
+        "alternateName": "Westerbork"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Gebeurtenissen",
+        "name": "Gebeurtenissen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Periodes",
+        "name": "Periodes"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.kampwesterbork.nl/thesaurus"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.027Z"
+    }
+  },
+  {
+    "uri": "https://data.colonialcollections.nl/nmvw/thesaurus",
+    "name": "Thesaurus Nationaal Museum van Wereldculturen",
+    "alternateName": null,
+    "description": "Onderwerpen verdeeld over de facetten Functie, Cultuur, Geografische herkomst, Object, Materiaal & Techniek",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://collectie.wereldculturen.nl/thesaurus"
+    ],
+    "creators": [
+      {
+        "uri": "http://www.wereldculturen.nl",
+        "name": "Stichting Nationaal Museum van Wereldculturen",
+        "alternateName": "NMVW"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Materialen",
+        "name": "Materialen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Objecten",
+        "name": "Objecten"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Technieken",
+        "name": "Technieken"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.colonialcollections.nl/nmvw/thesaurus"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.023Z"
+    }
+  },
+  {
+    "uri": "https://digitaalerfgoed.poolparty.biz/agrarischethesaurus",
+    "name": "Thesaurus roerend agrarisch erfgoed",
+    "alternateName": "TRAE",
+    "description": "Concepten en termen voor het beschrijven van roerend agrarisch erfgoed in Nederland en Vlaanderen.",
+    "inLanguage": [
+      "nl",
+      "fy"
+    ],
+    "mainEntityOfPage": [
+      "https://erfgoedgelderland.nl/nieuws/van-aardappelhaak-tot-zwingelmolen-nieuwe-thesaurus-agrarische-collecties/"
+    ],
+    "creators": [
+      {
+        "uri": "https://erfgoedgelderland.nl/",
+        "name": "Netwerk Landbouwcollecties",
+        "alternateName": "Erfgoed Gelderland"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Activiteiten",
+        "name": "Activiteiten"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Materialen",
+        "name": "Materialen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Objecten",
+        "name": "Objecten"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Technieken",
+        "name": "Technieken"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://digitaalerfgoed.poolparty.biz/agrarischethesaurus"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.016Z"
+    }
+  },
+  {
+    "uri": "https://data.muziekschatten.nl/som/Uitvoeringsmedium",
+    "name": "Uitvoeringsmedium",
+    "alternateName": null,
+    "description": "Termen voor het beschrijven van muziekinstrumenten, zangstemmen en ensembles (in enkelvoudige en meervoudige bezetting)",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.muziekschatten.nl/som/"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.podiumkunst.net",
+        "name": "Podiumkunst.net",
+        "alternateName": "Podiumkunst.net"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Objecten",
+        "name": "Objecten"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.muziekschatten.nl/som/Uitvoeringsmedium"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.027Z"
+    }
+  },
+  {
+    "uri": "https://vrouwenthesaurus.org",
+    "name": "Vrouwenthesaurus",
+    "alternateName": null,
+    "description": "Onderwerpen voor het beschrijven van informatie over de positie van vrouwen in al hun diversiteit, emancipatie en vrouwengeschiedenis.",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://vrouwenthesaurus.org/conceptid.html"
+    ],
+    "creators": [
+      {
+        "uri": "https://atria.nl",
+        "name": "Atria – kennisinstituut voor emancipatie en vrouwengeschiedenis",
+        "alternateName": "Atria"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://vrouwenthesaurus.org"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.027Z"
+    }
+  },
+  {
+    "uri": "https://www.wikidata.org#entities-all",
+    "name": "Wikidata: alle entiteiten",
+    "alternateName": null,
+    "description": "Alle entiteiten in Wikidata, zoals beroepen, films of kunstwerken",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.wikidata.org"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.wikidata.org/entity/Q180",
+        "name": "Wikimedia Foundation",
+        "alternateName": "Wikimedia"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Objecten",
+        "name": "Objecten"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/organisaties",
+        "name": "Organisaties"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Organismen",
+        "name": "Organismen"
+      }
+    ],
+    "features": [
+      {
+        "type": "GENRE_FILTER",
+        "url": null
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.027Z"
+    }
+  },
+  {
+    "uri": "https://www.wikidata.org#entities-persons",
+    "name": "Wikidata: personen",
+    "alternateName": null,
+    "description": "Personen",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.wikidata.org"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.wikidata.org/entity/Q180",
+        "name": "Wikimedia Foundation",
+        "alternateName": "Wikimedia"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      }
+    ],
+    "features": [
+      {
+        "type": "GENRE_FILTER",
+        "url": null
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.028Z"
+    }
+  },
+  {
+    "uri": "https://www.wikidata.org#entities-places",
+    "name": "Wikidata: plaatsen in Nederland en België",
+    "alternateName": null,
+    "description": "Plaatsen in Nederland en België",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.wikidata.org"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.wikidata.org/entity/Q180",
+        "name": "Wikimedia Foundation",
+        "alternateName": "Wikimedia"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "GENRE_FILTER",
+        "url": null
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.028Z"
+    }
+  },
+  {
+    "uri": "https://www.wikidata.org#entities-streets",
+    "name": "Wikidata: straten in Nederland",
+    "alternateName": null,
+    "description": "Straten in Nederland",
+    "inLanguage": [
+      "en",
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://www.wikidata.org"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.wikidata.org/entity/Q180",
+        "name": "Wikimedia Foundation",
+        "alternateName": "Wikimedia"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      }
+    ],
+    "features": [
+      {
+        "type": "GENRE_FILTER",
+        "url": null
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.028Z"
+    }
+  },
+  {
+    "uri": "https://data.niod.nl/WO2_biografieen",
+    "name": "WO2-biografieën",
+    "alternateName": null,
+    "description": "Korte biografieën van personen die een sleutelrol speelden in de Tweede Wereldoorlog",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.niod.nl/WO2_biografieen.html"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.wo2net.nl",
+        "name": "WO2Net",
+        "alternateName": "WO2Net"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Personen",
+        "name": "Personen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.niod.nl/WO2_biografieen"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.028Z"
+    }
+  },
+  {
+    "uri": "https://data.niod.nl/WO2_Thesaurus",
+    "name": "WO2-thesaurus",
+    "alternateName": null,
+    "description": "Gebeurtenissen, plaatsen, begrippen en objecten uit de Tweede Wereldoorlog",
+    "inLanguage": [
+      "nl"
+    ],
+    "mainEntityOfPage": [
+      "https://data.niod.nl/WO2_Thesaurus.html"
+    ],
+    "creators": [
+      {
+        "uri": "https://www.niod.nl",
+        "name": "Instituut voor oorlogs-, holocaust- en genocidestudies",
+        "alternateName": "NIOD | WO2Net"
+      }
+    ],
+    "genres": [
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Abstracte-begrippen",
+        "name": "Abstracte begrippen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Gebeurtenissen",
+        "name": "Gebeurtenissen"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Locaties",
+        "name": "Locaties"
+      },
+      {
+        "uri": "https://data.cultureelerfgoed.nl/termennetwerk/onderwerpen/Actoren-en-organismen",
+        "name": "Actoren en organismen"
+      }
+    ],
+    "features": [
+      {
+        "type": "RECONCILIATION",
+        "url": "https://termennetwerk-api.netwerkdigitaalerfgoed.nl/reconcile/https://data.niod.nl/WO2_Thesaurus"
+      }
+    ],
+    "status": {
+      "isAvailable": true,
+      "lastChecked": "2026-11-17T15:20:00.028Z"
+    }
+  }
+]

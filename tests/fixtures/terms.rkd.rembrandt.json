@@ -1,0 +1,1514 @@
+{
+  "data": [
+    {
+      "source": {
+        "uri": "https://data.rkd.nl/rkdartists",
+        "name": "RKDartists"
+      },
+      "responseTimeMs": 75,
+      "result": {
+        "__typename": "Terms",
+        "terms": [
+          {
+            "uri": "https://data.rkd.nl/artists/424335",
+            "prefLabel": [
+              "Atelier Rembrandt (Amsterdam)"
+            ],
+            "altLabel": [],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "scopeNote": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/424335"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": {
+              "additionalType": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/41744",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "fotostudio (organisatie)"
+                    }
+                  ]
+                }
+              ],
+              "foundingDate": null,
+              "dissolutionDate": null,
+              "location": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/29",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Amsterdam (stad)"
+                    }
+                  ],
+                  "addressCountry": null
+                },
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/248",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Alkmaar (plaats)"
+                    }
+                  ],
+                  "addressCountry": null
+                }
+              ],
+              "parentOrganization": []
+            }
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/479620",
+            "prefLabel": [
+              "Atelier Rembrandt (Groningen)"
+            ],
+            "altLabel": [],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "scopeNote": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/479620"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": {
+              "additionalType": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/41744",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "fotostudio (organisatie)"
+                    }
+                  ]
+                }
+              ],
+              "foundingDate": null,
+              "dissolutionDate": null,
+              "location": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/35",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Groningen (stad)"
+                    }
+                  ],
+                  "addressCountry": null
+                }
+              ],
+              "parentOrganization": []
+            }
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/228974",
+            "prefLabel": [
+              "Bugatti, Rembrandt"
+            ],
+            "altLabel": [
+              "Bugatti, Rembrandt-Angelo"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "1885-10-16 (Milaan)  - 1916-01-08 (Parijs (stad)); beeldhouwer, graficus, meubelontwerper, schilder. Birthplace and date remark: Saur 1997 (or 16 October 1884? Bénézit 2006); Family relations: son of the painter Carlo Bugatti, brother of Ettore Bugatti; nephew of the painter G. Segantini. "
+            ],
+            "scopeNote": [
+              "1885-10-16 (Milaan)  - 1916-01-08 (Parijs (stad)); beeldhouwer, graficus, meubelontwerper, schilder. Birthplace and date remark: Saur 1997 (or 16 October 1884? Bénézit 2006); Family relations: son of the painter Carlo Bugatti, brother of Ettore Bugatti; nephew of the painter G. Segantini. "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/228974"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [
+              {
+                "uri": "http://dx.doi.org/10.1093/benz/9780199773787.article.B00028503",
+                "prefLabel": []
+              },
+              {
+                "uri": "http://www.wikidata.org/entity/Q1300641",
+                "prefLabel": []
+              },
+              {
+                "uri": "https://data.bnf.fr/ark:/12148/cb11962793b",
+                "prefLabel": []
+              },
+              {
+                "uri": "http://vocab.getty.edu/ulan/500006691",
+                "prefLabel": []
+              },
+              {
+                "uri": "http://viaf.org/viaf/79403237",
+                "prefLabel": []
+              }
+            ],
+            "place": null,
+            "person": {
+              "givenName": [],
+              "familyName": [],
+              "birthDate": "1885-10-16",
+              "deathDate": "1916-01-08",
+              "birthPlace": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/245",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Milaan"
+                    }
+                  ]
+                }
+              ],
+              "deathPlace": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/129",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Parijs (stad)"
+                    }
+                  ]
+                }
+              ],
+              "hasOccupation": [
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "graficus"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                },
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "schilder"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                },
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "beeldhouwer"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                },
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "meubelontwerper"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                }
+              ],
+              "nationality": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/104",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Italiaans"
+                    }
+                  ]
+                }
+              ],
+              "gender": [
+                {
+                  "uri": "https://schema.org/Male",
+                  "name": []
+                }
+              ],
+              "parent": [],
+              "children": [],
+              "spouse": [],
+              "sibling": []
+            },
+            "organization": null
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/26768",
+            "prefLabel": [
+              "Ettinger, Carel van"
+            ],
+            "altLabel": [
+              "Ettinger, Borgert Carolus van",
+              "Ettinger, Bol van",
+              "Rembrandt op de fiets",
+              "Ettinger, Karel van"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "1916-07-11 (Den Haag (stad))  - 1991-07-22 (Den Haag (stad)); aquarellist, pastellist, schilder, tekenaar. Names remark: Van Ettinger werd 'Rembrandt op de fiets' genoemd (Scheen 1969-1970); Place and date of death remark: Scharten 1996. "
+            ],
+            "scopeNote": [
+              "1916-07-11 (Den Haag (stad))  - 1991-07-22 (Den Haag (stad)); aquarellist, pastellist, schilder, tekenaar. Names remark: Van Ettinger werd 'Rembrandt op de fiets' genoemd (Scheen 1969-1970); Place and date of death remark: Scharten 1996. "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/26768"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [
+              {
+                "uri": "http://www.wikidata.org/entity/Q46998674",
+                "prefLabel": []
+              }
+            ],
+            "place": null,
+            "person": {
+              "givenName": [],
+              "familyName": [],
+              "birthDate": "1916-07-11",
+              "deathDate": "1991-07-22",
+              "birthPlace": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/3",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Den Haag (stad)"
+                    }
+                  ]
+                }
+              ],
+              "deathPlace": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/3",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Den Haag (stad)"
+                    }
+                  ]
+                }
+              ],
+              "hasOccupation": [
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "schilder"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                },
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "tekenaar"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                },
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "aquarellist"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                },
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "pastellist"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                }
+              ],
+              "nationality": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/1",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Nederlands"
+                    }
+                  ]
+                }
+              ],
+              "gender": [
+                {
+                  "uri": "https://schema.org/Male",
+                  "name": []
+                }
+              ],
+              "parent": [],
+              "children": [],
+              "spouse": [],
+              "sibling": []
+            },
+            "organization": null
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/479649",
+            "prefLabel": [
+              "Foto Rembrandt (Rotterdam)"
+            ],
+            "altLabel": [],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "scopeNote": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/479649"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": {
+              "givenName": [],
+              "familyName": [],
+              "birthDate": null,
+              "deathDate": null,
+              "birthPlace": [],
+              "deathPlace": [],
+              "hasOccupation": [
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "fotostudio (organisatie)"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                }
+              ],
+              "nationality": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/1",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Nederlands"
+                    }
+                  ]
+                }
+              ],
+              "gender": [],
+              "parent": [],
+              "children": [],
+              "spouse": [],
+              "sibling": []
+            },
+            "organization": null
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/479661",
+            "prefLabel": [
+              "Fotografie Rembrandt (Den Haag)"
+            ],
+            "altLabel": [],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "scopeNote": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/479661"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": {
+              "givenName": [],
+              "familyName": [],
+              "birthDate": null,
+              "deathDate": null,
+              "birthPlace": [],
+              "deathPlace": [],
+              "hasOccupation": [
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "fotostudio (organisatie)"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                }
+              ],
+              "nationality": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/1",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Nederlands"
+                    }
+                  ]
+                }
+              ],
+              "gender": [],
+              "parent": [],
+              "children": [],
+              "spouse": [],
+              "sibling": []
+            },
+            "organization": null
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/244258",
+            "prefLabel": [
+              "Hijgen, Lodewijk Albertus"
+            ],
+            "altLabel": [
+              "Rembrandt II"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              " (Den Haag (stad))  -  ; schilder. "
+            ],
+            "scopeNote": [
+              " (Den Haag (stad))  -  ; schilder. "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/244258"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": {
+              "givenName": [],
+              "familyName": [],
+              "birthDate": null,
+              "deathDate": null,
+              "birthPlace": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/3",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Den Haag (stad)"
+                    }
+                  ]
+                }
+              ],
+              "deathPlace": [],
+              "hasOccupation": [
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "schilder"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                }
+              ],
+              "nationality": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/1",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Nederlands"
+                    }
+                  ]
+                }
+              ],
+              "gender": [
+                {
+                  "uri": "https://schema.org/Male",
+                  "name": []
+                }
+              ],
+              "parent": [],
+              "children": [],
+              "spouse": [],
+              "sibling": []
+            },
+            "organization": null
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/419620",
+            "prefLabel": [
+              "Hulk en Vlaanderen"
+            ],
+            "altLabel": [
+              "De Rembrandt",
+              "Rembrandt, De"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "scopeNote": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/419620"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": {
+              "additionalType": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/41744",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "fotostudio (organisatie)"
+                    }
+                  ]
+                }
+              ],
+              "foundingDate": null,
+              "dissolutionDate": null,
+              "location": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/248",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Alkmaar (plaats)"
+                    }
+                  ],
+                  "addressCountry": null
+                },
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/29",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Amsterdam (stad)"
+                    }
+                  ],
+                  "addressCountry": null
+                }
+              ],
+              "parentOrganization": []
+            }
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/353180",
+            "prefLabel": [
+              "Kunsthandel Houthakker"
+            ],
+            "altLabel": [
+              "Rembrandt van Rijn, Kunsthandel",
+              "Houthakker Kunsthandel, Bernard"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; kunsthandel (bedrijf). Qualifications remark: The art dealership specialized in drawings and prints. In order to preserve its art trade from the robbery by the occupiers, the company went into liquidation on 31 December 1940 and on 1 April 1941 the Paint and Art Trade 'Rembrandt van Rijn' was established. Michiel Frederik Hennus (1873-1961) was appointed director. The intention was to free the case from robbery with this fictional 'aryanization'. The construction initially failed. In October 1941 the former Berlin manager Carl Hansel was appointed as administrator. In a short time, this robbed paintings and other valuables from the case. On February 13, 1942, his appointment for malpractice was withdrawn. In August 1945 Bernard was unanimously appointed as director of 'Rembrandt van Rijn'. On December 31, 1946, the liquidation of this company followed.Lodewijk Houthakker also traded in paintings, but his heart went out to drawings. He had a penchant for design drawings with the sixteenth century as his favorite period. In 1988, the Stedelijk Museum exhibited an exhibition of his collection of mainly French and Italian drawings. In 1998 he had to close his shop because of health problems. For a short period he still worked from his home on the Herengracht. In the last years, until his death in 2008, he stayed at the Sarphati House.\n(Heijbroek/van Griensven 2007, pp. 151-152).  In 1994 an important part of the collection drawings of Lodewijk Houthakker was auctioned by Christie's in New York (Zwolsche Courant, 04-01-1994).. "
+            ],
+            "scopeNote": [
+              "  -  ; kunsthandel (bedrijf). Qualifications remark: The art dealership specialized in drawings and prints. In order to preserve its art trade from the robbery by the occupiers, the company went into liquidation on 31 December 1940 and on 1 April 1941 the Paint and Art Trade 'Rembrandt van Rijn' was established. Michiel Frederik Hennus (1873-1961) was appointed director. The intention was to free the case from robbery with this fictional 'aryanization'. The construction initially failed. In October 1941 the former Berlin manager Carl Hansel was appointed as administrator. In a short time, this robbed paintings and other valuables from the case. On February 13, 1942, his appointment for malpractice was withdrawn. In August 1945 Bernard was unanimously appointed as director of 'Rembrandt van Rijn'. On December 31, 1946, the liquidation of this company followed.Lodewijk Houthakker also traded in paintings, but his heart went out to drawings. He had a penchant for design drawings with the sixteenth century as his favorite period. In 1988, the Stedelijk Museum exhibited an exhibition of his collection of mainly French and Italian drawings. In 1998 he had to close his shop because of health problems. For a short period he still worked from his home on the Herengracht. In the last years, until his death in 2008, he stayed at the Sarphati House.\n(Heijbroek/van Griensven 2007, pp. 151-152).  In 1994 an important part of the collection drawings of Lodewijk Houthakker was auctioned by Christie's in New York (Zwolsche Courant, 04-01-1994).. "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/353180"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": {
+              "additionalType": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/35639",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "kunsthandel (bedrijf)"
+                    }
+                  ]
+                }
+              ],
+              "foundingDate": null,
+              "dissolutionDate": null,
+              "location": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/29",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Amsterdam (stad)"
+                    }
+                  ],
+                  "addressCountry": null
+                }
+              ],
+              "parentOrganization": []
+            }
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/112372",
+            "prefLabel": [
+              "Monogrammist I.F. (Noordelijke Nederlanden 17de eeuw; School van Rembrandt)"
+            ],
+            "altLabel": [],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; prentkunstenaar. "
+            ],
+            "scopeNote": [
+              "  -  ; prentkunstenaar. "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/112372"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": {
+              "givenName": [],
+              "familyName": [],
+              "birthDate": null,
+              "deathDate": null,
+              "birthPlace": [],
+              "deathPlace": [],
+              "hasOccupation": [
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "prentkunstenaar"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                }
+              ],
+              "nationality": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/4",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Noord-Nederlands"
+                    }
+                  ]
+                }
+              ],
+              "gender": [],
+              "parent": [],
+              "children": [],
+              "spouse": [],
+              "sibling": []
+            },
+            "organization": null
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/112458",
+            "prefLabel": [
+              "Monogrammist J.R. (Noordelijke Nederlanden 17de eeuw; School van Rembrandt)"
+            ],
+            "altLabel": [],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; schilder. "
+            ],
+            "scopeNote": [
+              "  -  ; schilder. "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/112458"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": {
+              "givenName": [],
+              "familyName": [],
+              "birthDate": null,
+              "deathDate": null,
+              "birthPlace": [],
+              "deathPlace": [],
+              "hasOccupation": [
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "schilder"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                }
+              ],
+              "nationality": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/4",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Noord-Nederlands"
+                    }
+                  ]
+                }
+              ],
+              "gender": [],
+              "parent": [],
+              "children": [],
+              "spouse": [],
+              "sibling": []
+            },
+            "organization": null
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/62243",
+            "prefLabel": [
+              "Peale, Rembrandt"
+            ],
+            "altLabel": [],
+            "hiddenLabel": [],
+            "definition": [
+              "1778 (Bucks County (Pennsylvania))  - 1860-10-04 (Philadelphia (Pennsylvania)); schilder. "
+            ],
+            "scopeNote": [
+              "1778 (Bucks County (Pennsylvania))  - 1860-10-04 (Philadelphia (Pennsylvania)); schilder. "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/62243"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [
+              {
+                "uri": "http://dx.doi.org/10.1093/benz/9780199773787.article.B00137488",
+                "prefLabel": []
+              },
+              {
+                "uri": "http://www.wikidata.org/entity/Q375926",
+                "prefLabel": []
+              },
+              {
+                "uri": "http://viaf.org/viaf/27334932",
+                "prefLabel": []
+              },
+              {
+                "uri": "https://data.bnf.fr/ark:/12148/cb14955764p",
+                "prefLabel": []
+              },
+              {
+                "uri": "http://vocab.getty.edu/ulan/500019719",
+                "prefLabel": []
+              }
+            ],
+            "place": null,
+            "person": {
+              "givenName": [],
+              "familyName": [],
+              "birthDate": "1778",
+              "deathDate": "1860-10-04",
+              "birthPlace": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/18295",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Bucks County (Pennsylvania)"
+                    }
+                  ]
+                }
+              ],
+              "deathPlace": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/2102",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Philadelphia (Pennsylvania)"
+                    }
+                  ]
+                }
+              ],
+              "hasOccupation": [
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "schilder"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                }
+              ],
+              "nationality": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/80198",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Amerikaans"
+                    }
+                  ]
+                }
+              ],
+              "gender": [
+                {
+                  "uri": "https://schema.org/Male",
+                  "name": []
+                }
+              ],
+              "parent": [],
+              "children": [],
+              "spouse": [],
+              "sibling": []
+            },
+            "organization": null
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/328852",
+            "prefLabel": [
+              "Potterij Rembrandt"
+            ],
+            "altLabel": [
+              "Rembrandt, Potterij",
+              "Rembrandt, Aardewerkfabriek"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; aardewerkfabriek. "
+            ],
+            "scopeNote": [
+              "  -  ; aardewerkfabriek. "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/328852"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [
+              {
+                "uri": "http://www.wikidata.org/entity/Q2914571",
+                "prefLabel": []
+              }
+            ],
+            "place": null,
+            "person": null,
+            "organization": {
+              "additionalType": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/29602",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "aardewerkfabriek"
+                    }
+                  ]
+                }
+              ],
+              "foundingDate": null,
+              "dissolutionDate": null,
+              "location": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/424",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Nijmegen (stad)"
+                    }
+                  ],
+                  "addressCountry": null
+                },
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/1785",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Gouda (plaats)"
+                    }
+                  ],
+                  "addressCountry": null
+                },
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/80",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Utrecht (stad)"
+                    }
+                  ],
+                  "addressCountry": null
+                }
+              ],
+              "parentOrganization": []
+            }
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/489719",
+            "prefLabel": [
+              "Rembrandt, Kunsthandel (Nijmegen)"
+            ],
+            "altLabel": [],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; kunsthandel (bedrijf). "
+            ],
+            "scopeNote": [
+              "  -  ; kunsthandel (bedrijf). "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/489719"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": {
+              "additionalType": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/35639",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "kunsthandel (bedrijf)"
+                    }
+                  ]
+                }
+              ],
+              "foundingDate": null,
+              "dissolutionDate": null,
+              "location": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/424",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Nijmegen (stad)"
+                    }
+                  ],
+                  "addressCountry": null
+                }
+              ],
+              "parentOrganization": []
+            }
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/477457",
+            "prefLabel": [
+              "Rembrandt, Kunsthandel (Rotterdam)"
+            ],
+            "altLabel": [
+              "Jong, Joh. de"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; kunsthandel (bedrijf), lijstenmaker. "
+            ],
+            "scopeNote": [
+              "  -  ; kunsthandel (bedrijf), lijstenmaker. "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/477457"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": {
+              "additionalType": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/34452",
+                  "name": []
+                },
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/35639",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "kunsthandel (bedrijf)"
+                    }
+                  ]
+                }
+              ],
+              "foundingDate": null,
+              "dissolutionDate": null,
+              "location": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/30",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Rotterdam (stad)"
+                    }
+                  ],
+                  "addressCountry": null
+                }
+              ],
+              "parentOrganization": []
+            }
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/479717",
+            "prefLabel": [
+              "Rembrandt, Photographie Artistique (Amsterdam)"
+            ],
+            "altLabel": [
+              "Photographie Artistique Rembrandt (Amsterdam)"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "scopeNote": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/479717"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": {
+              "givenName": [],
+              "familyName": [],
+              "birthDate": null,
+              "deathDate": null,
+              "birthPlace": [],
+              "deathPlace": [],
+              "hasOccupation": [
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "fotostudio (organisatie)"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                }
+              ],
+              "nationality": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/1",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Nederlands"
+                    }
+                  ]
+                }
+              ],
+              "gender": [],
+              "parent": [],
+              "children": [],
+              "spouse": [],
+              "sibling": []
+            },
+            "organization": null
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/66219",
+            "prefLabel": [
+              "Rembrandt"
+            ],
+            "altLabel": [
+              "Rhijn, Rembrandt Harmensz. van",
+              "Rembrant",
+              "Rijn, Rembrandt van",
+              "Rembrandt van Rijn",
+              "Rembrandt Harmensz. van Rijn"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "1606-07-15/1607 (Leiden (stad))  - 1669-10-04 (Amsterdam (stad)); etser, graveur (prentkunstenaar), kunstverzamelaar, naturaliënverzamelaar, schilder, tekenaar, verzamelaar van etnografica. Birthplace and date remark: No date of birth or baptismal certificate is known. The first to mention a date of birth is Orlers in 1641 in the second edition of his 'Beschrijvinge der Stadt Leyden'. Orlers mentions July 15th, 1606 as Rembrandt's date of birth. Because in general Orlers is a reliable source, this information is thrustworthy. However, there are two 17th century documents on the basis of which another date of birth can be suspected. In the notice of marriage from Rembrandt and Saskia van Uylenburgh from June 10th, 1634 the age of Rembrandt is stated as 26 years. This would mean that Rembrandt wasn't born in 1606 but in 1607 or even in 1608 (Strauss/Van der Meulen 1979, doc. 1634/2). The second document is a statement of authenticity of a painting by Paul Bril on September 16th, 1653. The age of Rembrandt is stated here as 'out omtrent sessenveertich jaeren' (Strauss/Van der Meulen 1979, doc. 1653/16). This record also suggests 1607 as being the year of birth of the artist.; Family relations: Son of Harmen Gerritsz. van Rijn (c.1568 - 1630) and Neeltje Willemsdr. van Zuijdtbrouck (c.1568 - 1640). Married in Sint Annaparochie on 22 June 1634 to Saskia Rommerts Uylenburgh (1612-1642), together parents of Rumbartus (1635 - 1636), Cornelia I (1638), Cornelia II (1640) and Titus Rembrandtsz. van Rijn (1641-1668). Also father of Cornelia van Rijn (1654-ca. 1684), out of wedlock with Hendrickje Stoffels Jaegher (c.1626 - 1663).; Place and date of death remark: buried on October 8, 1669. "
+            ],
+            "scopeNote": [
+              "1606-07-15/1607 (Leiden (stad))  - 1669-10-04 (Amsterdam (stad)); etser, graveur (prentkunstenaar), kunstverzamelaar, naturaliënverzamelaar, schilder, tekenaar, verzamelaar van etnografica. Birthplace and date remark: No date of birth or baptismal certificate is known. The first to mention a date of birth is Orlers in 1641 in the second edition of his 'Beschrijvinge der Stadt Leyden'. Orlers mentions July 15th, 1606 as Rembrandt's date of birth. Because in general Orlers is a reliable source, this information is thrustworthy. However, there are two 17th century documents on the basis of which another date of birth can be suspected. In the notice of marriage from Rembrandt and Saskia van Uylenburgh from June 10th, 1634 the age of Rembrandt is stated as 26 years. This would mean that Rembrandt wasn't born in 1606 but in 1607 or even in 1608 (Strauss/Van der Meulen 1979, doc. 1634/2). The second document is a statement of authenticity of a painting by Paul Bril on September 16th, 1653. The age of Rembrandt is stated here as 'out omtrent sessenveertich jaeren' (Strauss/Van der Meulen 1979, doc. 1653/16). This record also suggests 1607 as being the year of birth of the artist.; Family relations: Son of Harmen Gerritsz. van Rijn (c.1568 - 1630) and Neeltje Willemsdr. van Zuijdtbrouck (c.1568 - 1640). Married in Sint Annaparochie on 22 June 1634 to Saskia Rommerts Uylenburgh (1612-1642), together parents of Rumbartus (1635 - 1636), Cornelia I (1638), Cornelia II (1640) and Titus Rembrandtsz. van Rijn (1641-1668). Also father of Cornelia van Rijn (1654-ca. 1684), out of wedlock with Hendrickje Stoffels Jaegher (c.1626 - 1663).; Place and date of death remark: buried on October 8, 1669. "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/66219"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [
+              {
+                "uri": "http://viaf.org/viaf/64013650",
+                "prefLabel": []
+              },
+              {
+                "uri": "http://dx.doi.org/10.1093/benz/9780199773787.article.B00150778",
+                "prefLabel": []
+              },
+              {
+                "uri": "http://vocab.getty.edu/ulan/500011051",
+                "prefLabel": []
+              },
+              {
+                "uri": "http://www.wikidata.org/entity/Q5598",
+                "prefLabel": []
+              },
+              {
+                "uri": "https://ecartico.org/persons/6292",
+                "prefLabel": []
+              },
+              {
+                "uri": "https://data.bnf.fr/ark:/12148/cb11940484n",
+                "prefLabel": []
+              },
+              {
+                "uri": "http://www.biografischportaal.nl/persoon/00010474",
+                "prefLabel": []
+              }
+            ],
+            "place": null,
+            "person": {
+              "givenName": [],
+              "familyName": [],
+              "birthDate": "1606-07-15/1607",
+              "deathDate": "1669-10-04",
+              "birthPlace": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/11",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Leiden (stad)"
+                    }
+                  ]
+                }
+              ],
+              "deathPlace": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/29",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Amsterdam (stad)"
+                    }
+                  ]
+                }
+              ],
+              "hasOccupation": [
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "schilder"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                },
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "etser"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                },
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "graveur (prentkunstenaar)"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                },
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "kunstverzamelaar"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                },
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "tekenaar"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                },
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "verzamelaar van etnografica"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                },
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "naturaliënverzamelaar"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                }
+              ],
+              "nationality": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/4",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Noord-Nederlands"
+                    }
+                  ]
+                }
+              ],
+              "gender": [
+                {
+                  "uri": "https://schema.org/Male",
+                  "name": []
+                }
+              ],
+              "parent": [],
+              "children": [],
+              "spouse": [],
+              "sibling": []
+            },
+            "organization": null
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/456736",
+            "prefLabel": [
+              "Snel-Fotografie 'Rembrandt'"
+            ],
+            "altLabel": [
+              "Rembrandt, Snel-Fotografie"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "scopeNote": [
+              "  -  ; fotostudio (organisatie). "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/456736"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": null,
+            "organization": {
+              "additionalType": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/41744",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "fotostudio (organisatie)"
+                    }
+                  ]
+                }
+              ],
+              "foundingDate": null,
+              "dissolutionDate": null,
+              "location": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/29",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Amsterdam (stad)"
+                    }
+                  ],
+                  "addressCountry": null
+                }
+              ],
+              "parentOrganization": []
+            }
+          },
+          {
+            "uri": "https://data.rkd.nl/artists/374645",
+            "prefLabel": [
+              "Vlaanderen, Pieter"
+            ],
+            "altLabel": [
+              "Atelier De Rembrandt (te Alkmaar)"
+            ],
+            "hiddenLabel": [],
+            "definition": [
+              "1840-09-08 (Amsterdam (stad))  - 1878-08-06 (Alkmaar (plaats)); fotograaf. Family relations: vader van Leonard Vlaanderen (1871-1941); Qualifications remark: studiofotografie. "
+            ],
+            "scopeNote": [
+              "1840-09-08 (Amsterdam (stad))  - 1878-08-06 (Alkmaar (plaats)); fotograaf. Family relations: vader van Leonard Vlaanderen (1871-1941); Qualifications remark: studiofotografie. "
+            ],
+            "seeAlso": [
+              "https://rkd.nl/explore/artists/374645"
+            ],
+            "broader": [],
+            "narrower": [],
+            "related": [],
+            "exactMatch": [],
+            "place": null,
+            "person": {
+              "givenName": [],
+              "familyName": [],
+              "birthDate": "1840-09-08",
+              "deathDate": "1878-08-06",
+              "birthPlace": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/29",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Amsterdam (stad)"
+                    }
+                  ]
+                }
+              ],
+              "deathPlace": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/248",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Alkmaar (plaats)"
+                    }
+                  ]
+                }
+              ],
+              "hasOccupation": [
+                {
+                  "occupation": null,
+                  "roleName": [
+                    {
+                      "language": "nl",
+                      "value": "fotograaf"
+                    }
+                  ],
+                  "startDate": null,
+                  "endDate": null
+                }
+              ],
+              "nationality": [
+                {
+                  "uri": "https://data.rkd.nl/thesaurus/1",
+                  "name": [
+                    {
+                      "language": "nl",
+                      "value": "Nederlands"
+                    }
+                  ]
+                }
+              ],
+              "gender": [
+                {
+                  "uri": "https://schema.org/Male",
+                  "name": []
+                }
+              ],
+              "parent": [],
+              "children": [],
+              "spouse": [],
+              "sibling": []
+            },
+            "organization": null
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}
