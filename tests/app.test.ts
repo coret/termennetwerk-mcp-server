@@ -194,6 +194,16 @@ test('pages carry a noindex robots header', async () => {
   }
 });
 
+test('the footer shows the EU AI-generated label linking to the code of practice', async () => {
+  const html = await (await fetch(`${base}/`, { headers: { accept: 'text/html' } })).text();
+  const footer = html.slice(html.indexOf('<footer>'));
+  assert.ok(footer.includes('href="https://digital-strategy.ec.europa.eu/en/policies/code-practice-ai-generated-content"'));
+  assert.ok(footer.includes('src="/ai-generated-label.png"'));
+  const img = await fetch(`${base}/ai-generated-label.png`);
+  assert.equal(img.status, 200);
+  assert.equal(img.headers.get('content-type'), 'image/png');
+});
+
 test('server card is served', async () => {
   const res = await fetch(`${base}/.well-known/mcp/server-card.json`);
   assert.equal(res.status, 200);
