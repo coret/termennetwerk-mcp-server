@@ -35,6 +35,16 @@ export function createApp(deps: Deps, opts: { rateLimitPerMin?: number } = {}): 
   app.set('trust proxy', 1);
   app.disable('x-powered-by');
   app.use(express.json({ limit: '256kb' }));
+  // Body parse errors: answer in JSON-RPC and never log the body (it can hold query text).
+  app.use((err: { type?: string; status?: number }, _req: Request, res: Response, next: NextFunction) => {
+    if (!err) return next();
+    deps.log.warn({ error: err.type ?? 'body-error' }, 'rejected request body');
+    if (err.type === 'entity.too.large') {
+      res.status(413).json(jsonRpcError(-32600, 'Request body too large'));
+      return;
+    }
+    res.status(400).json(jsonRpcError(-32700, 'Parse error: invalid JSON'));
+  });
 
   const perMin = opts.rateLimitPerMin ?? config.RATE_LIMIT_PER_MIN;
   const limiter = rateLimit({
@@ -49,6 +59,16 @@ export function createApp(deps: Deps, opts: { rateLimitPerMin?: number } = {}): 
         .json(jsonRpcError(-32000, `Rate limit exceeded: max ${perMin} tool calls per minute. Wait a minute and retry.`));
     },
   });
+
+  // JSON-RPC batches were removed from MCP in protocol 2025-06-18; rejecting them also
+  // keeps every tools/call visible to the rate limiter.
+  const rejectBatch = (req: Request, res: Response, next: NextFunction) => {
+    if (Array.isArray(req.body)) {
+      res.status(400).json(jsonRpcError(-32600, 'Batch requests are not supported: send one JSON-RPC message per request.'));
+      return;
+    }
+    next();
+  };
 
   const validateOrigin = (req: Request, res: Response, next: NextFunction) => {
     if (!isOriginAllowed(req.headers.origin, config.ALLOWED_ORIGINS)) {
@@ -79,7 +99,7 @@ export function createApp(deps: Deps, opts: { rateLimitPerMin?: number } = {}): 
   };
 
   for (const path of ['/', '/mcp']) {
-    app.post(path, validateOrigin, limiter, handleMcp);
+    app.post(path, validateOrigin, rejectBatch, limiter, handleMcp);
     app.get(path, (req, res) => {
       if ((req.headers.accept ?? '').includes('text/event-stream')) {
         res.status(405).set('Allow', 'POST').json(jsonRpcError(-32000, 'Method not allowed: this server is stateless, use POST.'));

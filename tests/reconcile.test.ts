@@ -7,7 +7,7 @@ import {
   RECONCILE_PIDS,
   EXTEND_PROPERTIES,
 } from '../src/upstream/reconcile.ts';
-import { flattenReconcile, flattenExtend } from '../src/reconcileFlatten.ts';
+import { flattenReconcile, flattenExtend, fitExtend } from '../src/reconcileFlatten.ts';
 
 const fx = (name: string) =>
   JSON.parse(readFileSync(new URL(`./fixtures/${name}`, import.meta.url), 'utf8'));
@@ -63,14 +63,26 @@ test('empty English names fall back to the description', () => {
   for (const c of q.candidates) assert.notEqual(c.name, '');
 });
 
-test('match is true only for score 100 or a single candidate when upstream gives none', () => {
+test('match is true only for score 100 when upstream gives none', () => {
   const raw = {
     q0: { result: [{ id: 'a', name: 'A', type: [], score: 90 }, { id: 'b', name: 'B', type: [], score: 50 }] },
     q1: { result: [{ id: 'c', name: 'C', type: [], score: 40 }] },
   };
   const [q0, q1] = flattenReconcile(raw, [{ query: 'x' }, { query: 'y' }]);
   assert.deepEqual(q0.candidates.map((c) => c.match), [false, false]);
-  assert.equal(q1.candidates[0].match, true);
+  assert.equal(q1.candidates[0].match, false);
+});
+
+test('extend output stays within the byte budget and keeps notFound intact', () => {
+  const ids = Array.from({ length: 100 }, (_, i) => `https://x/${i}`);
+  const big = Array.from({ length: 30 }, (_, j) => ({ id: `https://y/${j}`, name: 'n'.repeat(60) }));
+  const raw = { rows: Object.fromEntries(ids.slice(0, 99).map((id) => [id, { narrowerTerms: big }])) };
+  const out = fitExtend(flattenExtend(raw, ids), 60_000);
+  assert.ok(JSON.stringify(out).length <= 60_000);
+  assert.equal(out.truncated, true);
+  assert.deepEqual(out.notFound, ['https://x/99']);
+  assert.ok(out.omitted && out.omitted.length > 0);
+  assert.equal(Object.keys(out.rows).length + out.omitted.length, 99);
 });
 
 test('person query keeps the matching features', () => {

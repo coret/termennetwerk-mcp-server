@@ -35,7 +35,7 @@ Any other MCP client that supports Streamable HTTP works the same way. Example p
 | `search_terms` | Searches up to 10 sources for a text query. Per source: `ok`/`error`, `total`, and the best terms (exact label matches first) with labels, definitions, hierarchy, `exactMatch` links and place/person/organization details. |
 | `lookup_terms` | Resolves up to 200 known term URIs to the same compact term structure. Unknown URIs come back with `ok: false`. |
 | `reconcile` | Matches up to 10 names against one source (W3C Reconciliation API) with scores, `match` and optional person properties (birth/death dates and places, parents, spouses, occupations, ...). |
-| `extend_terms` | Fetches selected properties (26 available, e.g. `prefLabels`, `broaderTerms`, `birthDates`, `latitudes`) for up to 100 term URIs. Unknown URIs are listed in `notFound`. |
+| `extend_terms` | Fetches selected properties (26 available, e.g. `prefLabels`, `broaderTerms`, `birthDates`, `latitudes`) for up to 100 term URIs. Unknown URIs are listed in `notFound`; rows left out for size are listed in `omitted`. |
 
 All tools are read-only (`readOnlyHint: true`). Each returns compact JSON as text and as
 `structuredContent`.
@@ -47,7 +47,7 @@ All tools are read-only (`readOnlyHint: true`). Each returns compact JSON as tex
 | `list_sources` | GraphQL `sources(genres)` | `language` becomes the `Accept-Language` header | `features` become `reconciliationUrl` and `supportsGenreFilter`; `status` becomes `available` and `lastChecked`; `creators` and `genres` become name lists |
 | `search_terms` | GraphQL `terms(sources, query, genres, languages, queryMode, timeoutMs)` | source names are resolved to URIs; `limit` is **not** sent (see design decisions) | union `Terms \| TranslatedTerms \| TimeoutError \| ServerError` becomes `{ok, error?, total, terms}` per source |
 | `lookup_terms` | GraphQL `lookup(uris, languages, timeoutMs)` | duplicate URIs removed | union `Term \| TranslatedTerm \| NotFoundError \| ...` plus `Source \| SourceNotFoundError` becomes `{uri, ok, source?, error?, term?}` |
-| `reconcile` | `POST {source.features[RECONCILIATION].url}`, form field `queries` | array becomes `{"q0": ..., "q1": ...}`; `language` becomes `Accept-Language` | candidates get `type` as a list of URIs, a guaranteed non-empty `name`, and a `match` flag |
+| `reconcile` | `POST {source.features[RECONCILIATION].url}`, form field `queries` | array becomes `{"q0": ..., "q1": ...}`; `language` becomes `Accept-Language` | candidates get `type` as a list of URIs, a guaranteed non-empty `name`, and a `match` flag (upstream's own value, otherwise `score >= 100`) |
 | `extend_terms` | `POST /extend`, form field `extend` | `properties` becomes `[{id}]` | `rows` values become strings or `{id, name}`; missing ids become `notFound` |
 
 Term output: `uri`, `prefLabel`, `altLabel`, `hiddenLabel`, `definition`, `scopeNote`, `seeAlso`,
@@ -70,18 +70,22 @@ Term output: `uri`, `prefLabel`, `altLabel`, `hiddenLabel`, `definition`, `scope
   default (100), re-ranks (exact prefLabel, prefLabel prefix, exact altLabel, contains, rest;
   accent- and case-insensitive; upstream order breaks ties) and then cuts to `limit` (default 20).
 - **Sources by name or URI.** Language models know names better than URIs. Names are matched
-  case-insensitively against `name` and `alternateName`; unknown names give an error with
+  case-insensitively against `name` and `alternateName`, in Dutch and English; unknown names give an error with
   suggestions and a pointer to `list_sources`.
-- **Byte budget.** Every response stays under 60 000 bytes of JSON. When trimmed, the response has
-  `truncated: true` and a `note` that tells the model how to narrow the request.
+- **Byte budget.** The JSON payload of every response stays under 60 000 bytes (it is sent twice,
+  as text and as `structuredContent`). When trimmed, the response has `truncated: true` and a
+  `note` that tells the model how to narrow the request; `extend_terms` lists dropped rows in
+  `omitted`.
 - **Caching** in Redis (`tn:` prefix): sources and search 1 h, lookup and extend 24 h, reconcile
   1 h. Results containing any per-source error are never cached. Without Redis the server runs
   uncached (the source list is also kept in memory for 1 h).
 - **Load protection.** At most 10 sources per search, 200 URIs per lookup, 10 reconcile queries,
   100 extend ids; 60 `tools/call` requests per minute per IP (other JSON-RPC methods are not
-  counted); outgoing requests are spaced at 10 per second.
+  counted); JSON-RPC batch arrays are rejected (MCP dropped batching in protocol 2025-06-18), so
+  every tool call passes the limiter; outgoing requests are spaced at 10 per second.
 - **Privacy.** The application log records tool name, item count, duration, cache hit and error
-  class. It never records query text, URIs or IP addresses.
+  class. It never records query text, URIs or IP addresses, also not for malformed request
+  bodies (those get a JSON-RPC `-32700` answer).
 - **Origin check** against DNS rebinding: requests without `Origin` (native clients) and from
   `claude.ai` / `claude.com` are allowed; add more with `ALLOWED_ORIGINS`.
 - **Types generated from the live schema** (`npm run codegen`), because the `Language` enum is

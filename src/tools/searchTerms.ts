@@ -4,7 +4,7 @@ import { resolveSources } from '../sources.js';
 import { flattenTermsResults, hasErrors, type SourceResult } from '../flatten.js';
 import { cacheKey, withCache } from '../cache.js';
 import { config } from '../config.js';
-import { getSources } from './listSources.js';
+import { getCatalog } from './listSources.js';
 import { READ_ONLY, languagesSchema, looseOutput, ok, run, timeoutSchema, type Deps } from './common.js';
 
 const L = config.LIMITS;
@@ -45,7 +45,7 @@ export function register(server: McpServer, deps: Deps): void {
     },
     async (args) =>
       run(deps, 'search_terms', args.sources.length, async () => {
-        const { value: catalog } = await getSources(deps, 'nl');
+        const catalog = await getCatalog(deps);
         const uris = resolveSources(args.sources, catalog).map((s) => s.uri);
         const key = cacheKey('search_terms', { ...args, sources: uris });
         const { value, hit } = await withCache(deps.cache, key, config.TTL.search, async () => {

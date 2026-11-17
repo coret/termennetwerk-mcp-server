@@ -5,7 +5,7 @@ import { flattenReconcile, type ReconcileResult } from '../reconcileFlatten.js';
 import { RECONCILE_PIDS } from '../upstream/reconcile.js';
 import { cacheKey, withCache } from '../cache.js';
 import { config } from '../config.js';
-import { getSources } from './listSources.js';
+import { getCatalog } from './listSources.js';
 import { READ_ONLY, ToolError, catalogLanguageSchema, looseOutput, ok, run, type Deps } from './common.js';
 
 export function register(server: McpServer, deps: Deps): void {
@@ -40,7 +40,7 @@ export function register(server: McpServer, deps: Deps): void {
     },
     async (args) =>
       run(deps, 'reconcile', args.queries.length, async () => {
-        const { value: catalog } = await getSources(deps, 'nl');
+        const catalog = await getCatalog(deps);
         const source = resolveSource(args.source, catalog);
         if (!source.reconciliationUrl) {
           throw new ToolError(

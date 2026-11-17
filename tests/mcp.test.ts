@@ -102,6 +102,23 @@ test('search_terms resolves names, never sends limit, and re-ranks', async () =>
   assert.equal(r.structuredContent.results[0].terms.length, 3);
 });
 
+test('English source names from list_sources(language: en) resolve too', async () => {
+  const { deps, calls } = stubDeps();
+  deps.gql.sources = async (lang: string) =>
+    lang === 'en'
+      ? fx('sources.nl.json').map((s: any) =>
+          s.uri === 'https://data.rkd.nl/rkdartists' ? { ...s, name: 'RKD artists (English)' } : s,
+        )
+      : fx('sources.nl.json');
+  const client = await connect(deps);
+  const r: any = await client.callTool({
+    name: 'search_terms',
+    arguments: { sources: ['RKD artists (English)'], query: 'Rembrandt' },
+  });
+  assert.equal(r.isError, undefined, r.content?.[0]?.text);
+  assert.deepEqual(calls.terms[0].sources, ['https://data.rkd.nl/rkdartists']);
+});
+
 test('search_terms with an unknown source explains how to recover', async () => {
   const client = await connect(stubDeps().deps);
   const r: any = await client.callTool({ name: 'search_terms', arguments: { sources: ['RKD'], query: 'x' } });

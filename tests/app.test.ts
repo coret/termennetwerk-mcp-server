@@ -94,6 +94,31 @@ test('only tools/call counts toward the rate limit', async () => {
   assert.equal(statuses[3], 429);
 });
 
+test('JSON-RPC batch arrays are rejected so they cannot bypass the rate limit', async () => {
+  const batch = Array.from({ length: 5 }, (_, i) => ({
+    jsonrpc: '2.0',
+    id: 1000 + i,
+    method: 'tools/call',
+    params: { name: 'list_sources', arguments: {} },
+  }));
+  const res = await fetch(`${base}/mcp`, { method: 'POST', headers: MCP_HEADERS, body: JSON.stringify(batch) });
+  assert.equal(res.status, 400);
+  const body = await res.json();
+  assert.equal(body.error.code, -32600);
+});
+
+test('malformed JSON gets a JSON-RPC parse error', async () => {
+  const res = await fetch(`${base}/mcp`, {
+    method: 'POST',
+    headers: MCP_HEADERS,
+    body: '{"query":"Secret Name',
+  });
+  assert.equal(res.status, 400);
+  const body = await res.json();
+  assert.equal(body.error.code, -32700);
+  assert.doesNotMatch(JSON.stringify(body), /Secret Name/);
+});
+
 test('GET with event-stream is 405, a browser gets the landing page', async () => {
   const sse = await fetch(`${base}/`, { headers: { accept: 'text/event-stream' } });
   assert.equal(sse.status, 405);

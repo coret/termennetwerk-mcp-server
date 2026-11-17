@@ -1,10 +1,10 @@
 import { z } from 'zod';
 import type { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
-import { flattenExtend } from '../reconcileFlatten.js';
+import { fitExtend, flattenExtend } from '../reconcileFlatten.js';
 import { EXTEND_PROPERTIES } from '../upstream/reconcile.js';
 import { cacheKey, withCache } from '../cache.js';
 import { config } from '../config.js';
-import { READ_ONLY, catalogLanguageSchema, looseOutput, ok, run, type Deps } from './common.js';
+import { READ_ONLY, catalogLanguageSchema, looseOutput, run, type Deps } from './common.js';
 
 export function register(server: McpServer, deps: Deps): void {
   server.registerTool(
@@ -17,7 +17,12 @@ export function register(server: McpServer, deps: Deps): void {
         properties: z.array(z.enum(EXTEND_PROPERTIES)).min(1).describe('Properties to fetch.'),
         language: catalogLanguageSchema,
       },
-      outputSchema: { rows: z.record(z.string(), z.any()), notFound: z.array(z.string()), ...looseOutput },
+      outputSchema: {
+        rows: z.record(z.string(), z.any()),
+        notFound: z.array(z.string()),
+        omitted: z.array(z.string()).optional(),
+        ...looseOutput,
+      },
       annotations: READ_ONLY,
     },
     async (args) =>
@@ -29,7 +34,14 @@ export function register(server: McpServer, deps: Deps): void {
           const raw = await deps.recon.extend(ids, properties, args.language);
           return { value: flattenExtend(raw, ids), cacheable: true };
         });
-        return { result: ok(value, (p) => [p.notFound]), hit };
+        const fitted = fitExtend(value, config.LIMITS.BYTE_BUDGET);
+        return {
+          result: {
+            content: [{ type: 'text', text: JSON.stringify(fitted) }],
+            structuredContent: fitted as unknown as Record<string, unknown>,
+          },
+          hit,
+        };
       }),
   );
 }

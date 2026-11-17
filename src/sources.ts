@@ -87,5 +87,7 @@ function suggest(q: string, sources: SourceSummary[]): { uri: string; name: stri
     })
     .filter((x) => x.score > 0)
     .sort((a, b) => b.score - a.score);
-  return scored.slice(0, 5).map(({ s }) => ({ uri: s.uri, name: s.name }));
+  const unique = new Map<string, { uri: string; name: string }>();
+  for (const { s } of scored) if (!unique.has(s.uri)) unique.set(s.uri, { uri: s.uri, name: s.name });
+  return [...unique.values()].slice(0, 5);
 }

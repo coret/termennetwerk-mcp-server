@@ -32,8 +32,8 @@ export function flattenReconcile(raw: RawBatch, queries: ReconcileQuery[]): Reco
         // description carries the label variants, the id is the last resort.
         name: c.name?.trim() || c.description?.split(' • ')[0]?.trim() || c.id,
         score: c.score,
-        // Upstream sets `match` for property queries; otherwise derive it.
-        match: c.match ?? (c.score >= 100 || result.length === 1),
+        // Upstream sets `match` for property queries; otherwise only a perfect score counts.
+        match: c.match ?? c.score >= 100,
         type: (c.type ?? []).map((t) => t.id),
       };
       if (c.description) out.description = c.description;
@@ -66,4 +66,29 @@ export function flattenExtend(raw: RawExtend, ids: string[]): ExtendResult {
     );
   }
   return { rows, notFound };
+}
+
+export type FittedExtend = ExtendResult & { truncated?: true; note?: string; omitted?: string[] };
+
+/**
+ * Keeps the extend response within `maxBytes` by dropping whole rows from the end and
+ * listing their ids in `omitted`. `notFound` is never trimmed.
+ */
+export function fitExtend(result: ExtendResult, maxBytes: number): FittedExtend {
+  const size = (v: unknown) => Buffer.byteLength(JSON.stringify(v), 'utf8');
+  if (size(result) <= maxBytes) return result;
+  const out: FittedExtend = {
+    rows: { ...result.rows },
+    notFound: result.notFound,
+    truncated: true,
+    note: 'Response truncated to stay within the size budget. Rows for the ids in `omitted` were left out: request fewer ids or fewer properties.',
+    omitted: [],
+  };
+  const ids = Object.keys(out.rows);
+  while (size(out) > maxBytes && ids.length) {
+    const id = ids.pop()!;
+    delete out.rows[id];
+    out.omitted!.unshift(id);
+  }
+  return out;
 }
