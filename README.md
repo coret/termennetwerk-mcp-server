@@ -212,6 +212,14 @@ in `package.json`, `server.json` and both cards.
 - [ ] Use `/suggest/property` to keep the reconcile property list in sync automatically.
 - [ ] Add `view` / `preview` links of the reconciliation service to candidates.
 
+## Links
+
+- [Termennetwerk](https://termennetwerk.netwerkdigitaalerfgoed.nl/nl): the Network of Terms of the Dutch Digital Heritage Network (NDE)
+- [termennetwerk-api.netwerkdigitaalerfgoed.nl](https://termennetwerk-api.netwerkdigitaalerfgoed.nl/): upstream GraphQL and Reconciliation API
+- [NDE documentation](https://docs.nde.nl/services/network-of-terms/) of the Network of Terms
+- [Video: Help AI met jouw erfgoedservices (via MCP)](https://www.youtube.com/watch?v=ZjEx1gW5_ws) (Dutch)
+- [mcp-termennetwerk.coret.org](https://mcp-termennetwerk.coret.org/): the public instance and its landing page
+
 ## License
 
 [EUPL-1.2](LICENSE), the same license as the

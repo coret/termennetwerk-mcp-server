@@ -19,6 +19,7 @@
   li { margin: .3rem 0; }
   figure { margin: 1.5rem 0; }
   figure img { display: block; width: 100%; height: auto; border: 1px solid var(--code); border-radius: 6px; }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 2rem; }
   figcaption { color: var(--muted); font-size: .9rem; margin-top: .4rem; }
 </style>
 </head>
@@ -84,8 +85,19 @@
     <li><a href="/.well-known/agent.json"><code>/.well-known/agent.json</code></a>: alias of the agent card</li>
   </ul>
 
-  <p>Source code and documentation: <a href="https://github.com/coret/termennetwerk-mcp-server">github.com/coret/termennetwerk-mcp-server</a>.
-    Not an official NDE service.</p>
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://github.com/coret/termennetwerk-mcp-server">GitHub: coret/termennetwerk-mcp-server</a> (source, README, issues)</li>
+    <li><a href="https://termennetwerk.netwerkdigitaalerfgoed.nl/nl">Termennetwerk</a>: the Network of Terms of the Dutch Digital Heritage Network (NDE)</li>
+    <li><a href="https://termennetwerk-api.netwerkdigitaalerfgoed.nl/">termennetwerk-api.netwerkdigitaalerfgoed.nl</a>: upstream GraphQL and Reconciliation API</li>
+    <li><a href="https://docs.nde.nl/services/network-of-terms/">NDE documentation</a> of the Network of Terms</li>
+    <li><a href="https://www.youtube.com/watch?v=ZjEx1gW5_ws">Video: Help AI met jouw erfgoedservices (via MCP)</a></li>
+  </ul>
+
+  <footer>
+    <p>Not an official NDE service. The server is a thin proxy over the public Network of Terms API and
+      collects no personal data of its own: the log records tool name, item count and duration only.</p>
+  </footer>
 </main>
 </body>
 </html>

@@ -158,6 +158,20 @@ test('the landing page links all discovery metadata', async () => {
   }
 });
 
+test('the landing page has the Links section', async () => {
+  const html = await (await fetch(`${base}/`, { headers: { accept: 'text/html' } })).text();
+  assert.match(html, /<h2>Links<\/h2>/);
+  for (const url of [
+    'https://github.com/coret/termennetwerk-mcp-server',
+    'https://termennetwerk.netwerkdigitaalerfgoed.nl/nl',
+    'https://termennetwerk-api.netwerkdigitaalerfgoed.nl/',
+    'https://docs.nde.nl/services/network-of-terms/',
+    'https://www.youtube.com/watch?v=ZjEx1gW5_ws',
+  ]) {
+    assert.ok(html.includes(`href="${url}"`), url);
+  }
+});
+
 test('server card is served', async () => {
   const res = await fetch(`${base}/.well-known/mcp/server-card.json`);
   assert.equal(res.status, 200);
