@@ -167,6 +167,7 @@ test('the landing page has the Links section', async () => {
     'https://termennetwerk-api.netwerkdigitaalerfgoed.nl/',
     'https://docs.nde.nl/services/network-of-terms/',
     'https://www.youtube.com/watch?v=ZjEx1gW5_ws',
+    'https://mcp.openarchieven.nl/',
   ]) {
     assert.ok(html.includes(`href="${url}"`), url);
   }

@@ -219,6 +219,7 @@ in `package.json`, `server.json` and both cards.
 - [NDE documentation](https://docs.nde.nl/services/network-of-terms/) of the Network of Terms
 - [Video: Help AI met jouw erfgoedservices (via MCP)](https://www.youtube.com/watch?v=ZjEx1gW5_ws) (Dutch)
 - [mcp-termennetwerk.coret.org](https://mcp-termennetwerk.coret.org/): the public instance and its landing page
+- [mcp.openarchieven.nl](https://mcp.openarchieven.nl/): sister MCP server for Open Archives (Dutch genealogical records and transcriptions)
 
 ## License
 
