@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Network of Terms MCP</title>
+<meta name="description" content="MCP server for the NDE Network of Terms (Termennetwerk).">
+<style>
+  :root { --bg: #fff; --fg: #1d1d1f; --muted: #5a5a60; --code: #f2f2f4; --accent: #0b5cad; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #151518; --fg: #ececf0; --muted: #a0a0a8; --code: #24242a; --accent: #6fb0ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px; }
+  h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  p.lead { color: var(--muted); margin-top: 0; }
+  code { background: var(--code); padding: .1em .35em; border-radius: 4px; font-size: .92em; overflow-wrap: anywhere; }
+  pre { background: var(--code); padding: 12px; border-radius: 6px; overflow-x: auto; }
+  a { color: var(--accent); }
+  li { margin: .3rem 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>NDE Network of Terms MCP server</h1>
+  <p class="lead">Lets AI assistants search, look up and reconcile Dutch cultural heritage terminology through the
+    <a href="https://termennetwerk.netwerkdigitaalerfgoed.nl/">Network of Terms</a> of the Dutch Digital Heritage Network (NDE).</p>
+
+  <h2>Connect</h2>
+  <p>MCP endpoint (Streamable HTTP, no authentication): <code>https://mcp-termennetwerk.coret.org/</code></p>
+  <ul>
+    <li><strong>claude.ai / Claude Desktop</strong>: Settings, Connectors, Add custom connector, and enter the URL above.</li>
+    <li><strong>Claude Code</strong>:</li>
+  </ul>
+  <pre><code>claude mcp add --transport http termennetwerk https://mcp-termennetwerk.coret.org/</code></pre>
+
+  <h2>Tools</h2>
+  <ul>
+    <li><code>list_sources</code>: the terminology sources (AAT, CHT, RKDartists, GTAA, NTA, GeoNames, Wikidata, ...).</li>
+    <li><code>search_terms</code>: find terms by text in up to 10 sources.</li>
+    <li><code>lookup_terms</code>: resolve known term URIs to labels, hierarchy and links.</li>
+    <li><code>reconcile</code>: match names (with birth/death dates, places, ...) to one source, with scores.</li>
+    <li><code>extend_terms</code>: fetch selected properties for matched term URIs.</li>
+  </ul>
+  <p>Source code and documentation: <a href="https://github.com/coret/termennetwerk-mcp-server">github.com/coret/termennetwerk-mcp-server</a>.
+    Not an official NDE service.</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/mcp-server-card/v1.json",
+  "version": "1.0",
+  "protocolVersion": "2025-06-18",
+  "serverInfo": {
+    "name": "io.github.coret/termennetwerk-mcp-server",
+    "title": "NDE Network of Terms",
+    "version": "0.1.0"
+  },
+  "description": "Search, look up and reconcile Dutch cultural heritage terminology (AAT, CHT, RKD, GTAA, NTA, GeoNames, Wikidata and more) via the NDE Network of Terms.",
+  "documentationUrl": "https://github.com/coret/termennetwerk-mcp-server",
+  "transport": {
+    "type": "streamable-http",
+    "endpoint": "/"
+  },
+  "capabilities": {
+    "tools": { "listChanged": false }
+  },
+  "authentication": {
+    "required": false,
+    "schemes": []
+  },
+  "instructions": "Use list_sources to choose sources, search_terms to find term URIs from text, lookup_terms for details of known URIs, reconcile to match names (with person properties) against one source, and extend_terms to fetch properties of matched URIs.",
+  "tools": ["list_sources", "search_terms", "lookup_terms", "reconcile", "extend_terms"]
+}
