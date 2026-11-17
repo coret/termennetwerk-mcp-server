@@ -8,7 +8,7 @@ Wikidata, Iconclass, WO2-thesaurus and about fifty more sources.
 
 - Public endpoint (Streamable HTTP, stateless, no authentication): `https://mcp-termennetwerk.coret.org/`
 - Upstream API: `https://termennetwerk-api.netwerkdigitaalerfgoed.nl/` ([docs](https://docs.nde.nl/services/network-of-terms/))
-- Prototype, not an official NDE service.
+- Prototype, not an official NDE service. Vibe-coded with Claude Code (Opus 5.5).
 
 ![Claude identifies the place names in a Dutch text, looks them up in GeoNames via the Network of Terms and returns the text in Markdown with GeoNames URIs](public/termennetwerk-vb1.gif)
 
