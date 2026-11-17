@@ -127,6 +127,12 @@ test('GET with event-stream is 405, a browser gets the landing page', async () =
   assert.match(await html.text(), /mcp-termennetwerk\.coret\.org/);
 });
 
+test('the demo animation is served from public/', async () => {
+  const res = await fetch(`${base}/termennetwerk-vb1.gif`);
+  assert.equal(res.status, 200);
+  assert.equal(res.headers.get('content-type'), 'image/gif');
+});
+
 test('server card is served', async () => {
   const res = await fetch(`${base}/.well-known/mcp/server-card.json`);
   assert.equal(res.status, 200);

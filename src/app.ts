@@ -1,4 +1,5 @@
 import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import express, { type NextFunction, type Request, type Response } from 'express';
 import { rateLimit } from 'express-rate-limit';
 import { StreamableHTTPServerTransport } from '@modelcontextprotocol/sdk/server/streamableHttp.js';
@@ -111,6 +112,9 @@ export function createApp(deps: Deps, opts: { rateLimitPerMin?: number } = {}): 
       res.status(405).set('Allow', 'POST').end();
     });
   }
+
+  // Static assets of the landing page (e.g. the demo animation); index.html is served above.
+  app.use(express.static(fileURLToPath(new URL('public/', ROOT)), { index: false, maxAge: '1d' }));
 
   app.get('/health', (_req, res) => {
     res.json({ status: 'ok', version: VERSION, redis: deps.cache.available });

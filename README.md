@@ -10,6 +10,10 @@ Wikidata, Iconclass, WO2-thesaurus and about fifty more sources.
 - Upstream API: `https://termennetwerk-api.netwerkdigitaalerfgoed.nl/` ([docs](https://docs.nde.nl/services/network-of-terms/))
 - Not an official NDE service.
 
+![Claude identifies the place names in a Dutch text, looks them up in GeoNames via the Network of Terms and returns the text in Markdown with GeoNames URIs](public/termennetwerk-vb1.gif)
+
+*Example in claude.ai: place names in a Dutch text about medieval Brabant linked to GeoNames URIs.*
+
 ## Use it
 
 **claude.ai / Claude Desktop**: Settings, Connectors, *Add custom connector*, URL
@@ -136,7 +140,7 @@ The public instance runs behind Apache:
   `127.0.0.1:3004`.
 - Apache vhost `mcp-termennetwerk.coret.org` proxies to it with `ProxyTimeout 180`.
 - `GET /health` returns `{status, version, redis}`; `/.well-known/mcp/server-card.json` serves
-  the server card.
+  the server card; files in `public/` (landing page assets) are served as static files.
 
 ## Validation recipe
 

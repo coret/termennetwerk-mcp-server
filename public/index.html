@@ -16,6 +16,9 @@
   pre { background: var(--code); padding: 12px; border-radius: 6px; overflow-x: auto; }
   a { color: var(--accent); }
   li { margin: .3rem 0; }
+  figure { margin: 1.5rem 0; }
+  figure img { display: block; width: 100%; height: auto; border: 1px solid var(--code); border-radius: 6px; }
+  figcaption { color: var(--muted); font-size: .9rem; margin-top: .4rem; }
 </style>
 </head>
 <body>
@@ -23,6 +26,12 @@
   <h1>NDE Network of Terms MCP server</h1>
   <p class="lead">Lets AI assistants search, look up and reconcile Dutch cultural heritage terminology through the
     <a href="https://termennetwerk.netwerkdigitaalerfgoed.nl/">Network of Terms</a> of the Dutch Digital Heritage Network (NDE).</p>
+
+  <figure>
+    <img src="/termennetwerk-vb1.gif" width="1068" height="846" loading="lazy"
+      alt="Claude identifies the place names in a Dutch text about medieval Brabant, looks them up in GeoNames via the Network of Terms and returns the text in Markdown with GeoNames URIs.">
+    <figcaption>Example in claude.ai: place names in a Dutch text linked to GeoNames URIs via the Network of Terms.</figcaption>
+  </figure>
 
   <h2>Connect</h2>
   <p>MCP endpoint (Streamable HTTP, no authentication): <code>https://mcp-termennetwerk.coret.org/</code></p>
