@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "MCP server for the NDE Network of Terms (Termennetwerk): search, look up and reconcile Dutch cultural heritage terminology.",
   "type": "module",
-  "mcpName": "io.github.coret/termennetwerk-mcp-server",
   "license": "EUPL-1.2",
   "private": true,
   "engines": {

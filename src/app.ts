@@ -35,6 +35,11 @@ export function createApp(deps: Deps, opts: { rateLimitPerMin?: number } = {}): 
   const app = express();
   app.set('trust proxy', 1);
   app.disable('x-powered-by');
+  // Prototype: keep every response out of search indexes (robots.txt is served from public/).
+  app.use((_req, res, next) => {
+    res.set('X-Robots-Tag', 'noindex, nofollow');
+    next();
+  });
   app.use(express.json({ limit: '256kb' }));
   // Body parse errors: answer in JSON-RPC and never log the body (it can hold query text).
   app.use((err: { type?: string; status?: number }, _req: Request, res: Response, next: NextFunction) => {

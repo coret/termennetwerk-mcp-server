@@ -1,0 +1,16 @@
+# Prototype: please do not crawl or index this host.
+# User-driven AI agents (a person asked for it) may still reach the MCP endpoint.
+User-agent: *
+Disallow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /

@@ -178,6 +178,22 @@ test('the landing page shows a Prototype label above the title', async () => {
   assert.match(html, /<p class="prototype">Prototype<\/p>\s*<h1>/);
 });
 
+test('robots.txt keeps crawlers out but lets user-driven AI agents through', async () => {
+  const res = await fetch(`${base}/robots.txt`);
+  assert.equal(res.status, 200);
+  assert.match(res.headers.get('content-type') ?? '', /^text\/plain/);
+  const body = await res.text();
+  assert.match(body, /User-agent: \*\nDisallow: \//);
+  assert.match(body, /User-agent: Claude-User\nAllow: \//);
+});
+
+test('pages carry a noindex robots header', async () => {
+  for (const path of ['/', '/health', '/.well-known/mcp.json']) {
+    const res = await fetch(`${base}${path}`, { headers: { accept: 'text/html' } });
+    assert.equal(res.headers.get('x-robots-tag'), 'noindex, nofollow', path);
+  }
+});
+
 test('server card is served', async () => {
   const res = await fetch(`${base}/.well-known/mcp/server-card.json`);
   assert.equal(res.status, 200);

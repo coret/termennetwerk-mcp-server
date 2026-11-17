@@ -8,7 +8,7 @@ Wikidata, Iconclass, WO2-thesaurus and about fifty more sources.
 
 - Public endpoint (Streamable HTTP, stateless, no authentication): `https://mcp-termennetwerk.coret.org/`
 - Upstream API: `https://termennetwerk-api.netwerkdigitaalerfgoed.nl/` ([docs](https://docs.nde.nl/services/network-of-terms/))
-- Not an official NDE service.
+- Prototype, not an official NDE service.
 
 ![Claude identifies the place names in a Dutch text, looks them up in GeoNames via the Network of Terms and returns the text in Markdown with GeoNames URIs](public/termennetwerk-vb1.gif)
 
@@ -176,8 +176,11 @@ The public instance runs behind Apache:
 | `/.well-known/agent-card.json` | A2A v0.3 Agent Card, from `well-known/agent-card.json` |
 | `/.well-known/agent.json` | alias of the agent card |
 
-`server.json` in the repository root is the MCP registry entry. When the version changes, update it
-in `package.json`, `server.json` and both cards.
+When the version changes, update it in `package.json` and both cards.
+
+This server is a **prototype**: it is deliberately not listed in MCP registries, `robots.txt` asks
+crawlers to stay away (user-driven agents such as Claude-User and ChatGPT-User are allowed), and every
+response carries `X-Robots-Tag: noindex, nofollow`.
 
 ## Validation recipe
 
@@ -202,11 +205,10 @@ in `package.json`, `server.json` and both cards.
 - No stdio transport: the server is meant to be used remotely.
 - No pagination: `search_terms` returns at most 100 terms per source (upstream maximum).
 - Reconcile does not expose the `/suggest` and `/preview` endpoints.
-- Not yet listed in the MCP registry.
+- Prototype: deliberately not listed in MCP registries and not indexed by search engines.
 
 ## Roadmap
 
-- [ ] Publish `server.json` to the MCP registry.
 - [ ] Optional stdio entry point for local use.
 - [ ] Dutch translation of this README.
 - [ ] Use `/suggest/property` to keep the reconcile property list in sync automatically.
