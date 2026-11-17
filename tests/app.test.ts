@@ -172,6 +172,11 @@ test('the landing page has the Links section', async () => {
   }
 });
 
+test('the landing page shows a Prototype label above the title', async () => {
+  const html = await (await fetch(`${base}/`, { headers: { accept: 'text/html' } })).text();
+  assert.match(html, /<p class="prototype">Prototype<\/p>\s*<h1>/);
+});
+
 test('server card is served', async () => {
   const res = await fetch(`${base}/.well-known/mcp/server-card.json`);
   assert.equal(res.status, 200);
