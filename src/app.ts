@@ -123,8 +123,14 @@ export function createApp(deps: Deps, opts: { rateLimitPerMin?: number } = {}): 
   const card = (_req: Request, res: Response) => {
     res.type('application/json').send(readText('well-known/mcp-server-card.json'));
   };
+  const agentCard = (_req: Request, res: Response) => {
+    res.type('application/json').send(readText('well-known/agent-card.json'));
+  };
+  // SEP-1649 MCP Server Card (+ SEP-1960 alias) and A2A v0.3 Agent Card (+ older path).
   app.get('/.well-known/mcp/server-card.json', card);
   app.get('/.well-known/mcp.json', card);
+  app.get('/.well-known/agent-card.json', agentCard);
+  app.get('/.well-known/agent.json', agentCard);
 
   return app;
 }

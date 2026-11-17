@@ -133,6 +133,31 @@ test('the demo animation is served from public/', async () => {
   assert.equal(res.headers.get('content-type'), 'image/gif');
 });
 
+test('the A2A agent card is served on both paths', async () => {
+  for (const path of ['/.well-known/agent-card.json', '/.well-known/agent.json']) {
+    const res = await fetch(`${base}${path}`);
+    assert.equal(res.status, 200, path);
+    const card = await res.json();
+    assert.equal(card.protocolVersion, '0.3.0');
+    assert.deepEqual(
+      card.skills.map((s: { id: string }) => s.id).sort(),
+      ['extend_terms', 'list_sources', 'lookup_terms', 'reconcile', 'search_terms'],
+    );
+  }
+});
+
+test('the landing page links all discovery metadata', async () => {
+  const html = await (await fetch(`${base}/`, { headers: { accept: 'text/html' } })).text();
+  for (const path of [
+    '/.well-known/mcp/server-card.json',
+    '/.well-known/mcp.json',
+    '/.well-known/agent-card.json',
+    '/.well-known/agent.json',
+  ]) {
+    assert.ok(html.includes(`href="${path}"`), path);
+  }
+});
+
 test('server card is served', async () => {
   const res = await fetch(`${base}/.well-known/mcp/server-card.json`);
   assert.equal(res.status, 200);

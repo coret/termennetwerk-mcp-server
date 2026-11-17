@@ -1,0 +1,26 @@
+{
+  "protocolVersion": "0.3.0",
+  "name": "NDE Network of Terms",
+  "description": "Terminology agent for the NDE Network of Terms (Termennetwerk): search, look up and reconcile Dutch cultural heritage terms in AAT, CHT, RKDartists, GTAA, NTA, GeoNames, Wikidata, Iconclass and about fifty more sources.",
+  "url": "https://mcp-termennetwerk.coret.org/",
+  "preferredTransport": "JSONRPC",
+  "provider": {
+    "organization": "Coret Genealogy",
+    "url": "https://genealogie.coret.org"
+  },
+  "version": "0.1.0",
+  "documentationUrl": "https://github.com/coret/termennetwerk-mcp-server",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": ["application/json"],
+  "defaultOutputModes": ["application/json"],
+  "skills": [
+    { "id": "list_sources", "name": "List Sources", "description": "List the terminology sources with genres, languages, availability and reconciliation support.", "tags": ["terminology", "sources"] },
+    { "id": "search_terms", "name": "Search Terms", "description": "Search up to 10 sources for terms matching a text query; exact label matches first.", "tags": ["terminology", "search"] },
+    { "id": "lookup_terms", "name": "Look Up Terms", "description": "Resolve known term URIs to labels, definitions, hierarchy and exactMatch links.", "tags": ["terminology", "linked-data"] },
+    { "id": "reconcile", "name": "Reconcile Names", "description": "Match names (optionally with birth/death dates, places and relatives) against one source, with scores (W3C Reconciliation API).", "tags": ["terminology", "reconciliation"] },
+    { "id": "extend_terms", "name": "Fetch Term Properties", "description": "Fetch selected properties (labels, hierarchy, dates, places, coordinates) for matched term URIs.", "tags": ["terminology", "reconciliation"] }
+  ]
+}

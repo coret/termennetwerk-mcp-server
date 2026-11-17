@@ -16,6 +16,8 @@ Wikidata, Iconclass, WO2-thesaurus and about fifty more sources.
 
 ## Use it
 
+Endpoint: `https://mcp-termennetwerk.coret.org/` (Streamable HTTP, no authentication).
+
 **claude.ai / Claude Desktop**: Settings, Connectors, *Add custom connector*, URL
 `https://mcp-termennetwerk.coret.org/`.
 
@@ -24,6 +26,29 @@ Wikidata, Iconclass, WO2-thesaurus and about fifty more sources.
 ```bash
 claude mcp add --transport http termennetwerk https://mcp-termennetwerk.coret.org/
 ```
+
+**ChatGPT**: open [chatgpt.com/plugins](https://chatgpt.com/plugins), select **+**, *Add custom MCP
+server*, enter a name and the *Server URL*, choose *No authentication*, confirm the risk warning and
+select *Create as a plugin*. Install the plugin and select it with `@` in the prompt box. In Business
+or Enterprise workspaces an admin may have to allow custom MCP servers.
+
+**GitHub Copilot (VS Code)**: Command Palette, *MCP: Add Server*, *HTTP*, the URL above, ID
+`termennetwerk`. Or in `.vscode/mcp.json` (workspace) or the user `mcp.json`:
+
+```json
+{
+  "servers": {
+    "termennetwerk": {
+      "type": "http",
+      "url": "https://mcp-termennetwerk.coret.org/"
+    }
+  }
+}
+```
+
+**Microsoft Copilot Studio**: in your agent, *Tools*, *Add a tool*, *New tool*, *Model Context
+Protocol*; enter a name, description and the URL above, authentication *None*, *Create*, then *Add to
+agent*.
 
 Any other MCP client that supports Streamable HTTP works the same way. Example prompts:
 
@@ -139,8 +164,20 @@ The public instance runs behind Apache:
 - `start.sh` is started by supervisor (`[program:termennetwerk-mcp]`), listening on
   `127.0.0.1:3004`.
 - Apache vhost `mcp-termennetwerk.coret.org` proxies to it with `ProxyTimeout 180`.
-- `GET /health` returns `{status, version, redis}`; `/.well-known/mcp/server-card.json` serves
-  the server card; files in `public/` (landing page assets) are served as static files.
+- `GET /health` returns `{status, version, redis}`; files in `public/` (landing page assets) are
+  served as static files.
+
+## Discovery metadata
+
+| Path | Content |
+|---|---|
+| `/.well-known/mcp/server-card.json` | MCP Server Card (SEP-1649), from `well-known/mcp-server-card.json` |
+| `/.well-known/mcp.json` | alias of the server card |
+| `/.well-known/agent-card.json` | A2A v0.3 Agent Card, from `well-known/agent-card.json` |
+| `/.well-known/agent.json` | alias of the agent card |
+
+`server.json` in the repository root is the MCP registry entry. When the version changes, update it
+in `package.json`, `server.json` and both cards.
 
 ## Validation recipe
 
@@ -160,6 +197,8 @@ The public instance runs behind Apache:
 
 ## Not yet working / known limits
 
+- Tested end-to-end with claude.ai and Claude Code only. The ChatGPT, GitHub Copilot and Copilot
+  Studio steps follow the vendors' documentation (November 2026) but have not been verified here yet.
 - No stdio transport: the server is meant to be used remotely.
 - No pagination: `search_terms` returns at most 100 terms per source (upstream maximum).
 - Reconcile does not expose the `/suggest` and `/preview` endpoints.

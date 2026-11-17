@@ -11,6 +11,7 @@
   body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, sans-serif; }
   main { max-width: 720px; margin: 0 auto; padding: 40px 16px; }
   h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+  h3 { font-size: 1.05rem; margin: 1.2rem 0 .3rem; }
   p.lead { color: var(--muted); margin-top: 0; }
   code { background: var(--code); padding: .1em .35em; border-radius: 4px; font-size: .92em; overflow-wrap: anywhere; }
   pre { background: var(--code); padding: 12px; border-radius: 6px; overflow-x: auto; }
@@ -35,11 +36,37 @@
 
   <h2>Connect</h2>
   <p>MCP endpoint (Streamable HTTP, no authentication): <code>https://mcp-termennetwerk.coret.org/</code></p>
-  <ul>
-    <li><strong>claude.ai / Claude Desktop</strong>: Settings, Connectors, Add custom connector, and enter the URL above.</li>
-    <li><strong>Claude Code</strong>:</li>
-  </ul>
+
+  <h3>Claude (claude.ai, Claude Desktop)</h3>
+  <p>Settings, Connectors, <em>Add custom connector</em>, and enter the URL above.</p>
+
+  <h3>Claude Code</h3>
   <pre><code>claude mcp add --transport http termennetwerk https://mcp-termennetwerk.coret.org/</code></pre>
+
+  <h3>ChatGPT</h3>
+  <ol>
+    <li>Open <a href="https://chatgpt.com/plugins">chatgpt.com/plugins</a>, select <strong>+</strong> and then <em>Add custom MCP server</em>.</li>
+    <li>Enter a name (e.g. <code>Termennetwerk</code>) and, under <em>Connection</em>, the <em>Server URL</em> above.</li>
+    <li>Authentication: <em>No authentication</em>. Confirm the risk warning and select <em>Create as a plugin</em>.</li>
+    <li>Install the plugin, then select it with <code>@</code> in the prompt box.</li>
+  </ol>
+  <p>In a Business or Enterprise workspace an admin may have to allow custom MCP servers.</p>
+
+  <h3>GitHub Copilot (VS Code)</h3>
+  <p>Command Palette, <em>MCP: Add Server</em>, choose <em>HTTP</em>, enter the URL above and the ID <code>termennetwerk</code>.
+    Or add it to <code>.vscode/mcp.json</code> (workspace) or your user <code>mcp.json</code>:</p>
+  <pre><code>{
+  "servers": {
+    "termennetwerk": {
+      "type": "http",
+      "url": "https://mcp-termennetwerk.coret.org/"
+    }
+  }
+}</code></pre>
+
+  <h3>Microsoft Copilot Studio</h3>
+  <p>In your agent: <em>Tools</em>, <em>Add a tool</em>, <em>New tool</em>, <em>Model Context Protocol</em>. Enter a server name, description and the URL above,
+    set authentication to <em>None</em>, select <em>Create</em> and then <em>Add to agent</em>.</p>
 
   <h2>Tools</h2>
   <ul>
@@ -49,6 +76,14 @@
     <li><code>reconcile</code>: match names (with birth/death dates, places, ...) to one source, with scores.</li>
     <li><code>extend_terms</code>: fetch selected properties for matched term URIs.</li>
   </ul>
+  <h2>Discovery metadata</h2>
+  <ul>
+    <li><a href="/.well-known/mcp/server-card.json"><code>/.well-known/mcp/server-card.json</code></a>: MCP Server Card (SEP-1649)</li>
+    <li><a href="/.well-known/mcp.json"><code>/.well-known/mcp.json</code></a>: alias of the server card</li>
+    <li><a href="/.well-known/agent-card.json"><code>/.well-known/agent-card.json</code></a>: A2A v0.3 Agent Card</li>
+    <li><a href="/.well-known/agent.json"><code>/.well-known/agent.json</code></a>: alias of the agent card</li>
+  </ul>
+
   <p>Source code and documentation: <a href="https://github.com/coret/termennetwerk-mcp-server">github.com/coret/termennetwerk-mcp-server</a>.
     Not an official NDE service.</p>
 </main>
