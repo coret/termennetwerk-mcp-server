@@ -178,9 +178,10 @@ The public instance runs behind Apache:
 
 When the version changes, update it in `package.json` and both cards.
 
-This server is a **prototype**: it is deliberately not listed in MCP registries, `robots.txt` asks
-crawlers to stay away (user-driven agents such as Claude-User and ChatGPT-User are allowed), and every
-response carries `X-Robots-Tag: noindex, nofollow`.
+This server is a **prototype**: it is deliberately not listed in MCP registries, and every response
+carries `X-Robots-Tag: noindex, nofollow` (the landing page also has a robots meta tag). `robots.txt`
+allows crawling on purpose: a URL blocked there can still end up in search results when linked
+elsewhere, because the crawler never sees the noindex.
 
 ## Validation recipe
 

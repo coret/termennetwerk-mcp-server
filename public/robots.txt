@@ -1,16 +1,5 @@
-# Prototype: please do not crawl or index this host.
-# User-driven AI agents (a person asked for it) may still reach the MCP endpoint.
+# Prototype: this host must not appear in search results. Crawling is allowed on purpose:
+# every response carries "X-Robots-Tag: noindex, nofollow", and a crawler only sees that
+# header if robots.txt lets it fetch the page.
 User-agent: *
-Disallow: /
-
-User-agent: Claude-User
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: Perplexity-User
-Allow: /
-
-User-agent: MistralAI-User
 Allow: /

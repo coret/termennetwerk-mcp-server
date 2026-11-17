@@ -178,13 +178,13 @@ test('the landing page shows a Prototype label above the title', async () => {
   assert.match(html, /<p class="prototype">Prototype<\/p>\s*<h1>/);
 });
 
-test('robots.txt keeps crawlers out but lets user-driven AI agents through', async () => {
+test('robots.txt allows crawling so crawlers can see the noindex header', async () => {
   const res = await fetch(`${base}/robots.txt`);
   assert.equal(res.status, 200);
   assert.match(res.headers.get('content-type') ?? '', /^text\/plain/);
   const body = await res.text();
-  assert.match(body, /User-agent: \*\nDisallow: \//);
-  assert.match(body, /User-agent: Claude-User\nAllow: \//);
+  assert.match(body, /User-agent: \*\nAllow: \//);
+  assert.doesNotMatch(body, /Disallow/);
 });
 
 test('pages carry a noindex robots header', async () => {
